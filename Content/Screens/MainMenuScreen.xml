@@ -20,14 +20,14 @@
 
     <StackPanelWidget HorizontalAlignment="Center" Direction="Vertical" Margin="0, 0">
       <StackPanelWidget HorizontalAlignment="Center" >
-        <BevelledButtonWidget Name="Singleplayer" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="Single Player" />
-        <BevelledButtonWidget Name="Content" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="Get Content" />
+        <BevelledButtonWidget Name="Singleplayer" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="单人游戏" />
+        <BevelledButtonWidget Name="Content" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="获取内容" />
       </StackPanelWidget>
       <StackPanelWidget HorizontalAlignment="Center">
-        <BevelledButtonWidget Name="Settings" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="Settings" />
-        <BevelledButtonWidget Name="Help" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="Help" />
+        <BevelledButtonWidget Name="Settings" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="设置" />
+        <BevelledButtonWidget Name="Help" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="帮助" />
       </StackPanelWidget>
-      <BevelledButtonWidget Name="Buy" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="Buy Game" IsVisible="false" >
+      <BevelledButtonWidget Name="Buy" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" Margin="10, 5" Text="购买" IsVisible="false" >
         <BevelledRectangleWidget Name="BevelledButton.Rectangle" CenterColor="70, 220, 60" BevelColor="70, 220, 60" />
       </BevelledButtonWidget>
     </StackPanelWidget>

@@ -36,7 +36,7 @@
         <CanvasWidget Size="10, 0"/>
         <BevelledButtonWidget Name="Action" Style="{Styles\ButtonStyle_310x60}" Text="-"/>
         <CanvasWidget Size="Infinity, 0"/>
-        <BevelledButtonWidget Name="CopyLink" Style="{Styles\ButtonStyle_310x60}" Text="Copy Link"/>
+        <BevelledButtonWidget Name="CopyLink" Style="{Styles\ButtonStyle_310x60}" Text="复制链接"/>
       </StackPanelWidget>
 
       <CanvasWidget Size="0, 8"/>

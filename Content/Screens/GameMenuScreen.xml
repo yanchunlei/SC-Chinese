@@ -6,7 +6,7 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Game Paused" />
+      <LabelWidget Name="TopBar.Label" Text="游戏已暂停" />
     </CanvasWidget>
 
     <CanvasWidget Size="Infinity, Infinity" >
@@ -26,16 +26,16 @@
 
         <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
           <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
-            <BevelledButtonWidget Name="Rate" Style="{Styles\ButtonStyle_310x60}" Text="Rate" HorizontalAlignment="Center" Margin="8, 0" />
-            <BevelledButtonWidget Name="RestartAdventure" Style="{Styles\ButtonStyle_310x60}" Text="Reset Adventure" HorizontalAlignment="Center" Margin="8, 0" />
+            <BevelledButtonWidget Name="Rate" Style="{Styles\ButtonStyle_310x60}" Text="打分" HorizontalAlignment="Center" Margin="8, 0" />
+            <BevelledButtonWidget Name="RestartAdventure" Style="{Styles\ButtonStyle_310x60}" Text="重置冒险模式" HorizontalAlignment="Center" Margin="8, 0" />
           </StackPanelWidget>
           <CanvasWidget Size="0, 10"/>
           <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
-            <BevelledButtonWidget Name="Settings" Style="{Styles\ButtonStyle_310x60}" Text="Settings" HorizontalAlignment="Center" Margin="8, 0" />
-            <BevelledButtonWidget Name="Help" Style="{Styles\ButtonStyle_310x60}" Text="Help" HorizontalAlignment="Center" Margin="8, 0" />
+            <BevelledButtonWidget Name="Settings" Style="{Styles\ButtonStyle_310x60}" Text="设置" HorizontalAlignment="Center" Margin="8, 0" />
+            <BevelledButtonWidget Name="Help" Style="{Styles\ButtonStyle_310x60}" Text="帮助" HorizontalAlignment="Center" Margin="8, 0" />
           </StackPanelWidget>
           <CanvasWidget Size="0, 10"/>
-          <BevelledButtonWidget Name="Quit" Style="{Styles\ButtonStyle_310x60}" Text="Quit" HorizontalAlignment="Center" Margin="0, 0" />
+          <BevelledButtonWidget Name="Quit" Style="{Styles\ButtonStyle_310x60}" Text="退出" HorizontalAlignment="Center" Margin="0, 0" />
           <CanvasWidget Size="0, 10"/>
         </StackPanelWidget>
 

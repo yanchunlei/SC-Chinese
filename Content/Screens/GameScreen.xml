@@ -15,7 +15,7 @@
         <CanvasWidget Name="MovePadContainer" Size="160, 160">
           <CanvasWidget Name="MoveRectangleContainer" Size="160, 160">
             <RectangleWidget Name="MoveRectangle" Subtexture="{Textures\Atlas\TouchController}" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" FlipHorizontal="true" />
-            <LabelWidget Text="Move" Font="{Fonts\Pericles32}" HorizontalAlignment="Near" VerticalAlignment="Far" Margin="11, 4" DropShadow="false" FontScale="1.5" />
+            <LabelWidget Text="移动" Font="{Fonts\Pericles32}" HorizontalAlignment="Near" VerticalAlignment="Far" Margin="11, 4" DropShadow="false" FontScale="1.5" />
           </CanvasWidget>
           <TouchInputWidget Name="Move" />
         </CanvasWidget>
@@ -25,7 +25,7 @@
         <CanvasWidget Name="LookPadContainer" Size="160, 160">
           <CanvasWidget Name="LookRectangleContainer" Size="160, 160">
             <RectangleWidget Name="LookRectangle" Subtexture="{Textures\Atlas\TouchController}" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" FlipHorizontal="false" />
-            <LabelWidget Text="Look" Font="{Fonts\Pericles32}" HorizontalAlignment="Near" VerticalAlignment="Far" Margin="22, 4" DropShadow="false" FontScale="1.5" />
+            <LabelWidget Text="视角" Font="{Fonts\Pericles32}" HorizontalAlignment="Near" VerticalAlignment="Far" Margin="22, 4" DropShadow="false" FontScale="1.5" />
           </CanvasWidget>
           <TouchInputWidget Name="Look" />
         </CanvasWidget>

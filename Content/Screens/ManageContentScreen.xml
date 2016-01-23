@@ -6,12 +6,12 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Manage Content" />
+      <LabelWidget Name="TopBar.Label" Text="管理内容" />
     </CanvasWidget>
     
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
 
-      <LabelWidget Text="(Download more using Community Content)" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Center" Margin="0, 10" />
+      <LabelWidget Text="(从社区内容寻找更多下载)" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Center" Margin="0, 10" />
 
       <CanvasWidget Margin="20, 0">
         <RectangleWidget FillColor="0, 0, 0, 192" OutlineColor="128, 128, 128, 128" />
@@ -19,7 +19,7 @@
       </CanvasWidget>
 
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" Margin="0, 10">
-        <BevelledButtonWidget Name="DeleteButton" Style="{Styles\ButtonStyle_310x60}" Text="Delete" Margin="10, 0"/>
+        <BevelledButtonWidget Name="DeleteButton" Style="{Styles\ButtonStyle_310x60}" Text="删除" Margin="10, 0"/>
       </StackPanelWidget>
 
     </StackPanelWidget>
