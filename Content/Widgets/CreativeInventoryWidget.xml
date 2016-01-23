@@ -1,0 +1,13 @@
+<CreativeInventoryWidget xmlns="runtime-namespace:Game" Size="600, 372">
+  <BevelledRectangleWidget  Texture="{Textures\Gui\Panel}" BevelSize="3" TextureScale="0.5"/>
+  <GridPanelWidget Name="InventoryGrid" HorizontalAlignment="Center" VerticalAlignment="Near" ColumnsCount="8" RowsCount="4" Margin="0, 12"/>
+  <StackPanelWidget Name="ControlsPanel" HorizontalAlignment="Center" VerticalAlignment="Far" Margin="5, 8">
+    <BevelledButtonWidget Name="CategoryLeftButton" Style="{Styles\ButtonStyle_ArrowLeft}" />
+    <BevelledButtonWidget Name="CategoryRightButton" Style="{Styles\ButtonStyle_ArrowRight}" />
+    <LabelWidget Name="CategoryLabel" HorizontalAlignment="Center" VerticalAlignment="Center" Font="{Fonts\Pericles24}" Margin="8, 0"/>
+    <CanvasWidget Size="Infinity, 0" />
+    <LabelWidget Name="PageLabel" HorizontalAlignment="Center" VerticalAlignment="Center" Font="{Fonts\Pericles24}" Margin="8, 0"/>
+    <BevelledButtonWidget Name="PageUpButton" Text="" Style="{Styles\ButtonStyle_ArrowUp}" />
+    <BevelledButtonWidget Name="PageDownButton" Text="" Style="{Styles\ButtonStyle_ArrowDown}" />
+  </StackPanelWidget>
+</CreativeInventoryWidget>
