@@ -6,7 +6,7 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Block Recipes" />
+      <LabelWidget Name="TopBar.Label" Text="方块合成配方" />
     </CanvasWidget>
 
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
