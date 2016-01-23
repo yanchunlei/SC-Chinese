@@ -6,19 +6,19 @@
     <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="0, 15">
       
-      <LabelWidget Font="{Fonts\Pericles32}" Text="Enter Link To A File" HorizontalAlignment="Center"/>
+      <LabelWidget Font="{Fonts\Pericles32}" Text="键入指向文件的链接" HorizontalAlignment="Center"/>
 
       <CanvasWidget Size="0, 5" />
 
       <CanvasWidget Size="Infinity, 40">
-        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="The name will be autofilled from link if possible, otherwise you must specify it manually." HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Margin="20, 0"/>
+        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="如果可能的话，名字会自动推断，但如果失败了，你必须手动指定一个" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Margin="20, 0"/>
       </CanvasWidget>
 
       <CanvasWidget Size="0, Infinity" />
 
       <StackPanelWidget>
         <CanvasWidget Size="180, 70">
-          <LabelWidget Text="Link:" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Far" VerticalAlignment="Center"/>
+          <LabelWidget Text="链接:" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Far" VerticalAlignment="Center"/>
         </CanvasWidget>
         <CanvasWidget Size="20, 0" />
         <CanvasWidget Size="Infinity, 45" VerticalAlignment="Center">
@@ -30,7 +30,7 @@
 
       <StackPanelWidget>
         <CanvasWidget Size="180, 70">
-          <LabelWidget Text="Name:" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Far" VerticalAlignment="Center"/>
+          <LabelWidget Text="名字:" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Far" VerticalAlignment="Center"/>
         </CanvasWidget>
         <CanvasWidget Size="20, 0" />
         <CanvasWidget Size="Infinity, 45" VerticalAlignment="Center">
@@ -42,7 +42,7 @@
 
       <StackPanelWidget>
         <CanvasWidget Size="180, 70">
-          <LabelWidget Text="Content Type:" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Far" VerticalAlignment="Center"/>
+          <LabelWidget Text="内容类型:" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Far" VerticalAlignment="Center"/>
         </CanvasWidget>
         <CanvasWidget Size="20, 0" />
         <RectangleWidget Name="DownloadContentFromLinkDialog.TypeIcon" FillColor="255, 255, 255" OutlineColor="0, 0, 0, 0" Size="64, 64" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="4, 0"/>
@@ -55,9 +55,9 @@
       <CanvasWidget Size="0, Infinity" />
 
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
-        <BevelledButtonWidget Name="DownloadContentFromLinkDialog.Download" Style="{Styles\ButtonStyle_310x60}" Text="Download" />
+        <BevelledButtonWidget Name="DownloadContentFromLinkDialog.Download" Style="{Styles\ButtonStyle_310x60}" Text="下载" />
         <CanvasWidget Size="40, 0" />
-        <BevelledButtonWidget Name="DownloadContentFromLinkDialog.Cancel" Style="{Styles\ButtonStyle_160x60}" Text="Cancel"/>
+        <BevelledButtonWidget Name="DownloadContentFromLinkDialog.Cancel" Style="{Styles\ButtonStyle_160x60}" Text="取消"/>
       </StackPanelWidget>
       
     </StackPanelWidget>

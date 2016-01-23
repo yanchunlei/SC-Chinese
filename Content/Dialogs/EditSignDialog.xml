@@ -10,7 +10,7 @@
       <StackPanelWidget Name="EditSignDialog.LinesPage" Direction="Vertical">
 
         <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-          <LabelWidget Text="Enter Sign Text Lines" HorizontalAlignment="Center" Margin="0, 15" />
+          <LabelWidget Text="按行键入告示牌上的文字" HorizontalAlignment="Center" Margin="0, 15" />
         </StackPanelWidget>
 
         <CanvasWidget Size="Infinity, Infinity">
@@ -18,7 +18,7 @@
 
             <StackPanelWidget Margin="0, 2">
               <CanvasWidget Size="70, 50" VerticalAlignment="Center">
-                <LabelWidget Text="Line 1" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
+                <LabelWidget Text="行 1" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
               </CanvasWidget>
               <CanvasWidget Size="360, 50" VerticalAlignment="Center" >
                 <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" />
@@ -29,7 +29,7 @@
 
             <StackPanelWidget Margin="0, 2">
               <CanvasWidget Size="70, 50" VerticalAlignment="Center">
-                <LabelWidget Text="Line 2" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
+                <LabelWidget Text="行 2" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
               </CanvasWidget>
               <CanvasWidget Size="360, 50" VerticalAlignment="Center">
                 <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" />
@@ -40,7 +40,7 @@
 
             <StackPanelWidget Margin="0, 2">
               <CanvasWidget Size="70, 50" VerticalAlignment="Center">
-                <LabelWidget Text="Line 3" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
+                <LabelWidget Text="行 3" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
               </CanvasWidget>
               <CanvasWidget Size="360, 50" VerticalAlignment="Center">
                 <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" />
@@ -51,7 +51,7 @@
 
             <StackPanelWidget Margin="0, 2">
               <CanvasWidget Size="70, 50" VerticalAlignment="Center">
-                <LabelWidget Text="Line 4" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
+                <LabelWidget Text="行 4" Font="{Fonts\Pericles18}" VerticalAlignment="Center" Color="128, 128, 128" />
               </CanvasWidget>
               <CanvasWidget Size="360, 50" VerticalAlignment="Center">
                 <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" />
@@ -68,9 +68,9 @@
       <StackPanelWidget Name="EditSignDialog.UrlPage" Direction="Vertical" IsVisible="false">
         
         <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 15">
-          <LabelWidget Text="Enter Sign URL" HorizontalAlignment="Center" />
-          <LabelWidget Text="When playing in adventure mode only, tapping" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Center" Margin="0, 0" />
-          <LabelWidget Text="the sign will open this URL in the browser" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Center" Margin="0, 0" />
+          <LabelWidget Text="键入告示 URL" HorizontalAlignment="Center" />
+          <LabelWidget Text="当在冒险模式下进行游戏时, 轻触" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Center" Margin="0, 0" />
+          <LabelWidget Text="告示牌将会打开浏览器，并转到该 URL" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Center" Margin="0, 0" />
         </StackPanelWidget>
 
         <CanvasWidget Size="Infinity, Infinity">

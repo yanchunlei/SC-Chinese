@@ -10,7 +10,7 @@
         <LabelWidget Name="CancellableBusyDialog.SmallLabel" Font="{Fonts\Pericles18}" Color="128, 128, 128" HorizontalAlignment="Center" VerticalAlignment="Near" TextAnchor="HorizontalCenter" WordWrap="true" Margin="10, 5"/>
       </StackPanelWidget>
       <BusyBarWidget HorizontalAlignment="Center" VerticalAlignment="Center" LitBarColor="255, 255, 255" UnlitBarColor="64, 64, 64, 64"/>
-      <BevelledButtonWidget Name="CancellableBusyDialog.CancelButton" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Cancel"/>
+      <BevelledButtonWidget Name="CancellableBusyDialog.CancelButton" Style="{Styles\ButtonStyle_310x60}" HorizontalAlignment="Center" VerticalAlignment="Center" Text="取消"/>
     </UniformSpacingPanelWidget>
   </CanvasWidget>
 

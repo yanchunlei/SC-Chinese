@@ -6,12 +6,12 @@
     <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="0, 15">
       
-      <LabelWidget Font="{Fonts\Pericles32}" Text="Edit Memory Bank" HorizontalAlignment="Center"/>
+      <LabelWidget Font="{Fonts\Pericles32}" Text="编辑存储体" HorizontalAlignment="Center"/>
 
       <CanvasWidget Size="0, 5" />
 
       <CanvasWidget Size="Infinity, 50">
-        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="Memory bank contains 256 4-bit words. Enter data using hexadecimal characters (0 to 9, A, B, C, D, E, F)." HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Margin="30, 0"/>
+        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="存储体可以存储 256 个 4位 的数据。使用十六进制字符来输入数据 (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F)." HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Margin="30, 0"/>
       </CanvasWidget>
 
       <CanvasWidget Size="0, 15" />
@@ -112,7 +112,7 @@
 
       <StackPanelWidget Name="EditMemoryBankDialog.LinearPanel" Margin="20, 0" Direction="Vertical" HorizontalAlignment="Center">
         <CanvasWidget Size="0, Infinity" />
-        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="Enter up to 256 hexadecimal characters" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" />
+        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="键入数据，不能超过 256 个" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" />
         <CanvasWidget Size="0, 10" />
         <CanvasWidget Size="504, 54" HorizontalAlignment="Center">
           <RectangleWidget FillColor="0, 0, 0, 0" OutlineColor="128, 128, 128, 128" OutlineThickness="1" />
@@ -126,7 +126,7 @@
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
         <BevelledButtonWidget Name="EditMemoryBankDialog.OK" Style="{Styles\ButtonStyle_160x60}" Text="OK" Margin="20, 0" />
         <BevelledButtonWidget Name="EditMemoryBankDialog.SwitchViewButton" Style="{Styles\ButtonStyle_160x60}" Margin="20, 0" />
-        <BevelledButtonWidget Name="EditMemoryBankDialog.Cancel" Style="{Styles\ButtonStyle_160x60}" Margin="20, 0" Text="Cancel"/>
+        <BevelledButtonWidget Name="EditMemoryBankDialog.Cancel" Style="{Styles\ButtonStyle_160x60}" Margin="20, 0" Text="取消"/>
       </StackPanelWidget>
       
     </StackPanelWidget>
