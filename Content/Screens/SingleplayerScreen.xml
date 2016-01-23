@@ -4,7 +4,7 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Existing Worlds" />
+      <LabelWidget Name="TopBar.Label" Text="已存在的世界" />
     </CanvasWidget>
 
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
@@ -19,10 +19,10 @@
       </StackPanelWidget>
 
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" Margin="4, 10">
-        <BevelledButtonWidget Name="Play" Style="{Styles\ButtonStyle_310x60}" Text="Play!" VerticalAlignment="Center" >
+        <BevelledButtonWidget Name="Play" Style="{Styles\ButtonStyle_310x60}" Text="开始游戏!" VerticalAlignment="Center" >
           <BevelledRectangleWidget Name="BevelledButton.Rectangle" CenterColor="70, 220, 60" BevelColor="70, 220, 60" />
         </BevelledButtonWidget>
-        <BevelledButtonWidget Name="NewWorld" Style="{Styles\ButtonStyle_310x60}" Text="New World" VerticalAlignment="Center" />
+        <BevelledButtonWidget Name="NewWorld" Style="{Styles\ButtonStyle_310x60}" Text="新世界" VerticalAlignment="Center" />
         <CanvasWidget Size="Infinity, 0" />
         <BevelledButtonWidget Name="Properties" Style="{Styles\ButtonStyle_70x60}" Text="..." VerticalAlignment="Center" />
       </StackPanelWidget>

@@ -6,7 +6,7 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Recipaedia" />
+      <LabelWidget Name="TopBar.Label" Text="合成表" />
     </CanvasWidget>
 
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
@@ -33,9 +33,9 @@
       <CanvasWidget Size="0, 10" />
 
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center" Margin="0, 0">
-        <BevelledButtonWidget Name="DetailsButton" Style="{Styles\ButtonStyle_310x60}" Text="Description" HorizontalAlignment="Center"/>
+        <BevelledButtonWidget Name="DetailsButton" Style="{Styles\ButtonStyle_310x60}" Text="描述" HorizontalAlignment="Center"/>
         <CanvasWidget Size="20, 0" />
-        <BevelledButtonWidget Name="RecipesButton" Style="{Styles\ButtonStyle_310x60}" Text="Recipes" HorizontalAlignment="Center"/>
+        <BevelledButtonWidget Name="RecipesButton" Style="{Styles\ButtonStyle_310x60}" Text="合成配方" HorizontalAlignment="Center"/>
       </StackPanelWidget>
 
       <CanvasWidget Size="0, 10" />

@@ -6,14 +6,14 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Adjust Device Compatibility" />
+      <LabelWidget Name="TopBar.Label" Text="调整设备兼容性设置" />
     </CanvasWidget>
 
     <StackPanelWidget Direction="Vertical" Margin="10, 0">
 
       <CanvasWidget Size="0, 20" />
 
-      <LabelWidget Font="{Fonts\Pericles18}" Color="255, 255, 255" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Text="Use these settings only if you experience issues with the game." />
+      <LabelWidget Font="{Fonts\Pericles18}" Color="255, 255, 255" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Text="仅当你的游戏体验欠佳时修改下列设置。" />
 
       <CanvasWidget Size="0, 20" />
 
@@ -45,13 +45,13 @@
 			<CanvasWidget Size="0, 20" />
 
             <UniformSpacingPanelWidget Direction="Horizontal">
-              <LabelWidget Text="View Game Log:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+              <LabelWidget Text="查看游戏日志:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
               <BevelledButtonWidget Name="ViewGameLogButton" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" Text="..."/>
             </UniformSpacingPanelWidget>
 			
             <UniformSpacingPanelWidget Direction="Horizontal">
-			  <LabelWidget Text="Reset To Defaults:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
-              <BevelledButtonWidget Name="ResetDefaultsButton" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" Text="Reset"/>
+			  <LabelWidget Text="重置为默认设置:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+              <BevelledButtonWidget Name="ResetDefaultsButton" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" Text="重置"/>
             </UniformSpacingPanelWidget>
 
 			</StackPanelWidget>

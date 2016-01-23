@@ -6,7 +6,7 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Adjust Controls Settings" />
+      <LabelWidget Name="TopBar.Label" Text="调整控制设置" />
     </CanvasWidget>
 
     <CanvasWidget Margin="10, 20">
@@ -15,27 +15,27 @@
         <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
 
           <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
-            <LabelWidget Text="Move Control Mode:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <LabelWidget Text="移动控制模式:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
             <BevelledButtonWidget Name="MoveControlMode" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
           </UniformSpacingPanelWidget>
 
           <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
-            <LabelWidget Text="Look Control Mode:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <LabelWidget Text="视角控制模式:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
             <BevelledButtonWidget Name="LookControlMode" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
           </UniformSpacingPanelWidget>
 
           <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
-            <LabelWidget Text="Left-handed Layout:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <LabelWidget Text="左手布局:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
             <BevelledButtonWidget Name="LeftHandedLayout" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
           </UniformSpacingPanelWidget>
 
           <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
-            <LabelWidget Text="Flip Vertical Axis:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <LabelWidget Text="垂直反转:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
             <BevelledButtonWidget Name="FlipVerticalAxis" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
           </UniformSpacingPanelWidget>
 
           <UniformSpacingPanelWidget Direction="Horizontal" Margin="0, 3">
-            <LabelWidget Text="Auto Jump:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
+            <LabelWidget Text="自动跳跃:" Font="{Fonts\Pericles18}" HorizontalAlignment="Far" VerticalAlignment="Center" Margin="20, 0" />
             <BevelledButtonWidget Name="AutoJump" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center" Margin="20, 0" />
           </UniformSpacingPanelWidget>
 

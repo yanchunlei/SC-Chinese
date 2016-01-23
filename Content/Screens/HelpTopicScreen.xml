@@ -6,7 +6,7 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="帮助内容列表" />
+      <LabelWidget Name="TopBar.Label" Text="帮助话题" />
     </CanvasWidget>
 
     <CanvasWidget Size="Infinity, Infinity" Margin="10, 10">

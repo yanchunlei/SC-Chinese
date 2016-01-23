@@ -6,7 +6,7 @@
   <StackPanelWidget Direction="Horizontal">
 
     <CanvasWidget Style="{Widgets\TopBarContents}" >
-      <LabelWidget Name="TopBar.Label" Text="Help Topics" />
+      <LabelWidget Name="TopBar.Label" Text="帮助话题列表" />
     </CanvasWidget>
 
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
@@ -23,9 +23,9 @@
       <CanvasWidget Size="0, 10" />
 
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
-        <BevelledButtonWidget Name="ShowButton" Style="{Styles\ButtonStyle_310x60}" Text="Show Topic"/>
+        <BevelledButtonWidget Name="ShowButton" Style="{Styles\ButtonStyle_310x60}" Text="显示该话题"/>
         <CanvasWidget Size="20, 0" />
-        <BevelledButtonWidget Name="RecipaediaButton" Style="{Styles\ButtonStyle_310x60}" Text="Recipaedia">
+        <BevelledButtonWidget Name="RecipaediaButton" Style="{Styles\ButtonStyle_310x60}" Text="合成表">
           <BevelledRectangleWidget Name="BevelledButton.Rectangle" CenterColor="70, 220, 60" BevelColor="70, 220, 60" />
         </BevelledButtonWidget>
       </StackPanelWidget>
