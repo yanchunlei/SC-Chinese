@@ -6,12 +6,12 @@
     <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
     <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="0, 15">
       
-      <LabelWidget Font="{Fonts\Pericles32}" Text="Edit Truth Table" HorizontalAlignment="Center"/>
+      <LabelWidget Font="{Fonts\Pericles32}" Text="编辑真值表" HorizontalAlignment="Center"/>
 
       <CanvasWidget Size="0, 5" />
 
       <CanvasWidget Size="Infinity, 50">
-        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="Truth table defines output values for all possible combinations of inputs." HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Margin="30, 0"/>
+        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="真值表可以为所有可能的输入定义输出" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" Margin="30, 0"/>
       </CanvasWidget>
 
       <CanvasWidget Size="0, 15" />
@@ -23,7 +23,7 @@
 
           <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center">
 
-            <LabelWidget Text="In4 In3 In2 In1  Out" Font="{Fonts\SignFont}" FontScale="3" Color="255, 255, 255" Margin="10, 10" VerticalAlignment="Center"/>
+            <LabelWidget Text="输入4 输入3 输入2 输入1  输出" Font="{Fonts\SignFont}" FontScale="3" Color="255, 255, 255" Margin="10, 10" VerticalAlignment="Center"/>
 
             <StackPanelWidget Direction="Horizontal">
               <LabelWidget Text="0000" Font="{Fonts\SignFont}" FontScale="3" FontSpacing="24" Color="128, 128, 128" Margin="10, 10" VerticalAlignment="Center"/>
@@ -128,7 +128,7 @@
 
       <StackPanelWidget Name="EditTruthTableDialog.LinearPanel" Margin="20, 0" Direction="Vertical" HorizontalAlignment="Center">
         <CanvasWidget Size="0, Infinity" />
-        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="Enter up to 16 binary characters (0 and 1)" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" />
+        <LabelWidget Font="{Fonts\Pericles18}" Color="128, 128, 128" Text="输入二进制数据(0 和 1)，最多 16 个" HorizontalAlignment="Center" TextAnchor="HorizontalCenter" WordWrap="true" />
         <CanvasWidget Size="0, 10" />
         <CanvasWidget Size="504, 54" HorizontalAlignment="Center">
           <RectangleWidget FillColor="0, 0, 0, 0" OutlineColor="128, 128, 128, 128" OutlineThickness="1" />
@@ -142,7 +142,7 @@
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
         <BevelledButtonWidget Name="EditTruthTableDialog.OK" Style="{Styles\ButtonStyle_160x60}" Text="OK" Margin="20, 0" />
         <BevelledButtonWidget Name="EditTruthTableDialog.SwitchViewButton" Style="{Styles\ButtonStyle_160x60}" Margin="20, 0" />
-        <BevelledButtonWidget Name="EditTruthTableDialog.Cancel" Style="{Styles\ButtonStyle_160x60}" Margin="20, 0" Text="Cancel"/>
+        <BevelledButtonWidget Name="EditTruthTableDialog.Cancel" Style="{Styles\ButtonStyle_160x60}" Margin="20, 0" Text="取消"/>
       </StackPanelWidget>
       
     </StackPanelWidget>

@@ -15,11 +15,11 @@
       <CanvasWidget Size="0, 10" />
       
       <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
-        <BevelledButtonWidget Name="ViewGameLogDialog.CopyButton" Style="{Styles\ButtonStyle_160x60}" VerticalAlignment="Center" Text="Copy"/>
+        <BevelledButtonWidget Name="ViewGameLogDialog.CopyButton" Style="{Styles\ButtonStyle_160x60}" VerticalAlignment="Center" Text="复制"/>
         <CanvasWidget Size="40, 0" />
         <BevelledButtonWidget Name="ViewGameLogDialog.FilterButton" Style="{Styles\ButtonStyle_310x60}" VerticalAlignment="Center"/>
         <CanvasWidget Size="40, 0" />
-        <BevelledButtonWidget Name="ViewGameLogDialog.CloseButton" Style="{Styles\ButtonStyle_160x60}" VerticalAlignment="Center" Text="Close"/>
+        <BevelledButtonWidget Name="ViewGameLogDialog.CloseButton" Style="{Styles\ButtonStyle_160x60}" VerticalAlignment="Center" Text="关闭"/>
       </StackPanelWidget>
 
       <CanvasWidget Size="0, 10" />
