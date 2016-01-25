@@ -32,9 +32,9 @@ namespace AssemblyTranslator
 
         public TypeDefinition findType(string path)
         {
-            if (!path.StartsWith("/"))
+            if (path.StartsWith("/"))
             {
-                throw new ArgumentException("Path must start with a '/'.");
+                throw new ArgumentException("Path must not start with a '/'.");
             }
             if (path.EndsWith("/"))
             {
@@ -47,7 +47,7 @@ namespace AssemblyTranslator
 
             string[] components = path.Split('/');
 
-            var firstTypeName = components[1];
+            var firstTypeName = components[0];
             var cachePath = "/" + firstTypeName;
 
             TypeDefinition firstType;
@@ -62,7 +62,7 @@ namespace AssemblyTranslator
             }
 
             var type = firstType;
-            for (int i = 2; i < components.Length; ++i)
+            for (int i = 1; i < components.Length; ++i)
             {
                 var typeName = components[i];
                 cachePath += "/" + typeName;

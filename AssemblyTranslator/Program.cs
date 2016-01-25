@@ -15,7 +15,7 @@ namespace AssemblyTranslator
             var inspector = new TypeInspector();
             inspector.scanAssembly(assembly);
 
-            Console.WriteLine(inspector.findType("/Game.SubsystemAudio/SoundInfo").FullName);
+            Console.WriteLine(inspector.findType("Game.SubsystemAudio/SoundInfo").FullName);
         }
     }
 }
