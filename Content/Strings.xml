@@ -24,25 +24,25 @@
   <String Name="TerrainGenerationMode.Normal.Description">在正常模式中，环境就像真实世界的一样，充满了森林、平原、沙漠、冰川、湖泊、山脉、丘陵、山洞 ……</String>
   <String Name="TerrainGenerationMode.Flat.Description">在平坦模式中，地形完全是平的，给你最大程度的创作自由。你可以自由改变地形的高度以及组成地形的方块。</String>
 
-  <String Name="FlatTerrainLevel.Description">Adjust level of terrain above bedrock, only applicable in flat terrain mode. The lower you put it, the more space will be available above ground. The higher you put it, the more space will be available underground.</String>
-  <String Name="FlatTerrainMagmaOcean.Description">Turn ocean into a sea of magma.</String>
-  <String Name="TemperatureOffset.Description">Adjust global temperature of the world.</String>
-  <String Name="HumidityOffset.Description">Adjust global humidity of the world.</String>
+  <String Name="FlatTerrainLevel.Description">调整平坦模式中地形相对于基岩的高度。这个值越低，地上空间越多。这个值越高，地下空间越多。</String>
+  <String Name="FlatTerrainMagmaOcean.Description">将海洋变成岩浆之海。</String>
+  <String Name="TemperatureOffset.Description">调整此世界的全局温度。</String>
+  <String Name="HumidityOffset.Description">调整此世界的全局湿度。</String>
 
-  <String Name="WeatherMode.True">The world will experience periodical occurences of rain and snow that will accumulate on the ground. Lightning will strike tall objects and set them on fire.</String>
-  <String Name="WeatherMode.False">There will be no precipitation or lightning in the world.</String>
+  <String Name="WeatherMode.True">此世界会发生周期性的降雨和降雪，降雪后会形成积雪。闪电会击中高处的物体，并使其着火。</String>
+  <String Name="WeatherMode.False">没有降雨、降雪、闪电。</String>
 
-  <String Name="AdventureRespawnMode.True">The player will be able to respawn at his last spawn or sleeping place when he dies (good for long adventures with checkpoints).</String>
-  <String Name="AdventureRespawnMode.False">The player will not be able to respawn, but will have to restart the adventure and start from scratch when he dies (good for small adventures with no checkpoints).</String>
+  <String Name="AdventureRespawnMode.True">玩家可以在他上一次睡觉的地方或者出生点复活(适合大型的、有检查点的冒险地图)。</String>
+  <String Name="AdventureRespawnMode.False">不允许复活，当玩家死亡时，只能重新开始。(适合大型的、没有检查点的冒险地图)。</String>
 
-  <String Name="AdventureSurvivalMechanics.True">Hunger, stamina, body temperature, sleep deprivation will be simulated in adventure mode.</String>
-  <String Name="AdventureSurvivalMechanics.False">Hunger, stamina, body temperature, sleep deprivation will be disabled in adventure mode. Health and injuries will still be simulated.</String>
+  <String Name="AdventureSurvivalMechanics.True">饥饿值、体力值、体温、睡眠需求度 在冒险模式中起作用。</String>
+  <String Name="AdventureSurvivalMechanics.False">饥饿值、体力值、体温、睡眠需求度 在冒险模式中被禁用。健康值仍然起作用，玩家仍会受到伤害。</String>
 
-  <String Name="CharacterSkin.Description">Choose character skin to use during the game.</String>
-  <String Name="BlocksTexture.Description">Choose blocks texture to use when drawing the world. You can completely change appearance of the world by using a different blocks texture.</String>
+  <String Name="CharacterSkin.Description">选择游戏中角色的皮肤。</String>
+  <String Name="BlocksTexture.Description">选择用来绘制世界的方块纹理。通过选择不同的方块纹理，你可以彻底地改变世界的面貌。</String>
 
-  <String Name="ExternalContentType.BlocksTexture">Blocks Texture</String>
-  <String Name="ExternalContentType.World">World</String>
+  <String Name="ExternalContentType.BlocksTexture">方块纹理</String>
+  <String Name="ExternalContentType.World">世界</String>
 
   <String Name="Settings.Compatibility.InvisibleModelsWorkaround.Description">Enable this if you cannot see animals in the game. It selects a slower, less optimized code path which runs correctly on a wide range of devices even with a buggy shaders implementation.</String>
   <String Name="Settings.Compatibility.SinglethreadedTerrainUpdate.Description">Enable this to force the game to use a single thread only when updating the terrain. It will make the game run slower on multicore devices, but might make it slightly faster on single core ones.</String>
