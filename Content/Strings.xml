@@ -21,8 +21,8 @@
   <String Name="TimeOfDayMode.Sunrise.Description">Time of day will always be morning. Sun, moon and stars will stay stationary in the sky.</String>
   <String Name="TimeOfDayMode.Sunset.Description">Time of day will always be evening. Sun, moon and stars will stay stationary in the sky.</String>
 
-  <String Name="TerrainGenerationMode.Normal.Description">In Normal mode the environment is made to look like the real world, full of forests, plains, deserts, glaciers, lakes, mountains, hills, caves and so on.</String>
-  <String Name="TerrainGenerationMode.Flat.Description">In Flat mode the terrain is completely flat, giving you the total freedom of creation. You can also change terrain level and type of block that fills it.</String>
+  <String Name="TerrainGenerationMode.Normal.Description">在正常模式中，环境就像真实世界的一样，充满了森林、平原、沙漠、冰川、湖泊、山脉、丘陵、山洞 ……</String>
+  <String Name="TerrainGenerationMode.Flat.Description">在平坦模式中，地形完全是平的，给你最大程度的创作自由。你可以自由改变地形的高度以及组成地形的方块。</String>
 
   <String Name="FlatTerrainLevel.Description">Adjust level of terrain above bedrock, only applicable in flat terrain mode. The lower you put it, the more space will be available above ground. The higher you put it, the more space will be available underground.</String>
   <String Name="FlatTerrainMagmaOcean.Description">Turn ocean into a sea of magma.</String>
