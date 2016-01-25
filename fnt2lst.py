@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# Windows 平台下应该会根据后缀名判断文件类型
+
 class Line(dict):
     def __init__(self, line):
         super().__init__(self)
