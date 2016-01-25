@@ -95,5 +95,17 @@ namespace AssemblyTranslator
 
             return type;
         }
+
+        /// <summary>
+        /// Find a method by type path and method name.
+        /// </summary>
+        /// <param name="path">path</param>
+        /// <param name="methodName">method name</param>
+        /// <returns></returns>
+        public MethodDefinition FindMethod(string path, string methodName)
+        {
+            var type = FindType(path);
+            return type.Methods.Single(m => m.Name == methodName);
+        }
     }
 }
