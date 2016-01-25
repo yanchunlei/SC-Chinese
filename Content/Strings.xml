@@ -1,16 +1,16 @@
 <Strings>
 
-  <String Name="MoveControlMode.Pad">Touchpad</String>
-  <String Name="MoveControlMode.Buttons">Buttons</String>
-  <String Name="LookControlMode.Pad">Touchpad Only</String>
-  <String Name="LookControlMode.EntireScreen">Entire Screen</String>
-  <String Name="LookControlMode.SplitTouch">Split Touch</String>
+  <String Name="MoveControlMode.Pad">触摸板</String>
+  <String Name="MoveControlMode.Buttons">按钮</String>
+  <String Name="LookControlMode.Pad">仅触摸板</String>
+  <String Name="LookControlMode.EntireScreen">全屏幕</String>
+  <String Name="LookControlMode.SplitTouch">分离 触控</String>
 
-  <String Name="GameMode.Creative.Description">In Creative mode you have an infinite supply of all items and all blocks can be mined infinitely fast. You are also immortal and can fly.</String>
-  <String Name="GameMode.Harmless.Description">In Harmless mode almost all danger is removed from the game. The animals will not attack unprovoked. Falls are less deadly. Health regeneration is very quick. Digging is 25% faster.</String>
-  <String Name="GameMode.Challenging.Description">Challenging is the normal survival mode. There is danger, but you will be able to respawn at your last sleep position when you die.</String>
-  <String Name="GameMode.Cruel.Description">Cruel mode is the same as Challenging, but you will not be able to respawn. Play wisely, because once you are dead, your world is lost!</String>
-  <String Name="GameMode.Adventure.Description">Adventure mode is for players who want to create quest maps and share them with others. In this mode you cannot dig without tools and health does not regenerate. Create your quest map in Creative mode and change it to Adventure before uploading.</String>
+  <String Name="GameMode.Creative.Description">创造模式中，你拥有无限供应量的物品而且你能以无限快的速度挖掘方块。你还拥有不死和飞行的能力。</String>
+  <String Name="GameMode.Harmless.Description">无害模式中，所有的危险因素都会被移除。动物不会主动攻击你，除非你招惹它们。从高处跌落变得不那么致命。健康值得回复速度很快。挖掘速度提高 25%。</String>
+  <String Name="GameMode.Challenging.Description">挑战模式是正常生存模式。你会遇到危险，但当你死亡时，你可以在你上一次睡觉的地方复活。</String>
+  <String Name="GameMode.Cruel.Description">残酷模式与挑战模式相同，但你不能复活。明智地进行游戏，因为一旦你死了，你就再也不能回到你的世界了！</String>
+  <String Name="GameMode.Adventure.Description">冒险模式是专为那些想要创造探索性的地图，并与其他玩家分享的玩家准备的。在这种模式中，你只能使用专用的工具挖掘方块，你的健康值不会自动回复。在创造模式中创建探索性地图，然后在上传之前切换成冒险模式。</String>
 
   <String Name="EnvironmentBehaviorMode.Living.Description">In Living mode the world is a living place full of animals. Plants and grass grow, blocks made of loose material collapse and detached leaves decay.</String>
   <String Name="EnvironmentBehaviorMode.Static.Description">In Static mode the world has no animals. Plants growth, block collapsing and plant decay are disabled. Useful if you want to shape your world the way you want it.</String>
