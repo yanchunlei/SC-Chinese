@@ -8,9 +8,12 @@ using Mono.Cecil;
 
 namespace AssemblyTranslator
 {
+    /// <summary>
+    /// Find types in TypeList by its FullName.
+    /// </summary>
     class TypeInspector
     {
-        public List<TypeDefinition> TypeList { get; set; }
+        public List<TypeDefinition> TypeList { get; private set; }
         private Dictionary<string, TypeDefinition> m_typeCache;
 
         public TypeInspector()
@@ -19,17 +22,30 @@ namespace AssemblyTranslator
             m_typeCache = new Dictionary<string, TypeDefinition>();
         }
 
+        /// <summary>
+        /// Add all types in an assembly into TypeList.
+        /// </summary>
+        /// <param name="assembly">assembly to scan</param>
         public void scanAssembly(AssemblyDefinition assembly)
         {
             foreach (var module in assembly.Modules)
                 scanModule(module);
         }
 
+        /// <summary>
+        /// Add all types in a module into TypeList.
+        /// </summary>
+        /// <param name="module">module to scan</param>
         public void scanModule(ModuleDefinition module)
         {
             TypeList.AddRange(module.Types);
         }
 
+        /// <summary>
+        /// Find a type in TypeList by its FullName
+        /// </summary>
+        /// <param name="path">full name of the type to find</param>
+        /// <returns></returns>
         public TypeDefinition findType(string path)
         {
             if (path.StartsWith("/"))
