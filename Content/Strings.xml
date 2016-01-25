@@ -12,14 +12,14 @@
   <String Name="GameMode.Cruel.Description">残酷模式与挑战模式相同，但你不能复活。明智地进行游戏，因为一旦你死了，你就再也不能回到你的世界了！</String>
   <String Name="GameMode.Adventure.Description">冒险模式是专为那些想要创造探索性的地图，并与其他玩家分享的玩家准备的。在这种模式中，你只能使用专用的工具挖掘方块，你的健康值不会自动回复。在创造模式中创建探索性地图，然后在上传之前切换成冒险模式。</String>
 
-  <String Name="EnvironmentBehaviorMode.Living.Description">In Living mode the world is a living place full of animals. Plants and grass grow, blocks made of loose material collapse and detached leaves decay.</String>
-  <String Name="EnvironmentBehaviorMode.Static.Description">In Static mode the world has no animals. Plants growth, block collapsing and plant decay are disabled. Useful if you want to shape your world the way you want it.</String>
+  <String Name="EnvironmentBehaviorMode.Living.Description">在动态模式的世界是一个充满动物的、动态的地方。植物和草会生长，用疏松材料制作的方块会衰败消失，从树上采集下来的叶子会腐烂。</String>
+  <String Name="EnvironmentBehaviorMode.Static.Description">在静态模式中，世界里不存在动物。植物的生长、方块的衰败、叶子的腐烂都会停滞。当你想按照自己的意愿塑造世界时，这会很有用。</String>
 
-  <String Name="TimeOfDayMode.Changing.Description">Time of day will change periodically. Sun, moon and stars will move across the sky.</String>
-  <String Name="TimeOfDayMode.Day.Description">Time of day will always be noon. Sun, moon and stars will stay stationary in the sky.</String>
-  <String Name="TimeOfDayMode.Night.Description">Time of day will always be midnight. Sun, moon and stars will stay stationary in the sky.</String>
-  <String Name="TimeOfDayMode.Sunrise.Description">Time of day will always be morning. Sun, moon and stars will stay stationary in the sky.</String>
-  <String Name="TimeOfDayMode.Sunset.Description">Time of day will always be evening. Sun, moon and stars will stay stationary in the sky.</String>
+  <String Name="TimeOfDayMode.Changing.Description">时间将会流逝。太阳、月亮和星星会在天空中运行。</String>
+  <String Name="TimeOfDayMode.Day.Description">时间定格在正午。太阳、月亮和星星固定不动。</String>
+  <String Name="TimeOfDayMode.Night.Description">时间定格在午夜。太阳、月亮和星星固定不动。</String>
+  <String Name="TimeOfDayMode.Sunrise.Description">时间定格在早上。太阳、月亮和星星固定不动。</String>
+  <String Name="TimeOfDayMode.Sunset.Description">时间定格在晚上。太阳、月亮和星星固定不动。</String>
 
   <String Name="TerrainGenerationMode.Normal.Description">在正常模式中，环境就像真实世界的一样，充满了森林、平原、沙漠、冰川、湖泊、山脉、丘陵、山洞 ……</String>
   <String Name="TerrainGenerationMode.Flat.Description">在平坦模式中，地形完全是平的，给你最大程度的创作自由。你可以自由改变地形的高度以及组成地形的方块。</String>
