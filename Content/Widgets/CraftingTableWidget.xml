@@ -6,7 +6,7 @@
   <InventorySlotWidget Name="CraftingRemainsSlot" CanvasWidget.Position="180, 284" >
     <LabelWidget Text="..." Font="{Fonts\Pericles24}" Color="0, 0, 0, 96" HorizontalAlignment="Center" VerticalAlignment="Center"/>
   </InventorySlotWidget>
-  <LabelWidget CanvasWidget.Position="36, 13" Text="Crafting" Font="{Fonts\Pericles24}" Color="255, 255, 255, 192"/>
-  <LabelWidget CanvasWidget.Position="286, 13" Text="Inventory" Font="{Fonts\Pericles24}" Color="255, 255, 255, 192"/>
+  <LabelWidget CanvasWidget.Position="36, 13" Text="合成" Font="{Fonts\Pericles24}" Color="255, 255, 255, 192"/>
+  <LabelWidget CanvasWidget.Position="286, 13" Text="背包" Font="{Fonts\Pericles24}" Color="255, 255, 255, 192"/>
   <ArrowLineWidget Color="0, 0, 0, 96" Width="8" ArrowWidth="24" AbsoluteCoordinates="true" PointsString="72, 280; 72, 320; 86, 320" />
 </CraftingTableWidget>
