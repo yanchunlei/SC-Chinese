@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
+using Mono.Cecil;
 
 namespace AssemblyTranslator
 {
@@ -10,6 +11,11 @@ namespace AssemblyTranslator
     {
         static void Main(string[] args)
         {
+            var assembly = AssemblyDefinition.ReadAssembly("Survivalcraft.exe");
+            var inspector = new TypeInspector();
+            inspector.scanAssembly(assembly);
+
+            Console.WriteLine(inspector.findType("/Game.SubsystemAudio/SoundInfo").FullName);
         }
     }
 }
