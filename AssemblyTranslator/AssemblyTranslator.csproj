@@ -59,9 +59,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TypeInspector.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Source\InstructionChecker.cs" />
+    <Compile Include="Source\TypeInspector.cs" />
+    <Compile Include="Source\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\TypeWalker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
