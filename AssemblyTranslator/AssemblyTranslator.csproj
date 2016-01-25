@@ -59,7 +59,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Source\InstructionChecker.cs" />
+    <Compile Include="Source\EnumTranslator.cs" />
+    <Compile Include="Source\StringDumper.cs" />
     <Compile Include="Source\TypeInspector.cs" />
     <Compile Include="Source\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
