@@ -12,7 +12,16 @@ namespace AssemblyTranslator
         static void Main(string[] args)
         {
             var assembly = AssemblyDefinition.ReadAssembly("Survivalcraft.exe");
-            StringDumper.DumpStrings(assembly);
+            var inspector = new TypeInspector();
+            inspector.ScanAssembly(assembly);
+            var translation = new Dictionary<string, string>();
+            translation.Add("None", "None★");
+            translation.Add("Shovel", "Shovel★");
+            translation.Add("Quarry", "Quarry★");
+            translation.Add("Hack", "Hack★");
+            EnumTranslator.TranslateEnum(inspector.FindType("Game.BlockDigMethod"), assembly, translation);
+
+            assembly.Write("Survivalcraft.Translated.exe");
         }
     }
 }
