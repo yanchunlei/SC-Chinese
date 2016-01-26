@@ -14,7 +14,7 @@ namespace AssemblyTranslator
     /// </summary>
     public static class EnumTranslator
     {
-        public static void TranslateEnum(TypeDefinition enumType, TypeInspector inspector, AssemblyDefinition assembly, Dictionary<string, string> translation)
+        public static void TranslateEnum(TypeDefinition enumType, TypeInspector inspector, Dictionary<string, string> translation)
         {
             // map EnumType to string
             var translationMap = new Dictionary<int, string>();
@@ -94,8 +94,7 @@ namespace AssemblyTranslator
                     }
                 }
             };
-            walker.WalkAssembly(assembly);
+            walker.WalkAssembly(enumType.Module.Assembly);
         }
-
     }
 }

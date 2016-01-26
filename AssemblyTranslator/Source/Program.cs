@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Mono.Cecil;
+using Jint;
 
 namespace AssemblyTranslator
 {
@@ -11,17 +12,33 @@ namespace AssemblyTranslator
     {
         static void Main(string[] args)
         {
-            var assembly = AssemblyDefinition.ReadAssembly("Survivalcraft.exe");
+            var assemblySc = AssemblyDefinition.ReadAssembly("Survivalcraft.exe");
+            var assemblyEngine = AssemblyDefinition.ReadAssembly("Engine.dll");
+            var mscorlib = AssemblyDefinition.ReadAssembly("mscorlib.dll");
             var inspector = new TypeInspector();
-            inspector.ScanAssembly(assembly);
-            var translation = new Dictionary<string, string>();
-            translation.Add("None", "None★");
-            translation.Add("Shovel", "Shovel★");
-            translation.Add("Quarry", "Quarry★");
-            translation.Add("Hack", "Hack★");
-            EnumTranslator.TranslateEnum(inspector.FindType("Game.BlockDigMethod"), assembly, translation);
+            inspector.ScanAssembly(assemblySc);
+            inspector.ScanAssembly(assemblyEngine);
+            inspector.ScanAssembly(mscorlib);
 
-            assembly.Write("Survivalcraft.Translated.exe");
+            var engine = new Engine(cfg => cfg.AllowClr(
+                typeof(Program).Assembly,
+                typeof(Mono.Cecil.AssemblyDefinition).Assembly
+                ));
+            engine.SetValue("inspector", inspector);
+
+            var translationList = new string[]
+            {
+                "EnumTypes.js"
+            };
+
+            foreach(var translationScript in translationList)
+            {
+                var translationScriptPath = "Translation/" + translationScript;
+                var scriptSrc = System.IO.File.ReadAllText(translationScriptPath);
+                engine.Execute(scriptSrc);
+            }
+
+            assemblySc.Write("Survivalcraft.Translated.exe");
         }
     }
 }
