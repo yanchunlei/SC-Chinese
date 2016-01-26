@@ -2,7 +2,7 @@
     System.Console.Write("Translating enum: " + fullName + " ...");
     var AssemblyTranslator = importNamespace("AssemblyTranslator");
     translation = generateTranslation(translation);
-    AssemblyTranslator.EnumTranslator.TranslateEnum(inspector.FindType(fullName), inspector, translation);
+    AssemblyTranslator.Translator.TranslateEnum(inspector.FindType(fullName), inspector, translation);
     System.Console.WriteLine(" Done.");
 }
 
