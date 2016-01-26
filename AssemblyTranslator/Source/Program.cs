@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 using Mono.Cecil;
+using Mono.Cecil.Cil;
 using Jint;
 
 namespace AssemblyTranslator
@@ -19,6 +20,12 @@ namespace AssemblyTranslator
             inspector.ScanAssembly(assemblySc);
             inspector.ScanAssembly(assemblyEngine);
             inspector.ScanAssembly(mscorlib);
+
+            var methodLogEvent = inspector.FindMethod("Game.AnalyticsManager", "LogEvent");
+            var firstInstruction = methodLogEvent.Body.Instructions[0];
+            var il = methodLogEvent.Body.GetILProcessor();
+            var retInstruction = il.Create(OpCodes.Ret);
+            il.Replace(firstInstruction, retInstruction);
 
             var engine = new Engine(cfg => cfg.AllowClr(
                 typeof(Program).Assembly,
