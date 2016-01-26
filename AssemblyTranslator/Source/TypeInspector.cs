@@ -11,14 +11,16 @@ namespace AssemblyTranslator
     /// <summary>
     /// Find types in TypeList by its FullName.
     /// </summary>
-    class TypeInspector
+    public class TypeInspector
     {
         public List<TypeDefinition> TypeList { get; private set; }
+        public List<AssemblyDefinition> AssemblyList { get; private set; }
         private Dictionary<string, TypeDefinition> m_typeCache;
 
         public TypeInspector()
         {
             TypeList = new List<TypeDefinition>();
+            AssemblyList = new List<AssemblyDefinition>();
             m_typeCache = new Dictionary<string, TypeDefinition>();
         }
 
@@ -30,6 +32,7 @@ namespace AssemblyTranslator
         {
             foreach (var module in assembly.Modules)
                 ScanModule(module);
+            AssemblyList.Add(assembly);
         }
 
         /// <summary>

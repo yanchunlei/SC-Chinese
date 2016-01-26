@@ -14,7 +14,7 @@ namespace AssemblyTranslator
     /// </summary>
     public static class EnumTranslator
     {
-        public static void TranslateEnum(TypeDefinition enumType, AssemblyDefinition assembly, Dictionary<string, string> translation)
+        public static void TranslateEnum(TypeDefinition enumType, TypeInspector inspector, AssemblyDefinition assembly, Dictionary<string, string> translation)
         {
             // map EnumType to string
             var translationMap = new Dictionary<int, string>();
@@ -31,11 +31,6 @@ namespace AssemblyTranslator
             }
 
             // inject EnumType.GetTranslation()
-            var mscorlib = AssemblyDefinition.ReadAssembly("mscorlib.dll");
-            var inspector = new TypeInspector();
-            inspector.ScanAssembly(mscorlib);
-            inspector.ScanAssembly(assembly);
-
             var methodGetTranslationName = "GetTranslation" + enumType.Name;
             var methodGetTranslation = new MethodDefinition(methodGetTranslationName, MethodAttributes.Public | MethodAttributes.Static, inspector.FindType("System.String"));
             methodGetTranslation.Parameters.Add(new ParameterDefinition(enumType));
