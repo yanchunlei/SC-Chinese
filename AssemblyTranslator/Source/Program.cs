@@ -31,11 +31,13 @@ namespace AssemblyTranslator
                 typeof(Program).Assembly,
                 typeof(Mono.Cecil.AssemblyDefinition).Assembly
                 ));
+            engine.SetValue("assemblySc", assemblySc);
             engine.SetValue("inspector", inspector);
 
             var translationList = new string[]
             {
-                "EnumTypes.js"
+                "EnumTypes.js",
+                "StringsInMethods.js"
             };
 
             foreach(var translationScript in translationList)

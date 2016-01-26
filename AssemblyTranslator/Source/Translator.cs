@@ -96,5 +96,19 @@ namespace AssemblyTranslator
             };
             walker.WalkAssembly(enumType.Module.Assembly);
         }
+
+        public static void ReplaceStrings(MethodDefinition method, Dictionary<string, string> translation)
+        {
+            foreach (var instruction in method.Body.Instructions)
+            {
+                if (instruction.OpCode == OpCodes.Ldstr)
+                {
+                    var s = instruction.Operand as string;
+                    if (translation.ContainsKey(s))
+                        s = translation[s];
+                    instruction.Operand = s;
+                }
+            }
+        }
     }
 }
