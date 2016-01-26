@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 using Mono.Cecil;
 
@@ -109,6 +110,18 @@ namespace AssemblyTranslator
         {
             var type = FindType(path);
             return type.Methods.Single(m => m.Name == methodName);
+        }
+
+        public MethodDefinition[] FindMethodReg(string path, string methodNameReg)
+        {
+            var type = FindType(path);
+            var methods = new List<MethodDefinition>();
+            foreach (var method in type.Methods)
+            {
+                if (Regex.IsMatch(method.Name, methodNameReg))
+                    methods.Add(method);
+            }
+            return methods.ToArray();
         }
     }
 }
