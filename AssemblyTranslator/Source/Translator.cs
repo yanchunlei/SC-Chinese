@@ -12,7 +12,7 @@ namespace AssemblyTranslator
     /// <summary>
     /// Translate enum types by replacing ToString method.
     /// </summary>
-    public static class EnumTranslator
+    public static class Translator
     {
         public static void TranslateEnum(TypeDefinition enumType, TypeInspector inspector, Dictionary<string, string> translation)
         {
