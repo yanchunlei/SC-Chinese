@@ -20,7 +20,7 @@ translateEnum("Game.BlockDigMethod", {
     "None": "None",
     "Shovel": "铲子",
     "Quarry": "镐",
-    "Hack": "劈"
+    "Hack": "斧头"
 });
 
 translateEnum("Game.GameMode", {
