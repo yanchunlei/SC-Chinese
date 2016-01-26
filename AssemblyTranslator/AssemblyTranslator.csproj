@@ -63,12 +63,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Source\Translator.cs" />
-    <Compile Include="Source\StringDumper.cs" />
-    <Compile Include="Source\TypeInspector.cs" />
-    <Compile Include="Source\Program.cs" />
+    <Compile Include="Translator.cs" />
+    <Compile Include="TypeInspector.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Source\TypeWalker.cs" />
+    <Compile Include="TypeWalker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
