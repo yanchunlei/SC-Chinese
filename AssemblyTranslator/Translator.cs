@@ -81,11 +81,12 @@ namespace AssemblyTranslator
                         continue;
                     if (instruction.Operand != enumType)
                         continue;
-                    instruction.OpCode = OpCodes.Nop;
-                    instruction.Operand = null;
+
                     var nextInstruction = instruction.Next;
                     if (nextInstruction.OpCode != OpCodes.Callvirt)
                         continue;
+                    instruction.OpCode = OpCodes.Nop;
+                    instruction.Operand = null;
                     var calledMethod = nextInstruction.Operand as MethodReference;
                     if (calledMethod.ToString() == "System.String System.Object::ToString()")
                     {
