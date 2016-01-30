@@ -106,10 +106,24 @@ namespace AssemblyTranslator
                 {
                     var s = instruction.Operand as string;
                     if (translation.ContainsKey(s))
+                    {
                         s = translation[s];
+                        ++match;
+                    }
                     instruction.Operand = s;
+                }
+            }
+            return match;
+        }
 
-                    ++match;
+        public static int ReplaceNestedStrings(TypeDefinition type, Dictionary<string, string> translation)
+        {
+            int match = 0;
+            foreach(var nestedType in type.NestedTypes)
+            {
+                foreach(var method in nestedType.Methods)
+                {
+                    match += ReplaceStrings(method, translation);
                 }
             }
             return match;
