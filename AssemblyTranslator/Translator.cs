@@ -88,18 +88,18 @@ namespace AssemblyTranslator
                     instruction.OpCode = OpCodes.Nop;
                     instruction.Operand = null;
                     var calledMethod = nextInstruction.Operand as MethodReference;
-                    if (calledMethod.ToString() == "System.String System.Object::ToString()")
-                    {
-                        nextInstruction.OpCode = OpCodes.Call;
-                        nextInstruction.Operand = inspector.FindType("Game.Program").Methods.Single(m => m.Name == methodGetTranslationName) as System.Object;
-                    }
+                    if (calledMethod.ToString() != "System.String System.Object::ToString()")
+                        continue;
+                    nextInstruction.OpCode = OpCodes.Call;
+                    nextInstruction.Operand = inspector.FindType("Game.Program").Methods.Single(m => m.Name == methodGetTranslationName) as System.Object;
                 }
             };
             walker.WalkAssembly(enumType.Module.Assembly);
         }
 
-        public static void ReplaceStrings(MethodDefinition method, Dictionary<string, string> translation)
+        public static int ReplaceStrings(MethodDefinition method, Dictionary<string, string> translation)
         {
+            int match = 0;
             foreach (var instruction in method.Body.Instructions)
             {
                 if (instruction.OpCode == OpCodes.Ldstr)
@@ -108,8 +108,11 @@ namespace AssemblyTranslator
                     if (translation.ContainsKey(s))
                         s = translation[s];
                     instruction.Operand = s;
+
+                    ++match;
                 }
             }
+            return match;
         }
     }
 }
