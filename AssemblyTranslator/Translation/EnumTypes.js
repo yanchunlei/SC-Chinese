@@ -36,6 +36,11 @@ translateEnum("Game.EnvironmentBehaviorMode", {
     "Static": "静态"
 });
 
+translateEnum("Game.TerrainGenerationMode", {
+    "Normal": "正常",
+    "Flat": "平坦"
+});
+
 translateEnum("Game.ExternalContentType", {
     "Unknown": "未知",
     "Directory": "目录",
