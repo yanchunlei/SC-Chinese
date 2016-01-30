@@ -1,25 +1,36 @@
 ﻿function translateMethod(typeName, methodName, translation) {
-    System.Console.Write("Translating method: " + typeName + "::" + methodName + " ...");
+    System.Console.Write("Translating method: " + typeName + "::" + methodName + " ... ");
 
     var AssemblyTranslator = importNamespace("AssemblyTranslator");
     translation = generateTranslation(translation);
     var method = inspector.FindMethod(typeName, methodName);
-    AssemblyTranslator.Translator.ReplaceStrings(method, translation);
+    var match = AssemblyTranslator.Translator.ReplaceStrings(method, translation);
 
-    System.Console.WriteLine(" Done.");
+    System.Console.WriteLine(match.toString() + " hits");
 }
 function translateMethodReg(typeName, methodNameReg, translation) {
-    System.Console.Write("Translating method: " + typeName + "::" + methodNameReg + " ...");
+    System.Console.Write("Translating method: " + typeName + "::" + methodNameReg + " ... ");
 
     var AssemblyTranslator = importNamespace("AssemblyTranslator");
     translation = generateTranslation(translation);
     var methods = inspector.FindMethodReg(typeName, methodNameReg);
+    var match = 0;
     for (var i in methods) {
         var method = methods[i];
-        AssemblyTranslator.Translator.ReplaceStrings(method, translation);
+        match += AssemblyTranslator.Translator.ReplaceStrings(method, translation);
     }
 
-    System.Console.WriteLine(" Done.");
+    System.Console.WriteLine(match.toString() + " hits");
+}
+function translateNestedMethods(typeName, translation) {
+    System.Console.Write("Translating nested methods in type: " + typeName + " ... ");
+
+    var AssemblyTranslator = importNamespace("AssemblyTranslator");
+    translation = generateTranslation(translation);
+    var type = inspector.FindType(typeName);
+    var match = AssemblyTranslator.Translator.ReplaceNestedStrings(type, translation);
+
+    System.Console.WriteLine(match.toString() + " hits");
 }
 
 function generateTranslation(object) {
@@ -32,7 +43,7 @@ function generateTranslation(object) {
     return translation;
 }
 
-translateMethodReg("Game.SubsystemIntro", "^<ShipView_Enter>b__\\d$", {
+translateMethodReg("Game.SubsystemIntro", "^<ShipView_Enter>*", {
     "Weigh anchor, boys.": "起锚，伙计们。",
     "And you there, on the shore!": "你在那边，在岸上。",
     "Remember, we won't be back for you!": "记住，我们永远不会为了你再回来的！"
@@ -144,6 +155,74 @@ translateMethod("Game.GameMenuScreen", "Update", {
     "Select Content To Rate": "选择一项内容来打分",
     "Reset Adventure?": "重置冒险模式？",
     "The adventure will start from the beginning.": "冒险会从头开始",
-    "Yes": "重置",
-    "No": "不要重置"
+    "Yes": "偏要重置",
+    "No": "才不重置"
+});
+
+translateMethod("Game.GameLoadingScreen", "Enter", { "Loading World": "正在加载世界" });
+translateNestedMethods("Game.TerrainUpdater", { "Generating Terrain": "正在生成地形" });
+translateMethod("Game.SingleplayerScreen", "Enter", { "Scanning Worlds": "正在扫描世界" });
+
+translateMethod("Game.WorldOptionsScreen", "Update", {
+    "Enabled": "启用",
+    "Disabled": "禁用",
+    "Allowed": "允许",
+    "Not Allowed": "不允许",
+    "Normal": "正常"
+});
+
+translateMethod("Game.EditMemoryBankDialog", "Update", {
+    "Grid": "网格",
+    "Linear": "线性"
+});
+translateMethod("Game.EditBatteryDialog", "UpdateControls", {
+    "Low": "低电平",
+    "High": "高电平"
+});
+translateMethod("Game.EditAdjustableDelayGateDialog", "UpdateControls", { "{0:0.00} seconds": "{0:0.00} 秒" });
+translateMethod("Game.EditTruthTableDialog", "Update", {
+    "Table": "表格",
+    "Linear": "线性"
+});
+
+translateMethod("Game.ComponentVitalStats", "UpdateFood", {
+    "You are starving, find food!": "去找点吃的，不然你会饿死的！",
+    "You are close to starvation": "你已经极端饥饿了",
+    "Time to eat something": "是时候吃点什么了",
+    "You are slightly hungry": "你稍微有点饿了"
+});
+translateMethod("Game.ComponentVitalStats", "UpdateSleep", {
+    "You will faint, go to sleep!": "你会昏过去的，去睡觉！",
+    "You are falling over, sleep": "你要摔倒了，睡吧",
+    "You are very tired, sleep": "你已经很累了，睡吧",
+    "You are tired, take a nap": "你有点累了，打个盹吧",
+    "Can't go no more": "你已经走不动了"
+});
+translateMethod("Game.ComponentVitalStats", "UpdateStamina", {
+    "You are panting, slow down": "你有点喘，慢一点",
+    "You are panting, get out of the water": "你有点喘，从水里出来",
+    "You are drowning!": "你要沉下去了！",
+    "Rest a while!": "休息一会！"
+});
+translateMethod("Game.ComponentVitalStats", "UpdateTemperature", {
+    "head is": "头",
+    "chest is": "胸口",
+    "legs are": "腿",
+    "feet are": "脚",
+    "Your {0} freezing, dry your clothes!": "你的{0}在发抖，弄干你的衣物！",
+    "Your {0} freezing, get clothed!": "你的{0}在发抖，穿上衣物！",
+    "Your {0} freezing, seek shelter!": "你的{0}在发抖，去一个暖和的地方！",
+    "Your {0} getting cold, dry your clothes": "你的{0}有点冷，弄干你的衣物",
+    "Your {0} getting cold, get clothed": "你的{0}有点冷，穿点衣物",
+    "Your {0} getting cold, seek shelter": "你的{0}有点冷，找一个庇护所"
+});
+translateMethodReg("Game.ComponentVitalStats", "^<UpdateWetness>*", {
+    "You are completely wet": "你身上湿透了",
+    "You are getting wet": "你身上有点湿了",
+    "You are no longer wet": "你身上已经干了"
+});
+translateMethod("Game.ComponentVitalStats", "Eat", {
+    "You have eaten well": "你饱餐了一顿",
+    "Good, but you want more": "不错，但你还想要更多",
+    "You are full, no more food!": "你已经吃饱了，吃不下了！"
 });
