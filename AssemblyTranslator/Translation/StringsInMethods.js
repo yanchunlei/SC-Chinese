@@ -59,6 +59,35 @@ translateMethod("Game.PaintBucketBlock", ".cctor", {
 
 translateMethod("Game.ClothingBlock", "GetDisplayName", { " dyed ": "色" });
 translateMethod("Game.PaintedCubeBlock", "GetDisplayName", { " ": "" });
-
 translateMethod("Game.PaintBucketBlock", "Initialize", { " Paint Bucket": "染剂桶" });
-translateMethod("Game.CarpetBlock", "Initialize", {" Carpet": "地毯"});
+translateMethod("Game.CarpetBlock", "Initialize", { " Carpet": "地毯" });
+
+translateMethod("Game.PumpkinBlock", "GetDisplayName", {
+    "Pumpkin": "南瓜",
+    "Unripe pumpkin": "未成熟的南瓜"
+});
+translateMethod("Game.RyeBlock", "GetDisplayName", {
+    "Rye": "小麦",
+    "Wild Rye": "野生小麦"
+});
+translateMethod("Game.CottonBlock", "GetDisplayName", {
+    "Cotton": "棉花",
+    "Wild Cotton": "野生棉花"
+});
+translateMethod("Game.SaplingBlock", "GetDisplayName", {
+    "Oak Sapling": "橡树种子",
+    "Birch Sapling": "桦树种子",
+    "Spruce Sapling": "云杉种子",
+    "Tall Spruce Sapling": "高云杉种子",
+    "Sapling": "树种"
+});
+translateMethod("Game.SeedsBlock", "GetDisplayName", {
+    "Tall Grass Seeds": "高草丛种子",
+    "Red Flower Seeds": "红花种子",
+    "Purple Flower Seeds": "紫花种子",
+    "White Flower Seeds": "白花种子",
+    "Wild Rye Seeds": "野生小麦种子",
+    "Rye Seeds": "小麦种子",
+    "Cotton Seeds": "棉花种子",
+    "Pumpkin Seeds": "南瓜种子"
+});
