@@ -58,4 +58,7 @@ translateMethod("Game.PaintBucketBlock", ".cctor", {
 });
 
 translateMethod("Game.ClothingBlock", "GetDisplayName", { " dyed ": "色" });
-translateMethod("Game.PaintedCubeBlock", "GetDisplayName", {" ": ""});
+translateMethod("Game.PaintedCubeBlock", "GetDisplayName", { " ": "" });
+
+translateMethod("Game.PaintBucketBlock", "Initialize", { " Paint Bucket": "染剂桶" });
+translateMethod("Game.CarpetBlock", "Initialize", {" Carpet": "地毯"});
