@@ -110,14 +110,14 @@ translateMethod("Game.BulletBlock", ".cctor", {
 });
 
 translateMethod("Game.FireworksBlock", ".cctor", {
-    "Small Burst": "小爆炸",
-    "Large Burst": "大爆炸",
-    "Circle": "圈型",
-    "Disc": "碟形",
-    "Sphere": "球型",
-    "Short Trails": "短尾",
-    "Long Trails": "长尾",
-    "Flat Trails": "平尾",
+    "Small Burst": "小爆炸图案",
+    "Large Burst": "大爆炸图案",
+    "Circle": "圈型图案",
+    "Disc": "碟形图案",
+    "Sphere": "球型图案",
+    "Short Trails": "短尾图案",
+    "Long Trails": "长尾图案",
+    "Flat Trails": "平尾图案",
 
     "White": "白色",
     "Cyan": "青色",
@@ -127,4 +127,10 @@ translateMethod("Game.FireworksBlock", ".cctor", {
     "Green": "绿色",
     "Orange": "橙色",
     "Purple": "紫色"
+});
+translateMethod("Game.FireworksBlock", "GetDisplayName", {
+    "Fireworks {0} {1}{2} ({3})": "焰火 {0} {1}{2} ({3})",
+    "Flickering ": "闪烁 ",
+    "Low": "低空型",
+    "High": "高空型"
 });
