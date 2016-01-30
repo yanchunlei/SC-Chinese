@@ -91,3 +91,40 @@ translateMethod("Game.SeedsBlock", "GetDisplayName", {
     "Cotton Seeds": "棉花种子",
     "Pumpkin Seeds": "南瓜种子"
 });
+
+translateMethod("Game.ArrowBlock", ".cctor", {
+    "Wooden Tip Arrow": "木箭头箭",
+    "Stone Tip Arrow": "石箭头箭",
+    "Iron Tip Arrow": "铁箭头箭",
+    "Diamond Tip Arrow": "钻石箭头箭",
+    "Fire Arrow": "火箭",
+    "Iron Bolt": "铁弩箭",
+    "Diamond Tip Iron Bolt": "钻石箭头铁弩箭",
+    "Explosive Bolt": "爆裂弩箭",
+    "Copper Tip Arrow": "铜箭头箭"
+});
+translateMethod("Game.BulletBlock", ".cctor", {
+    "Musket Ball": "步枪弹丸",
+    "Buckshot": "霰弹",
+    "Buckshot Ball": "霰弹弹丸"
+});
+
+translateMethod("Game.FireworksBlock", ".cctor", {
+    "Small Burst": "小爆炸",
+    "Large Burst": "大爆炸",
+    "Circle": "圈型",
+    "Disc": "碟形",
+    "Sphere": "球型",
+    "Short Trails": "短尾",
+    "Long Trails": "长尾",
+    "Flat Trails": "平尾",
+
+    "White": "白色",
+    "Cyan": "青色",
+    "Red": "红色",
+    "Blue": "蓝色",
+    "Yellow": "黄色",
+    "Green": "绿色",
+    "Orange": "橙色",
+    "Purple": "紫色"
+});
