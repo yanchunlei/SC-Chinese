@@ -226,3 +226,10 @@ translateMethod("Game.ComponentVitalStats", "Eat", {
     "Good, but you want more": "不错，但你还想要更多",
     "You are full, no more food!": "你已经吃饱了，吃不下了！"
 });
+
+translateMethodReg("Game.SubsystemPlayer", "^<Load>*", {
+    "You have died.": "你已经死了",
+    "Cannot respawn in \"{0}\" game mode": "你不能在 {0} 模式中复活",
+    "Tap to restart adventure": "轻触以重置冒险模式",
+    "Tap to respawn": "轻触以复活",
+});
