@@ -134,3 +134,16 @@ translateMethod("Game.FireworksBlock", "GetDisplayName", {
     "Low": "低空型",
     "High": "高空型"
 });
+
+translateMethod("Game.GameMenuScreen", "Update", {
+    "Your coordinates are {0:0}, {1:0} at altitude {2:0}": "坐标: {0:0}, {1:0}; 高度: {2:0}",
+    "Game mode is {0}": "游戏模式: {0}",
+    "You managed to stay alive for {0} days.": "你设法生存了 {0} 天。",
+    "You have respawned {0} time(s).": "你复活了 {0} 次。",
+    "World seed is \"{0}\".": "世界种子是 \"{0}\"",
+    "Select Content To Rate": "选择一项内容来打分",
+    "Reset Adventure?": "重置冒险模式？",
+    "The adventure will start from the beginning.": "冒险会从头开始",
+    "Yes": "重置",
+    "No": "不要重置"
+});
