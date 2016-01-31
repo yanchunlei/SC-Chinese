@@ -342,11 +342,11 @@ translateMethod("Game.SubsystemGui", "Update", {
     "Orbit camera": "环形轨道摄像机",
     "Fixed camera": "固定摄像机",
     "First person camera": "第一人称摄像机",
-    "Photo saved in pictures library": "照片已经存储到图片库",
     "Dawn": "清晨",
     "Noon": "正午",
     "Dusk": "黄昏",
     "Midnight": "午夜"
 });
+translateMethodReg("Game.SubsystemGui", "^<Update>*", { "Photo saved in pictures library": "照片已经存储到图片库" });
 
 translateMethod("Game.SubsystemEggBlockBehavior", "OnHitAsProjectile", {"Too many creatures": "生物过多"});
