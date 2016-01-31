@@ -6,7 +6,16 @@
     var method = inspector.FindMethod(typeName, methodName);
     var match = AssemblyTranslator.Translator.ReplaceStrings(method, translation);
 
-    System.Console.WriteLine(match.toString() + " hits");
+    System.Console.Write(match.toString() + " hits, ");
+    if (match < translation.get_Count()) {
+        System.Console.set_ForegroundColor(System.ConsoleColor.Red);
+        System.Console.WriteLine("warning!");
+        System.Console.ResetColor();
+    } else {
+        System.Console.set_ForegroundColor(System.ConsoleColor.Green);
+        System.Console.WriteLine("done.");
+        System.Console.ResetColor();
+    }
 }
 function translateMethodReg(typeName, methodNameReg, translation) {
     System.Console.Write("Translating method: " + typeName + "::" + methodNameReg + " ... ");
@@ -20,7 +29,16 @@ function translateMethodReg(typeName, methodNameReg, translation) {
         match += AssemblyTranslator.Translator.ReplaceStrings(method, translation);
     }
 
-    System.Console.WriteLine(match.toString() + " hits");
+    System.Console.Write(match.toString() + " hits, ");
+    if (match < translation.get_Count()) {
+        System.Console.set_ForegroundColor(System.ConsoleColor.Red);
+        System.Console.WriteLine("warning!");
+        System.Console.ResetColor();
+    } else {
+        System.Console.set_ForegroundColor(System.ConsoleColor.Green);
+        System.Console.WriteLine("done.");
+        System.Console.ResetColor();
+    }
 }
 function translateNestedMethods(typeName, translation) {
     System.Console.Write("Translating nested methods in type: " + typeName + " ... ");
@@ -30,7 +48,16 @@ function translateNestedMethods(typeName, translation) {
     var type = inspector.FindType(typeName);
     var match = AssemblyTranslator.Translator.ReplaceNestedStrings(type, translation);
 
-    System.Console.WriteLine(match.toString() + " hits");
+    System.Console.Write(match.toString() + " hits, ");
+    if (match < translation.get_Count()) {
+        System.Console.set_ForegroundColor(System.ConsoleColor.Red);
+        System.Console.WriteLine("warning!");
+        System.Console.ResetColor();
+    } else {
+        System.Console.set_ForegroundColor(System.ConsoleColor.Green);
+        System.Console.WriteLine("done.");
+        System.Console.ResetColor();
+    }
 }
 
 function generateTranslation(object) {
@@ -67,11 +94,6 @@ translateMethod("Game.PaintBucketBlock", ".cctor", {
     "Red": "红",
     "Black": "黑"
 });
-
-translateMethod("Game.ClothingBlock", "GetDisplayName", { " dyed ": "色" });
-translateMethod("Game.PaintedCubeBlock", "GetDisplayName", { " ": "" });
-translateMethod("Game.PaintBucketBlock", "Initialize", { " Paint Bucket": "染剂桶" });
-translateMethod("Game.CarpetBlock", "Initialize", { " Carpet": "地毯" });
 
 translateMethod("Game.PumpkinBlock", "GetDisplayName", {
     "Pumpkin": "南瓜",
@@ -171,6 +193,77 @@ translateMethod("Game.WorldOptionsScreen", "Update", {
     "Normal": "正常"
 });
 
+translateMethodReg("Game.SingleplayerScreen", "^<.ctor>*", { "{0:dd MMM yyyy HH:mm}": "{0:yyyy/M/d HH:mm}" });
+translateMethod("Game.SingleplayerScreen", "Update", { "Existing Worlds ({0})": "已有的世界 ({0})" });
+
+translateMethod("Game.RecipaediaDescriptionScreen", "GetBlockProperties", {
+    "Luminosity": "发光强度",
+    "Fuel Value": "燃料热值",
+    "Is Stackable": "可堆叠",
+    "Is Flammable": "可燃烧",
+    "Nutrition": "营养值",
+    "Digging Method": "挖掘方式",
+    "Digging Resilience": "挖掘抗性",
+    "Explosion Resilience": "爆炸抗性",
+    "Explosive Power": "爆炸强度",
+    "Melee Power": "近战攻击力",
+    "Melee Hit Ratio": "近战攻击命中率",
+    "Projectile Power": "投掷攻击力",
+    "Shoveling": "挖掘效率",
+    "Hacking": "砍伐效率",
+    "Quarrying": "开凿效率",
+    "Durability": "耐久性",
+    "Can Be Dyed": "可以被染色",
+    "Armor Protection": "防御力",
+    "Armor Durability": "受攻击耐久性",
+    "Insulation": "隔热性",
+    "Movement Speed": "移动速度",
+    "Yes": "是",
+    "No": "否",
+    "Yes (up to ": "是 (最大叠加数量为 "
+});
+translateMethod("Game.RecipaediaRecipesScreen", "Update", { " (recipe #{0})": " 合成配方 #{0}" });
+translateMethod("Game.RecipaediaScreen", "Update", {
+    "All Blocks": "所有方块",
+    "recipe": "个配方",
+    "recipes": "个配方",
+    "No recipes": "无法合成"
+});
+
+translateMethod("Game.BlocksManager", "Initialize", {
+    "Terrain": "地形",
+    "Plants": "植物",
+    "Construction": "建筑",
+    "Items": "物品",
+    "Tools": "工具",
+    "Clothes": "服装",
+    "Food": "食物",
+    "Electrics": "电路",
+    "Spawner Eggs": "蛋",
+    "Fireworks": "焰火",
+    "Painted": "染色方块",
+    "Dyed": "染色服装"
+});
+translateMethod("Game.PaintedCubeBlock", "GetCategory", { "Painted": "染色方块" });
+translateMethod("Game.SlabBlock", "GetCategory", { "Painted": "染色方块" });
+translateMethod("Game.StairsBlock", "GetCategory", { "Painted": "染色方块" });
+translateMethod("Game.FenceBlock", "GetCategory", { "Painted": "染色方块" });
+translateMethod("Game.FenceGateBlock", "GetCategory", { "Painted": "染色方块" });
+translateMethod("Game.PostedSignBlock", "GetCategory", { "Painted": "染色方块" });
+translateMethod("Game.ClothingBlock", "GetCategory", { "Dyed": "染色服装" })
+
+translateMethod("Game.ClothingBlock", "GetDisplayName", { " dyed ": "色" });
+translateMethod("Game.PaintedCubeBlock", "GetDisplayName", { " ": "" });
+translateMethod("Game.SlabBlock", "GetDisplayName", { " ": "" });
+translateMethod("Game.StairsBlock", "GetDisplayName", { " ": "" });
+translateMethod("Game.FenceBlock", "GetDisplayName", { " ": "" });
+translateMethod("Game.FenceGateBlock", "GetDisplayName", { " ": "" });
+translateMethod("Game.PostedSignBlock", "GetDisplayName", { " ": "" });
+translateMethod("Game.PaintBucketBlock", "Initialize", { " Paint Bucket": "染剂桶" });
+translateMethod("Game.CarpetBlock", "Initialize", { " Carpet": "地毯" });
+translateMethod("Game.SevenSegmentDisplayBlock", "GetDisplayName", { " 7-Segment Display": "色七段显示器" });
+translateMethod("Game.FourLedBlock", "GetDisplayName", { " 4-LED": "色4像素LED" });
+
 translateMethod("Game.EditMemoryBankDialog", "Update", {
     "Grid": "网格",
     "Linear": "线性"
@@ -214,7 +307,10 @@ translateMethod("Game.ComponentVitalStats", "UpdateTemperature", {
     "Your {0} freezing, seek shelter!": "你的{0}在发抖，去一个暖和的地方！",
     "Your {0} getting cold, dry your clothes": "你的{0}有点冷，弄干你的衣物",
     "Your {0} getting cold, get clothed": "你的{0}有点冷，穿点衣物",
-    "Your {0} getting cold, seek shelter": "你的{0}有点冷，找一个庇护所"
+    "Your {0} getting cold, seek shelter": "你的{0}有点冷，找一个庇护所",
+    "You feel a bit chilly": "你感觉凉飕飕的",
+    "It's too hot, run away!": "这里太热了，赶紧离开！",
+    "You feel hot": "你感觉很热"
 });
 translateMethodReg("Game.ComponentVitalStats", "^<UpdateWetness>*", {
     "You are completely wet": "你身上湿透了",
@@ -233,3 +329,24 @@ translateMethodReg("Game.SubsystemPlayer", "^<Load>*", {
     "Tap to restart adventure": "轻触以重置冒险模式",
     "Tap to respawn": "轻触以复活",
 });
+
+translateMethod("Game.SubsystemGui", "Update", {
+    "Press H for keyboard help": "按 H 查看键盘帮助",
+    "Sneak mode on": "潜行模式已开启",
+    "Sneak mode off": "潜行模式已关闭",
+    "Mounted": "已处于骑乘状态",
+    "Dismounted": "已脱离骑乘状态",
+    "Fly mode on": "飞行模式已开启",
+    "Fly mode off": "飞行模式已关闭",
+    "Third person camera": "第三人称摄像机",
+    "Orbit camera": "环形轨道摄像机",
+    "Fixed camera": "固定摄像机",
+    "First person camera": "第一人称摄像机",
+    "Photo saved in pictures library": "照片已经存储到图片库",
+    "Dawn": "清晨",
+    "Noon": "正午",
+    "Dusk": "黄昏",
+    "Midnight": "午夜"
+});
+
+translateMethod("Game.SubsystemEggBlockBehavior", "OnHitAsProjectile", {"Too many creatures": "生物过多"});
