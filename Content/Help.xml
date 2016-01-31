@@ -48,86 +48,85 @@
     \n\n
     不要骑一只没有鞍的动物，它不会喜欢你那样做的。
   </Topic>
-  <Topic Title="Hunger">
-    You need to eat to stay alive.
-    If you don't eat for a long time, your character will start complaining about it and eventually losing health, until he dies.
-    In addition to that, if you're hungry, you don't regenerate health.
+  <Topic Title="饥饿">
+    你需要进食来维持生命。
+    如果你很长时间不吃东西，你的角色会为此抱怨，然后损失健康值，并最终死亡。
+    而且当你处于饥饿状态时，你不会自动回复健康值。
     \n\n
-    To eat, drag an edible item to the eat rectangle in the body panel.
-    Your character will inform you whether he is still hungry.
+    要吃东西，拖拽你要吃的东西到身体面板上的 身体/食物 方框内。
+    你的角色会告诉你他是不是还是感到饥饿。
     \n\n
-    Food can be obtained from many sources in the game.
-    The obvious one is hunting edible animals, such as cows, birds and wildboars.
-    Keep in mind that hunting may be dangerous, and the supply of animals will quickly dry up in nearby areas, forcing you to search further.
+    游戏中又多种食物来源。
+    最显而易见的方式是捕猎可以吃的动物，比如牛、鸟和野猪。
+    记住，捕猎有可能是很危险的，而且你周围的动物很快会被捕杀殆尽，迫使你去更远处寻找食物。
     \n\n
-    An alternative to hunting is farming.
-    Farming lets you create a sustainable source of food, although it may require lots of preparatory work and further maintenance.
+    一个代替捕猎的食物来源是种植作物。
+    作物是稳定而持续的食物来源，但是需要很多的前期准备工作和后期维护性工作。
   </Topic>
-  <Topic Title="Stamina">
-    Your character is not infinitely strong.
-    When you perform a tiring action for a long time without break, you will tire and start panting.
+  <Topic Title="体力">
+    你的角色不是超人般强壮的。
+    当你做了一些很累人的动作或者很长时间不休息的时候，你会体力不支并开始喘气。
     \n\n
-    When you are panting, your performance is lower than when you are rested.
-    You will move and dig slower, and you will not be able to perform high jumps.
+    当你开始喘气，你的表现会比平时差。
+    你移动得更慢，挖掘方块更慢，而且你跳得没有原来高。
     \n\n
-    Some of the actions that are tiring: running, jumping, swimming, digging.
+    这些动作是很累人的：跑步、跳、游泳、挖掘。
     \n\n
-    It is especially dangerous to get tired when you are in water, because you can't rest while swimming.
-    Watch for early signs of panting, and get out of water immediately.
-    When you get exhausted while in water, you will start drowning and die unless the shore is very near.
+    在水中进入疲劳状态是特别危险的，因为你不能边游泳边休息。
+    注意喘气这个早期信号，并立刻到回到岸上。
+    在水中力竭，你会开始下沉，然后溺死，除非你离岸边很近。
     \n\n
-    Be careful, it's easy to get tired when running away from dangerous animals.
-    This can have fatal consequences for obvious reasons.
+    逃离危险动物时你很容易感到体力不支。
+    显然，后果是致命的。
   </Topic>
-  <Topic Title="Digging Blocks">
-    In Survivalcraft, the entire world is destructible.
+  <Topic Title="挖掘方块">
+    在 Survivalcraft 中，整个世界都是可以破坏的。
     \n\n
-    To dig a block, press it and hold your finger.
-    A digging progress circle will appear.
+    要挖掘一个方块，只需要用你的手指按着它。
+    方块会逐渐出现裂缝，直到被破坏。
     \n\n
-    Some blocks take a very long time to dig without proper tools. 
-    Digging some blocks, such as glass, will destroy them.
+    有些方块，在缺少合适的工具的时候，需要长时间挖掘。
+    挖掘某些方块，比如说玻璃，会破坏它们。
   </Topic>
-  <Topic Title="Placing Blocks">
-    To place a block, select it from your inventory so that you are holding it in your hand.
-    Then tap the face of an existing block, where you want the new block to be attached.
-    The block will be placed there immediately, unless it is impossible for some reason.
+  <Topic Title="放置方块">
+    要放置一个方块，你要在屏幕底部的快捷背包栏中选中它，这样它就会出现在你手上。
+    然后轻触某个已经存在的方块的某个面，这样你手上的方块就会放置到连接着那个面的位置。
+    放置方块是瞬间完成的，有的方块不能被放置。
     \n\n
-    Certain items behave differently if attached to different parts of an existing block.
-    For example, trapdoors can be attached to the top or bottom parts with different results.
+    某些物品的行为会因为不同的连接方式而产生区别。
+    比如，活板门可以连接在一个方块的底部或顶部，这取决与你放置它的方式。
   </Topic>
-  <Topic Title="Interacting With Blocks">
-    Certain blocks are interactive.
-    Some examples of interactive blocks: doors, chests, crafting tables, furnaces, buttons.
+  <Topic Title="与方块互动">
+    有些方块可以交互。
+    比如：门、箱子、工作台、熔炉、按钮。
     \n\n
-    To interact with a block, tap on it.
-    This will invoke the action associated with the block.
+    轻触那个方块来与之交互。
+    这会调用方块相关的动作。
     \n\n
-    For example, if you tap on a closed door, it will open.
+    比如，你可以轻触一扇关上的门，门就会打开。
   </Topic>
-  <Topic Title="Throwing Items">
-    Certain items can be thrown.
-    Some examples of throwable items: stone chunks, spears, bricks, snowballs.
+  <Topic Title="投掷物品">
+    某些特定的物品可以投掷。
+    比如：石块、矛、砖块、雪球。
     \n\n
-    To throw an item, select it in your inventory, so that you are holding it in your hand.
-    Press and hold a point on the screen where you want to throw.
-    A throwing sights will appear.
+    要投掷某个物品，你需要从快捷背包栏中选中它，这样它就会出现在你的手上。
+    长按屏幕，直到出现投掷准星。
     \n\n
-    You can move the sights to refine your aim.
-    Once you release your finger, the item will be thrown.
-    To cancel a throw, move the sights to the edge of the screen.
+    你可以移动准星来调整你的目标。
+    一旦你放开你的手指，物品就会被扔出去。
+    要取消投掷，你可以把准星移到屏幕边缘。
     \n\n
-    Spears are powerful thrown weapons that do a lot of damage when they hit the target.
+    矛是大威力的武器，会对目标造成大量伤害，如果命中的话。
   </Topic>
-  <Topic Title="Dropping Items">
-    All items and blocks can be dropped if you no longer need them.
+  <Topic Title="丢弃物品">
+    所有物品都可以在不需要的时候丢弃。
     \n\n
-    To drop an item or block, drag it from the inventory slot and drop it on the screen.
-    The item will fly a short distance away and fall to the ground.
+    从背包中把物品拖拽到屏幕上可以丢弃它。
+    被丢弃的物品会飞出一小段距离，然后掉到地面上。
     \n\n
-    Watch out, if you're standing too close you will immediately pick up the dropped item again.
+    如果你走得太近，你会重新捡起你丢弃的物品。
     \n\n
-    Dropping items into fire or magma will destroy them.
+    把物品丢进火里或者岩浆里会破坏它们。
   </Topic>
   <Topic Title="Crafting">
     Crafting is a process of making more complicated items out of simpler ones, using a crafting table or the crafting area.
