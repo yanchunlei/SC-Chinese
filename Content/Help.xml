@@ -1,52 +1,52 @@
 <Help>
-  <Topic Title="Basic Movement">
-    Use the touchpad at the bottom left side of the screen to move.
-    Tap it once to jump.
-    This can also be configured to use directional buttons instead of the pad.
+  <Topic Title="基本控制">
+    使用屏幕左下方的触摸板来移动。
+    轻触一下触摸板来跳跃。
+    也可以设置为使用十字形按键而不是触摸板来控制。
     \n\n
-    Use the touchpad at the bottom right side of the screen to look around.
-    Tap it once to jump.
-    You can also drag your finger across any area of the screen to look.
+    使用右下方的触摸板来调整视角。
+    轻触一下触摸板来跳跃。
+    在屏幕的任何地方拖动都可以调整视角。
     \n\n
-    Falling from large heights will injure you.
+    从高处落下会对你造成伤害。
   </Topic>
-  <Topic Title="Sneaking">
-    Sneaking is useful if you want to move slowly and carefully, for example to avoid falling near the edge of a tall crevice.
+  <Topic Title="潜行">
+    潜行模式下你可以很慢、很小心地移动，比如你在很深的裂缝边缘移动，又不想掉下去的时候。
     \n\n
-    To toggle sneak mode, press the sneak button on the right side of the screen.
-    When sneak mode is enabled, your movement will be restricted at edges to prevent you from falling.
+    按一下屏幕右边的潜行按钮可以切换到潜行模式。
+    处于潜行模式时，你的移动会被限制在方块的垂直边缘以内，所以你不用担心会掉下去。
     \n\n
-    Sneaking also makes your movements much quieter, allowing you to come closer to certain animals without scaring them away.
+    潜行时你的移动更安静，这让你有机会接近动物而不被它们发现。
   </Topic>
-  <Topic Title="Flying">
-    Flight is only available in Creative Mode.
-    To toggle fly mode, tap the flight button on the right side of the screen.
+  <Topic Title="飞行">
+    飞行模式仅在创造模式可用。
+    按一下屏幕右边的飞行按钮来切换到飞行模式。
     \n\n
-    Flying is much faster than walking and allows you to quickly get to otherwise inaccessible areas.
+    飞行比走路要快得多，而且可以到达普通模式下无法到达的地方。
   </Topic>
-  <Topic Title="Climbing Ladders">
-    Ladders can be crafted from wooden sticks.
-    Once placed on a vertical wall, they allow you to climb the wall easily.
+  <Topic Title="爬楼梯">
+    梯子可以用木棒合成。
+    放置在垂直墙壁上的梯子可以让你轻松地攀爬。
     \n\n
-    It's safest to climb the ladder when facing it.
-    This is true both for climbing upwards and downwards.
+    最安全的攀爬方式是正面对着梯子，
+    无论是向上爬还是向下爬。
     \n\n
-    Consequently, the best way to climb down a ladder is to approach it backwards, as you would do in real life.
+    因此，最好的爬下梯子的方法是后退着到达梯子，就像你在现实生活中做的那样。
     \n\n
-    You can jump off the ladder at any time
+    你随时可以从梯子上跳下来。
   </Topic>
-  <Topic Title="Riding Animals">
-    You can ride certain animals, such as horses or camels.
-    Riding an animal lets you move more quickly and view the world from a higher vantage point.
+  <Topic Title="骑动物">
+    你可以骑一些特定的动物，比如马和骆驼。
+    骑上动物后你可以更快地移动，而且你的视点会更高。
     \n\n
-    To mount an animal, get close to it and wait for it to stop.
-    The sneak button will turn into mount button.
-    Press it to mount/dismount.
+    要骑一只动物，你要先接近它，并等它静止在一个地方。
+    这是潜行按钮会变成骑乘按钮。
+    按下骑乘按钮可以骑上一只动物或者从动物上下来。
     \n\n
-    To successfully ride an animal, you need a saddle, which can be crafted from leather and wooden sticks.
-    When the animal is saddled, its behavior changes and it becomes more friendly to you.
+    要成功地骑一只动物，你需要一个鞍。鞍可以用皮和木棒合成。
+    动物加上了鞍后，其行为会改变，而且会对你更加友好。
     \n\n
-    Do not mount an unsaddled animal, it will not like it.
+    不要骑一只没有鞍的动物，它不会喜欢的。
   </Topic>
   <Topic Title="Hunger">
     You need to eat to stay alive.
