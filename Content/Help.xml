@@ -128,45 +128,45 @@
     \n\n
     把物品丢进火里或者岩浆里可以破坏它们。
   </Topic>
-  <Topic Title="Crafting">
-    Crafting is a process of making more complicated items out of simpler ones, using a crafting table or the crafting area.
+  <Topic Title="合成">
+    合成是使用简单物品制造复杂物品的过程，需要在合成区域中进行。
     \n\n
-    To craft, you need to place ingredients in the crafting slots in a pattern specific to the item being crafted.
-    All crafting recipes are available in RECIPAEDIA.
+    将原料物品按照特定的模式放置在工作台上就可以合成出新物品。
+    所有的合成配方都可以在合成表里查看到。
     \n\n
-    There are two sizes of crafting areas: 2x2 and 3x3.
-    The smaller area is always available and can be accessed by pressing the crafting button.
-    To craft more complicated items on a 3x3 area you need to make a crafting table, place it somewhere in the world and click on it.
+    合成区域分为两种：2x2 和 3x3。
+    较小的合成区域只要按下合成按钮就会出现。
+    要合成更加复杂的物件，你需要一个 3x3 的合成区域，这种合成区域只能由工作台提供。把工作台放置在任何地方，然后点击工作台，大的合成区域就会出现。
   </Topic>
-  <Topic Title="Smelting">
-    Smelting is thermal processing of substances in a furnace.
-    Up to 2 substances can be placed in the furnace at the same time.
+  <Topic Title="熔炼">
+    熔炼是在熔炉中加热材料的过程。
+    一个熔炉中最多可以同时容纳两种材料。
     \n\n
-    Furnace requires fuel to work.
-    You can use anything that is combustible as a fuel, but some fuels are better (longer lasting) than others.
-    The best fuel is coal.
+    熔炉需要燃料来提供热量。
+    你可以用任何可燃物充当燃料，但是有些特定的燃料燃烧时间更长，因而比其他燃料更好。
+    最佳的燃料是煤炭。
     \n\n
-    You can leave the furnace while it is smelting. The smelting process will continue while you are away.
-    All smelting recipes are available in RECIPAEDIA.
+    熔炉在熔炼材料时，你可以去做别的是。熔炼的进程会照常进行，在你不在的时候也一样。
+    所有的熔炼配方都可以在合成表里找到。
   </Topic>
-  <Topic Title="Splitting stacks of items">
-    Press and hold the slot containing the stack you want to split for about 1 second.
-    A red border will appear around it.
-    The slot is now in splitting mode.
-    Tap any other empty slot, and one item will be taken from the highlighted slot and placed into the tapped slot.
+  <Topic Title="分离堆叠的物品">
+    按住一个你想要分离物品的背包槽大约 1 秒。
+    那个背包槽的边框会变成红色。
+    这时，该背包槽已处于分离模式。
+    轻触任意一个空的背包槽，处于分离模式的那个背包槽内的物品就会转移 1 个到那个你指定的空槽。
     \n\n
-    This technique can also be used to quickly spread items from one stack to multiple slots, e.g. in a crafting table.
+    这个技术也可以应用在需要快速平铺物品到多个槽的时候，比如工作台。
   </Topic>
-  <Topic Title="Mining">
-    You need to mine to obtain resources needed for crafting and smelting.
-    Mining can be as simple as digging in a random place with your bare hands.
-    You will however soon discover that it is not an effective way to mine, because digging hard rock by hand takes a very long time.
+  <Topic Title="挖矿">
+    你需要挖矿以得到合成和熔炼所需要的资源。
+    你可以空手在随便什么地方空手挖掘。
+    但是你很快会发现这不是一个有效的挖矿方式，因为空手凿开坚硬的岩石需要大量的时间。
     \n\n
-    You need to craft mining tools, such as a shovel and pickaxe first.
-    You also need to dig in different places to find specific resources.
-    Caves are a good starting point, because they show you a large cross section through the terrain for free.
+    你需要事先合成挖矿的工具，比如铲子和镐。
+    你还需要在不同的地方挖矿以寻找特定的资源。
+    洞穴可能是一个不错的开始地点，因为洞穴可能跨越多个地层，你可以在洞中寻找你需要的资源而无需挖掘。
     \n\n
-    Be aware that some resources, such as diamonds or malachite, require tools made of strong materials to be mined.
+    注意像钻石或者孔雀石这样的资源，它们需要一定等级以上的材料合成的工具才能开采。
   </Topic>
   <Topic Title="Farming">
     Farming allows you to grow a variety of plants for decorative or consumption purposes.
