@@ -168,39 +168,39 @@
     \n\n
     注意像钻石或者孔雀石这样的资源，它们需要一定等级以上的材料合成的工具才能开采。
   </Topic>
-  <Topic Title="Farming">
-    Farming allows you to grow a variety of plants for decorative or consumption purposes.
-    To grow a plant, you need to obtain its seeds, usually from a fully grown plant specimen.
+  <Topic Title="农业">
+    你可以种植各种各样的植物来装饰你的居所，或用于支持生产。
+    要种植一株植物，你需要得到它的种子。种子通常来自成熟的植物。
     \n\n
-    Some plants will drop seeds immediately when they are harvested, some will require crafting to extract seeds.
-    Some seeds will tolerate poor soil, like dirt or grass.
-    Others, like rye or pumpkins, require high quality tilled and moist soil, which has been fertilized with saltpeter.
-    To make sure the soil is moist, use bucket to create water channels no further than several blocks away.
-    Moist soil is darker than a dry one.
-    To further enhance soil quality, sprinkle it with saltpeter (which is a source of nitrogen).
+    有一些植物在收获时会掉落种子，另一些则需要通过合成来提取。
+    一些种子可以在普通的土地上生长，比如泥土和草地上。
+    而另一些植物，比如小麦和南瓜，需要湿润的耕地才能正常生长，而且通常需要施肥。
+    用桶可以制造人工水源，在水源几格的范围内的耕地可以被润湿。
+    湿润的土壤看起来比干燥的土壤更暗一些。
+    如果你想进一步改善土壤品质，可以撒一些硝石来作为氮的来源。
     \n\n
-    Plants may take a long time to grow, be patient.
+    植物的生长可能需要很长时间，耐心一点。
   </Topic>
-  <Topic Title="Buckets">
-    Buckets are used for transporting fluids, such as water or magma.
-    To fill empty bucket with a fluid, you need to find a source block of the fluid.
-    For example, all ocean blocks are source blocks of water.
+  <Topic Title="桶">
+    桶可以用来运输液体，比如水和岩浆。
+    要用桶采集液体，你要先找到液体的源方块。
+    比如，海洋里所有的水方块都是源方块。
     \n\n
-    Holding the empty bucket in your hand, tap the source block to collect it.
-    The block will be removed from the world and placed inside the bucket.
+    在你手持一个空桶的时候轻触源方块来收集它。
+    方块会被移动到你的桶里，并从地面上消失。
     \n\n
-    To pour the fluid from the bucket, tap on terrain.
-    A new source block of fluid will be created, and the fluid will spread out from there.
-    You can collect the placed source block again with the empty bucket.
+    要倒出桶里的液体，只需要轻触地面。
+    在你指定的地方，一个新的源方块会生成，接着会有液体从里面流出来。
+    你可以用空桶再次收集它，把它放置到另外一个位置。
   </Topic>
-  <Topic Title="Dyeing and Painting">
-    Some blocks and items can be dyed or painted.
+  <Topic Title="染色">
+    有些方块和物品可以被染色。
     \n\n
-    To paint bricks, stone, wood or other blocks, make a paint bucket of appropriate color and use it on the item you want to paint.
-    One bucket is good for painting several dozen blocks, after that it runs out.
+    要染色砖块、石头、木头或者其他可以染色的方块，你需要有一个装满染料的桶，然后对着你想要染色的方块使用。
+    桶中的染料足够给几十个方块染色。
     \n\n
-    To dye clothing, place a piece of clothing with a bucket full of paint in a furnace.
-    You can dye clothing multiple times, combining colors.
+    要给服装染色，可以把衣服和装满染料的桶放进熔炉。
+    你可以多次给衣服染色，颜色会叠加。
   </Topic>
   <Topic Title="Electricity">
 	Electricity is a powerful mechanism in the game that can be used to control behavior of certain blocks.
@@ -266,83 +266,83 @@
 	\n\n
 	Explore and have fun!
   </Topic>
-  <Topic Title="Sleeping">
-    Sleeping will help restore your health and pass the boring night hours when it's too dark or dangerous to work.
+  <Topic Title="睡眠">
+    睡眠可以回复你的健康值，也能帮你度过漫漫长夜，因为夜间通常很危险，或者太暗而不适合工作。
     \n\n
-    Even if you are not hurt, you still need to sleep from time to time.
-    If you neglect it, your character will start to have short blackouts.
-    If you keep active despite this warning, the blackouts will get longer and eventually you will lose consciousness.
-    Losing consciousness is very dangerous, because predatory animals will quickly smell you and feast on your unguarded flesh.
+    就算你没有受伤，你仍然需要按时睡觉。
+    如果你忘了睡觉，你的角色会开始经历短暂的黑视。
+    如果你仍然忽略这个警告，黑视的时间会越来越长，最终你会失去意识。
+    失去意识是十分危险的，因为掠食性动物会很快闻到你的气味，并攻击你。
     \n\n
-    Although you don't need a bed, you can only sleep in a cosy and comfortable place.
-    The ground cannot be too hard and the area cannot be too exposed to the elements, or wet.
+    你不需要用床来睡觉，但你需要一个舒适的地方躺下。
+    地面不能太硬或太湿，而且地点要比较隐蔽。
     \n\n
-    Your respawn point is set to a place where you last slept.
-    To sleep, open the body screen and press a little sleeping button.
+    复活点总是设定在你上一次睡觉的地方。
+    如果你想睡一觉，打开身体面板，按一下小的睡觉按钮。
     \n\n
-    Note: Sleeping is disabled in the demo.
+    注意: 睡觉在 demo 版本里是禁止的。
   </Topic>
-  <Topic Title="Body Temperature">
-    When you are out in the cold without proper clothes, your body temperature will drop.
-    Your view will start to freeze over and you will start losing health.
-    Find a warmer place or get near fire to warm and dry yourself.
+  <Topic Title="体温">
+    当你在暴露在很冷的室外，并且只穿着单薄的衣服时，你的体温会开始下降。
+    你的视线会开始结冰，然后你会开始损失健康值。
+    找一个温暖点的地方或者靠近火来温暖并弄干你自己。
     \n\n
-    Too much warmth will do you no good either, standing too close to a large fire will cause you to overheat.
+    过高的温度对你也不好，太靠近旺盛的火焰会使你过热。
     \n\n
-    Sheltered areas are warmer than outside.
-    Plugging all the holes and locking doors will make a shelter warmer still.
-    Even a small hole open to the elements will admit draughts and make a large difference to temperature.
-    Make a fire inside your shelter to make it homely warm and allow you to take your clothes off.
+    封闭的环境比外界暖和。
+    堵上庇护所的所有的漏洞，再把门锁上可以让你的庇护所暖和起来。
+    就算只有一个很小的漏洞与外界连通，也会使你的庇护所的保暖性大大降低。
+    在你的庇护所内生火可以让它变得十分温暖，这时你甚至可以脱掉衣服。
     \n\n
-    Being wet dramatically increases your susceptibility to cold, find a warm place to dry yourself faster.
+    在身体很湿的情况下，你抵御严寒的能力会大大降低。此时，你应该去找一个温暖的地方并尽快弄干你自己。
     \n\n
-    The best way to deal with cold is to wear multiple layers of thick, dry clothes.
-    You need to cover your entire body, leaving feet or head unclothed will defeat most of the warming effect other clothes have.
-    Clothes made of animal fur are best for keeping cold out.
+    最好的御寒方法是穿很多层厚厚的干衣服。
+    你需要在身体的所有部位穿上衣物。如果你不在脚上、头上穿好衣服，就算你在身上穿好了很厚衣服，效果仍然不好。
+    用动物毛皮制成的衣服是最佳的御寒衣物。
   </Topic>
-  <Topic Title="Clothing">
-    Wearing clothing provides warmth in cold climates and armor protection during combat.
-    You can access clothing interface by using Clothing button.
+  <Topic Title="服装">
+    服装可以让你在冷的地方保持温暖，也可以在战斗时提供保护。
+    你可以通过服装按钮访问服装界面。
     \n\n
-    There are 4 clothing slots on your body: head, torso, legs and feet.
-    Each slot can have multiple clothing items, layered one on top of each other.
-    The effects of multiple clothing items combine.
+    你身上总共有 4 个服装槽: 头、躯干、腿和脚。
+    每一个服装槽都可以装备多种服装，层层相套。
+    多套服装的效果可以叠加。
     \n\n
-    Not everything can be worn on top of anything else, for example you will not be able to wear a t-shirt on top of a fur coat.
+    不是每一种服装都可以套在另一种的外面，比如你不能在毛皮外套外面再穿一条T恤衫。
     \n\n
-    Wearing thick clothes in one slot while leaving another slot bare will not afford much warmth.
-    It's imperative to cover entire body to really benefit from clothing.
-    It's the thinnest piece of clothing that determines how much heat you lose.
+    如果你在某个部位穿上很厚的衣服，其他部位不穿，那么你身体的热量仍会流失。
+    你必须裹得严严实实的，这样才能真正起到保暖的作用。
+    是最薄的那条衣服在决定你流失多少热量。
   </Topic>
-  <Topic Title="Armor">
-    Wearing armor or thick clothing will reduce or even completely eliminate combat injuries.
-    Armor will absorb the hits, so that they damage the armor instead of injuring your body.
-    Once the armor receives too much damage, it will disintegrate.
+  <Topic Title="防具">
+    穿戴防具或者厚重衣物可以减少甚至完全吸收伤害。
+    防具可以吸收冲击，这样伤害就会转移到防具上，而不是被你的身体承担。
+    一旦一个防具吸收了过多伤害，它就会最终崩裂。
     \n\n
-    When you are attacked, you will randomly receive a hit into one of your four body areas: head, torso, legs or feet.
-    If there is no armor at that slot, you will receive full injury, irrespective of how much armor you wear elsewhere.
-    By far the most likely area to receive hits is torso, followed by legs.
-    Wearing torso armor will stop 60% of hits, torso and legs together will stop 80%.
-    Head and feet armor is of less importance, unless you want to be 100% safe.
+    你受到的攻击会随机性地分布在身体的四个部位：头、躯干、腿以及脚。
+    如果你受到攻击的部位没有穿戴防具，你会承受全部伤害，这与你在其他地方穿戴的防具无关。
+    最容易受到攻击的部位是躯干，接下来是腿。
+    穿戴躯干防具会阻挡 60% 的攻击，同时穿戴躯干和腿部防具会阻挡 80% 的攻击。
+    头部和脚部的防具因此显得更不重要，除非你想要确保 100% 的安全。
     \n\n
-    The strongest armor is made of iron and diamonds.
-    Early in the game, you can craft wooden torso armor from sticks and strings.
-    It's not very sturdy but will stand a few hits potentially saving your life.
+    最坚固的防具由铁和钻石制成。
+    在游戏初期，你可以用木棒和绳子合成木制防具。
+    木制防具并不是非常坚固，但是可以承受几次攻击，因此有可能救你一命。
     \n\n
-    Even plain clothes have certain armor value, especially thick ones made of leather and fur.
-    They do not stop all hits, but only partially reduce the damage.
+    就算是纯粹的衣物也会有一定的防御值，特别是那些厚重的毛皮衣物。
+    他们并不能阻挡攻击，只是有可能减少伤害。
     \n\n
-    Wearing heavy armor will make you sink to the bottom and drown, be careful around deep water.
+    穿着厚重的防具可能让你在水中沉下去，因此要当心深水。
   </Topic>
-  <Topic Title="Boats">
-    Boats can be used to travel across large bodies of water quickly and safely.
+  <Topic Title="船">
+    船可以在大片的水域中快速而安全地穿梭。
     \n\n
-    If you don't have a boat, you risk drowning from exhaustion or being attacked by dangerous underwater creatures.
+    如果你在没有船的情况下游过大片水域，你要承担力竭或者被危险水下动物攻击的风险。
     \n\n
-    To craft a boat you need lots of wood and a crafting table.
-    Once the boat is crafted, it can be placed on the shore and mounted in the same way as a horse.
+    用大量的木头和一张工作台可以合成船。
+    船被合成后可以放置在岸上，你可以像骑马一样骑上去。
     \n\n
-    You can only control a boat when it is in the water.
+    但是你只能在水中控制船。
   </Topic>
   <Topic Title="Suicide">
     Sometimes when you are stuck, the only option is suicide, so that you can respawn at your last sleeping place.
