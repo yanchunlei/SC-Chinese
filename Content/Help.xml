@@ -203,68 +203,68 @@
     你可以多次给衣服染色，颜色会叠加。
   </Topic>
   <Topic Title="Electricity">
-	Electricity is a powerful mechanism in the game that can be used to control behavior of certain blocks.
-	For example, a lightbulb will produce light when connected to a source of electricity, doors will open or close if activated with an electric signal, and many more.
+	电路是游戏中一个强大的机制，可以用来控制特定方块的行为。
+    例如，电灯泡在连接到电源时可以发光，门可以受电信号的控制打开/关闭，等等。
     \n\n
-	If you know a bit about real-world electronics, you should feel at home in Survivalcraft.
-	All the familiar devices, such as logic gates (AND, OR, NOT etc.) are present and signals are characterized by voltage.
-	You can combine gates to build complex circuits, even computers or video games (check Community Content for some great builds by master electricians).
-	There are also sensors, such as pressure plates, photodiodes etc. that produce varying signals depending on conditions around them.
+    如果你对现实生活中的电路有一点了解，你应该会觉得游戏中的电路很熟悉。
+    电路中的基础原件，比如逻辑门 (AND, OR, NOT 等) 都可以在游戏中找到。电信号使用电压来描述。
+    你可以组合逻辑门来构造复杂的电路，甚至是计算机或者视频游戏 (社区内容中有很多很棒的电路作品)。
+    游戏中还有很多传感器，比如压力版、光线传感器等。传感器可以根据周围的环境输出不同的信号。
     \n\n
-	For descriptions of all available electric devices, check RECIPAEDIA.
+    在合成表中你可以看到所有可用电子元件的具体描述。
     \n\n
-	Electric signals in the game are conducted through copper wires and have a voltage that is between 0V and 1.5V, in increments of 0.1V.
-	This gives 16 distinct voltage values.
+    游戏中的电子信号通过铜导线传导，电压可以在 0V 到 1.5V 之间变化，相邻两个信号值之间相差 0.1V。
+    这样，游戏中一共存在 16 种分立的电信号。
     \n\n
-	Digital devices, such as buttons, lightbulbs or doors work only with digital signals that have two possible values: low (0, false, off, no) and high (1, true, on, yes).
-	In this case, a voltage below 0.8V indicates low, 0.8V and greater indicates high.
-	Most commonly digital signals have voltages of 0V for low and 1.5V for high, but any value below 0.8V will be read as low.
+    数字设备，比如按钮、灯泡或者门，只能处理数字信号。数字信号的信号值只有 2 个：低电平 (0, false, off, no) 和高电平 (1, true, on, yes)。
+    这种情况下，电压小雨 0.8V 的电信号判定为低电平， 0.8V 及以上的判定为高电平。
+    最常见的低电平是 0V， 最常见的高电平是 1.5V。
     \n\n
-	Analog devices, such as pressure plates or motion detectors work with analog signals.
-	They will react to each different value of voltage between 0 and 1.5V, not just low and high states.
-	For example, sound generator volume and pitch inputs are controlled by analog voltages.
-	The volume and pitch will increase smoothly as the voltages get higher.
+    模拟设备，比如压力版和运动检测器，能处理模拟信号。
+    模拟设备会对每一个电压在 0 到 1.5V 的电信号做出反应，而不是仅仅判断它们是高电平还是低电平。
+    比如，声音生成器的音量和声调输入是由模拟信号控制的。
+    增大输入电压，声调和音量可以平滑地上升。
     \n\n
-	It's good to remember that both analog and digital signals are really the same thing when conducted through the wire, a voltage between 0V and 1.5V.
-	Only the way a device interprets the signal's voltage determines whether it is digital or analog.
+    当在导线中传输时，模拟信号和数字信号是等同的，即 0V 到 1.5V 之间的一个电压值。
+    一个电信号是模拟信号还是数字信号仅仅取决于设备解读电信号的方式。
     \n\n
-	Voltage can also be interpreted as a number, with 0V representing 0 and 1.5V representing 15.
-	Some devices, such as displays, DAC/ADC converters or counters use this interpretation.
+    电压可以解读成数字， 0V 代表 0， 1.5V 代表 15。
+    有些设备，比如显示器、数模/模数转换器以及计数器如此解读电信号。
     \n\n
-	All electric devices have connections (inputs and outputs) on their sides, and sometimes also on their back (the face attached to the wall).
-	On complex devices these are indicated by blue and red dots on edges of the elements.
-	Blue means input, red means output.
-	Number of dots means number of the connection.
-	Simple devices, such as buttons, switches or lightbulbs do not have these dots, because they use one input/output only and can be connected from any side.
+    所有的电子设备都在四边有连接端口，有的设备在背面也有端口 (即靠墙的那面)。
+    复杂的设备的边缘又红色和蓝色的点。
+    蓝色表示输入，红色表示输出。
+    点的数目表示端口的序数。
+    一些简单的设备，像按钮、开关和灯泡没有这些点，因为它们要么只有输入端，要么只有输出端，并且在任意方向都可以连接。
     \n\n
-	Electric devices can be placed on the walls, and sometimes also on the floor/ceiling. 
-	Once placed, they can be rotated so that it's easy to connect appropriate inputs and outputs together with the wires.
+    电子设备可以放在墙上、地板上或者天花板上。
+    有的设备在放置后还可以旋转，这样可以很容易地用电线连接输入和输出的端口。
     \n\n
-	There is a special type of block in the game, called wire-though-block, which is a normal block with a hole drilled and an electric wire threaded though it.
-	It is very useful when trying to hide wires from sight, run them though the wall, or prevent them from connecting with other wires.
-	It is also the only way to access the "back" connection of devices which have it.
-	\n\n
-	Electricity in Survivalcraft is processed at a frequency of 100Hz.
-	It means that voltage goes from one element to another in 0.01s, irrespective of the length of the wire.
-	If you need to delay the signal, you may place some neutral elements in its path (for example an OR gate or a pair of NOT gates).
-	Each additional element in the way of the signal will delay it by 0.01s.
-	For longer delays use Delay Gate, which can produce very long delays if required.
-	\n\n
-	Electricity is a complex topic and making large working machines requires some learning, but is very satisfying.
-	Simple devices however can be constructed by anyone.
-	For example, try placing a button next to the hinges of a door.
-	You will notice a wire appeared, clicking the button will now operate the door!
-	All this scary talk about voltages, signals, digital and analog, but in reality it's that simple.
-	\n\n
-	Another easy thing to build might be a light switch.
-	Place a lightbulb on the ceiling and a switch (not button) on the wall.
-	Then connect them with a wire.
-	The switch now operates the light, like in a real room!
-	\n\n
-	Survivalcraft is more about realism than other games of this type, and electricity is no exception.
-	What you learn here, might become invaluable when you get to learn this at school, or have to use it for living.
-	\n\n
-	Explore and have fun!
+    游戏中还有一种很特殊的方块，叫穿线方块。穿线方块是打了洞的普通方块，洞中穿有导线。
+    穿线方块常用于隐藏导线，在墙中布线，或者防止导线互相连接。
+    穿线方块也是连接设备 “背面” 端口的唯一方法。
+    \n\n
+    Survivalcraft 中的电路以 100Hz 的频率运行。
+    这意味着电信号的传输速度为 0.01s， 与导线长度无关。
+    如果你需要延迟信号，你可以放置一些中立的元件在线路中， 比如或门或者延迟元件。
+    每个元件从收到输入信号到产生输出信号有 0.01s 的延迟。
+    如果需要的话可以用延迟元件制造更长的延时。
+    \n\n
+    电路是一个复杂的话题。制造巨大的、可用的电路需要一些学习，但这很有趣。
+    但是简单的电路每个人都可以构建。
+    比如，在门边上放上一个按钮。
+    你会发现门和按钮之间出现了一条电线，按下按钮可以操纵这扇门！
+    虽然我们刚刚讨论了可怕的电压、电信号，数字、模拟，但是实际上电路就是这么简单。
+    \n\n
+    另一个容易构造的电路可能是点灯开关了。
+    在天花板上放置一个电灯泡，然后在墙上放上一个开关 (不是按钮)。
+    接着，用电线把两者连接起来。
+    开关可以操纵点灯了，就像在一个真的房间里那样！
+    \n\n
+    Survivalcraft 在同类游戏中更注重真实，所以这样的一个电路机制没什么令人意外的。
+    但是你在这里学会的电路，可能对你在学校的电路学习没有帮助，在生活中你也可能用不到。
+    \n\n
+    玩得开心点！
   </Topic>
   <Topic Title="睡眠">
     睡眠可以回复你的健康值，也能帮你度过漫漫长夜，因为夜间通常很危险，或者太暗而不适合工作。
@@ -344,10 +344,10 @@
     \n\n
     但是你只能在水中控制船。
   </Topic>
-  <Topic Title="Suicide">
-    Sometimes when you are stuck, the only option is suicide, so that you can respawn at your last sleeping place.
+  <Topic Title="自杀">
+    有时你会在游戏中卡住，这时唯一的可行选项就是自杀，这样你还能回到你上一次睡觉的地方。
     \n\n
-    To kill yourself, open the body screen and repeatedly press the skull and bones button.
+    要杀死你自己，打开身体面板，然后连按几下有骷髅和骨头图案的按钮。
   </Topic>
   <Topic Title="Dropbox">
     The game uses Dropbox service to allow you to download and upload data to/from your device.
@@ -360,24 +360,20 @@
     \n\n
     Once you log in, the Dropbox screen will show you the contents of your online Dropbox folders, and allow you to download the files to your device.
   </Topic>
-  <Topic Title="SD Card" DisabledPlatforms="Ios, Windows81, WindowsPhone81, Desktop">
-    The game allows you to import and export worlds to SD Card for sharing and backup purposes.
+  <Topic Title="SD 卡" DisabledPlatforms="Ios, Windows81, WindowsPhone81, Desktop">
+    你可以把你的世界导出到 SD 卡上，以达到分享或备份的目的。
     \n\n
-    If your device does not have an SD Card, generic external storage folder will be used.
-    The location of the data on the device is normally /sdcard/Survivalcraft
+    如果你的设备没有 SD 卡，导出的文件会位于通用外部存储文件夹。
+    通常情况下，导出数据的位置是 /sdcard/Survivalcraft
   </Topic>
-  <Topic Title="Community Content">
-    The game allows you to browse a list of worlds and block textures published by other Survivalcraft community members, and download them.
+  <Topic Title="社区内容">
+    在游戏中你可以浏览并下载社区成员发布的世界和方块纹理。
     \n\n
-    Once you build something interesting, you can also publish it through this service, and it will appear on the list for anyone to download.
+    如果你做出了有趣的东西，你可以用这个服务把它发布出去，内容将会出现在下载列表上，任何人都可以去下载。
     \n\n
-    To publish something, first you need to put it on the internet, so that it's accessible to everyone.
-    The easiest place to use is Dropbox, although you can use any other provider.
-    Once it's done, you can publish the link to it through "Publish Link" dialog in the game.
-    \n\n
-    Note: the server does not store your content, only the link.
-    Just like a search engine.
-    You are responsible for keeping the data accessible through the published link.
-    Watch out for exceeding bandwidth limits of your provider, having a link near top of the list will make your content receive multiple thousands of downloads in a short time.
+    要发布内容，该内容必须位于互联网上，这样每个人都可以访问到了。
+    最简单的方法是使用 Dropbox，但是你也可以选择其他的服务提供商。
+    上传完成后，你可以通过游戏中的 "Publish Link" 对话框来发布内容。
+    注意你的服务提供商准许的带宽限额，因为一个位于排行榜顶部的内容可以在短时间内被下载几千次。
   </Topic>
 </Help>
