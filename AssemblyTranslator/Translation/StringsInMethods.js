@@ -382,3 +382,11 @@ translateMethod("Game.SettingsUiScreen", "Update", {
     "Enabled": "启用",
     "Disabled": "禁用"
 });
+
+translateMethod("Game.ExternalContentManager", "GetEntryTypeDescription", {
+    "Directory": "目录",
+    "Blocks Texture": "方块纹理",
+    "Character Skin": "角色皮肤",
+    "World": "世界"
+});
+translateMethod("Game.DownloadContentFromLinkDialog", "Update", { "Select Content Type": "选择内容类型" });
