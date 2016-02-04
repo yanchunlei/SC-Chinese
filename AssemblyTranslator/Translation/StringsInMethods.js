@@ -70,11 +70,6 @@ function generateTranslation(object) {
     return translation;
 }
 
-translateMethodReg("Game.SubsystemIntro", "^<ShipView_Enter>*", {
-    "Weigh anchor, boys.": "起锚，伙计们。",
-    "And you there, on the shore!": "你在那边，在岸上。",
-    "Remember, we won't be back for you!": "记住，我们永远不会为了你再回来的！"
-});
 
 translateMethod("Game.PaintBucketBlock", ".cctor", {
     "White": "白",
@@ -264,6 +259,12 @@ translateMethod("Game.CarpetBlock", "Initialize", { " Carpet": "地毯" });
 translateMethod("Game.SevenSegmentDisplayBlock", "GetDisplayName", { " 7-Segment Display": "色七段显示器" });
 translateMethod("Game.FourLedBlock", "GetDisplayName", { " 4-LED": "色4像素LED" });
 
+translateMethodReg("Game.SubsystemIntro", "^<ShipView_Enter>*", {
+    "Weigh anchor, boys.": "起锚，伙计们。",
+    "And you there, on the shore!": "你在那边，在岸上。",
+    "Remember, we won't be back for you!": "记住，我们永远不会为了你再回来的！"
+});
+
 translateMethod("Game.EditMemoryBankDialog", "Update", {
     "Grid": "网格",
     "Linear": "线性"
@@ -350,3 +351,34 @@ translateMethod("Game.SubsystemGui", "Update", {
 translateMethodReg("Game.SubsystemGui", "^<Update>*", { "Photo saved in pictures library": "照片已经存储到图片库" });
 
 translateMethod("Game.SubsystemEggBlockBehavior", "OnHitAsProjectile", {"Too many creatures": "生物过多"});
+
+
+translateMethod("Game.SettingsControlsScreen", "Update", {
+    "On": "开启",
+    "Off": "关闭"
+});
+translateMethod("Game.SettingsCompatibilityScreen", "Update", {
+    "On": "开启",
+    "Off": "关闭"
+});
+translateMethod("Game.SettingsPerformanceScreen", "Update", {
+    "{0} blocks": "{0} 格",
+    "(good for slower devices)": "(适合较慢的设备)",
+    "(1GB RAM recommended)": "(适合 1GB RAM 的设备)",
+    "(2GB RAM and a fast\ndevice recommended)": "(适合 2GB RAM 的\n高速设备)",
+    "(4GB RAM and a fast\ndevice recommended)": "(适合 4GB RAM 的\n高速设备)",
+    "(8GB RAM and a fast\ndevice recommended)": "(适合 8GB RAM 的\n高速设备)",
+    "Unlimited": "无限制",
+    "Enabled": "启用",
+    "Disabled": "禁用",
+    "Yes": "是",
+    "No": "否",
+    "Large Visibility Range": "大可视距离",
+    "The game may crash randomly if your device does not have enough memory to handle the visibility range you selected.": "在你选择的视距下，如果你的设备缺少可用内存，游戏随时可能崩溃。"
+});
+translateMethod("Game.SettingsUiScreen", "Update", {
+    "Yes": "是",
+    "No": "否",
+    "Enabled": "启用",
+    "Disabled": "禁用"
+});

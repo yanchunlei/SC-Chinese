@@ -60,12 +60,6 @@ translateEnum("Game.MoveControlMode", {
     "Buttons": "按钮"
 });
 
-translateEnum("Game.SkyRenderingMode", {
-    "Full": "完全",
-    "NoClouds": "无云",
-    "Disabled": "禁用"
-});
-
 translateEnum("Game.TimeOfDayMode", {
     "Changing": "变化",
     "Day": "白天",
@@ -78,4 +72,34 @@ translateEnum("Game.ViewAngleMode", {
     "Normal": "正常",
     "Narrow": "窄",
     "Wide": "宽"
+});
+
+translateEnum("Game.SkyRenderingMode", {
+    "Full": "完全",
+    "NoClouds": "无云",
+    "Disabled": "禁用"
+});
+
+
+translateEnum("Game.GuiSize", {
+    "Smallest": "最小",
+    "Smaller": "小",
+    "Normal": "正常",
+    "Larger": "大"
+});
+
+translateEnum("Game.ResolutionMode", {
+    "Low": "低",
+    "Medium": "中",
+    "High": "高"
+});
+
+translateEnum("Game.TextureAnimationMode", {
+    "Full": "完全",
+    "Reduced": "简化"
+});
+
+translateEnum("Game.ScreenshotSize", {
+    "ScreenSize": "屏幕大小",
+    "FullHD": "全高清"
 });
