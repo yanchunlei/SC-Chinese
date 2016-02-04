@@ -1,131 +1,131 @@
 <Recipes>
   <Smelting>
-    <Recipe Result="CoalChunkBlock" ResultCount="1" RequiredHeatLevel="1" a="wood" Description="Make charcoal by burning wood in oxygenless atmosphere">
+    <Recipe Result="CoalChunkBlock" ResultCount="1" RequiredHeatLevel="1" a="wood" Description="在缺氧环境下烧木头可以制造焦炭">
       "aa"
     </Recipe>
-    <Recipe Result="GraniteBlock" ResultCount="1" RequiredHeatLevel="1" a="cobblestone" Description="Turn cobblestone into granite by smelting">
+    <Recipe Result="GraniteBlock" ResultCount="1" RequiredHeatLevel="1" a="cobblestone" Description="通过熔炼将鹅卵石转化成花岗岩">
       "a"
     </Recipe>
-    <Recipe Result="GlassBlock" ResultCount="1" RequiredHeatLevel="1" a="sand" Description="Melt sand to obtain glass">
+    <Recipe Result="GlassBlock" ResultCount="1" RequiredHeatLevel="1" a="sand" Description="通过熔炼沙子来得到玻璃">
       "a"
     </Recipe>
-    <Recipe Result="MarbleBlock" ResultCount="1" RequiredHeatLevel="1" a="limestone" b="sand" Description="Melt sand with limestone to obtain marble">
+    <Recipe Result="MarbleBlock" ResultCount="1" RequiredHeatLevel="1" a="limestone" b="sand" Description="熔炼沙子和石灰岩来得到大理石">
       "ab"
     </Recipe>
-    <Recipe Result="IronIngotBlock" ResultCount="1" RequiredHeatLevel="1" a="ironore" Description="Smelt iron ore to obtain iron">
+    <Recipe Result="IronIngotBlock" ResultCount="1" RequiredHeatLevel="1" a="ironore" Description="熔炼铁矿石可以得到铁">
       "a"
     </Recipe>
-    <Recipe Result="CopperIngotBlock" ResultCount="1" RequiredHeatLevel="1" a="malachitechunk" Description="Smelt copper ore to obtain copper">
+    <Recipe Result="CopperIngotBlock" ResultCount="1" RequiredHeatLevel="1" a="malachitechunk" Description="熔炼铜矿石可以得到铜">
       "a"
     </Recipe>
-    <Recipe Result="GermaniumChunkBlock" ResultCount="1" RequiredHeatLevel="1" a="germaniumore" Description="Smelt germanium ore to obtain germanium crystals">
+    <Recipe Result="GermaniumChunkBlock" ResultCount="1" RequiredHeatLevel="1" a="germaniumore" Description="熔炼锗矿石可以得到锗晶体">
       "a"
     </Recipe>
-    <Recipe Result="BrickBlock" ResultCount="2" RequiredHeatLevel="1" a="clay" Description="Fire clay to make bricks">
+    <Recipe Result="BrickBlock" ResultCount="2" RequiredHeatLevel="1" a="clay" Description="烧制粘土可以得到砖块">
       "a"
     </Recipe>
-    <Recipe Result="RodBlock" ResultCount="4" RequiredHeatLevel="1" a="ironingot" Description="Forge an iron ingot into rods">
+    <Recipe Result="RodBlock" ResultCount="4" RequiredHeatLevel="1" a="ironingot" Description="将铁块铸造成铁棍">
       "aa"
     </Recipe>
   </Smelting>
   <Pigments>
-    <Recipe Result="PigmentBlock" ResultCount="2" RequiredHeatLevel="1" a="limestone" Description="Fire limestone to make white pigment">
+    <Recipe Result="PigmentBlock" ResultCount="2" RequiredHeatLevel="1" a="limestone" Description="将石灰岩烧制成白色染料">
       "a"
     </Recipe>
-    <Recipe Result="PaintBucketBlock" ResultCount="1" RequiredHeatLevel="1" a="waterbucket" b="pigment" Description="Dissolve white pigment in water to make white paint">
+    <Recipe Result="PaintBucketBlock" ResultCount="1" RequiredHeatLevel="1" a="waterbucket" b="pigment" Description="将白色染料溶解在水中来得到白色油漆">
       "ab"
     </Recipe>
-    <Recipe Result="PaintStripperBucketBlock" ResultCount="1" RequiredHeatLevel="1" a="waterbucket" b="saltpeterchunk" Description="Dissolve saltpeter in water to make paint stripper">
+    <Recipe Result="PaintStripperBucketBlock" ResultCount="1" RequiredHeatLevel="1" a="waterbucket" b="saltpeterchunk" Description="将脱染剂溶解在水中来制造脱染剂桶">
       "ab"
     </Recipe>
   </Pigments>
   <Food>
-    <Recipe Result="FlourBlock" ResultCount="1" RequiredHeatLevel="0" a="seeds:5" Description="Crush rye grains to make flour">
+    <Recipe Result="FlourBlock" ResultCount="1" RequiredHeatLevel="0" a="seeds:5" Description="压碎小麦谷粒来制造面粉">
       "aaa"
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="DoughBlock:0" ResultCount="1" Remains="EmptyBucketBlock" RemainsCount="1" RequiredHeatLevel="0" a="flour" b="waterbucket" Description="Mix flour and water to make bread dough">
+    <Recipe Result="DoughBlock:0" ResultCount="1" Remains="EmptyBucketBlock" RemainsCount="1" RequiredHeatLevel="0" a="flour" b="waterbucket" Description="混合水和面粉可以制作面团">
       "ab"
     </Recipe>
-    <Recipe Result="BreadBlock" ResultCount="1" RequiredHeatLevel="1" a="dough:0" Description="Bake dough to make bread">
+    <Recipe Result="BreadBlock" ResultCount="1" RequiredHeatLevel="1" a="dough:0" Description="将面团烤制成面包">
       "a"
     </Recipe>
-    <Recipe Result="CookedBirdBlock" ResultCount="1" RequiredHeatLevel="1" a="rawbird" Description="Cook raw meat to increase its nutritional value">
+    <Recipe Result="CookedBirdBlock" ResultCount="1" RequiredHeatLevel="1" a="rawbird" Description="烹饪生肉可以增加其营养价值">
       "a"
     </Recipe>
-    <Recipe Result="CookedBaconBlock" ResultCount="1" RequiredHeatLevel="1" a="rawbacon" Description="Cook raw meat to increase its nutritional value">
+    <Recipe Result="CookedBaconBlock" ResultCount="1" RequiredHeatLevel="1" a="rawbacon" Description="烹饪生肉可以增加其营养价值">
       "a"
     </Recipe>
-    <Recipe Result="CookedFishBlock" ResultCount="1" RequiredHeatLevel="1" a="rawfish" Description="Cook raw fish to increase its nutritional value">
+    <Recipe Result="CookedFishBlock" ResultCount="1" RequiredHeatLevel="1" a="rawfish" Description="烹饪生鱼肉可以增加其营养价值">
       "a"
     </Recipe>
   </Food>
   <Materials>
-    <Recipe Result="PlanksBlock" ResultCount="4" RequiredHeatLevel="0" a="wood" Description="Cut a block of wood into planks">
+    <Recipe Result="PlanksBlock" ResultCount="4" RequiredHeatLevel="0" a="wood" Description="把原木砍成木块">
       "a"
     </Recipe>
-    <Recipe Result="StickBlock" ResultCount="4" RequiredHeatLevel="0" a="planks" Description="Cut a wooden plank into sticks">
-      "a"
-      "a"
-    </Recipe>
-    <Recipe Result="StringBlock" ResultCount="1" RequiredHeatLevel="0" a="ivy" Description="Make a string from ivy">
-      "a"
+    <Recipe Result="StickBlock" ResultCount="4" RequiredHeatLevel="0" a="planks" Description="把木块砍成木棒">
       "a"
       "a"
     </Recipe>
-    <Recipe Result="StringBlock" ResultCount="3" RequiredHeatLevel="0" a="cottonwad" Description="Make strings from cotton">
+    <Recipe Result="StringBlock" ResultCount="1" RequiredHeatLevel="0" a="ivy" Description="用常春藤制造绳子">
       "a"
       "a"
       "a"
     </Recipe>
-    <Recipe Result="CanvasBlock" ResultCount="3" RequiredHeatLevel="0" a="cottonwad" Description="Make sheets of canvas from cotton">
+    <Recipe Result="StringBlock" ResultCount="3" RequiredHeatLevel="0" a="cottonwad" Description="用棉花制造绳子">
+      "a"
+      "a"
+      "a"
+    </Recipe>
+    <Recipe Result="CanvasBlock" ResultCount="3" RequiredHeatLevel="0" a="cottonwad" Description="用棉花制造帆布">
       "aaa"
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="CarpetBlock" ResultCount="6" RequiredHeatLevel="0" a="canvas" Description="Make carpet from canvas">
+    <Recipe Result="CarpetBlock" ResultCount="6" RequiredHeatLevel="0" a="canvas" Description="用帆布制造地毯">
       "aaa"
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="BricksBlock" ResultCount="2" RequiredHeatLevel="0" a="brick" Description="Make brick wall out of bricks">
+    <Recipe Result="BricksBlock" ResultCount="2" RequiredHeatLevel="0" a="brick" Description="用砖块砌成砖墙">
       "aa"
       "aa"
     </Recipe>
-    <Recipe Result="StoneBrickBlock" ResultCount="4" RequiredHeatLevel="0" a="cobblestone" Description="Make stone bricks out of stones">
+    <Recipe Result="StoneBrickBlock" ResultCount="4" RequiredHeatLevel="0" a="cobblestone" Description="用石头制造石砖">
       "aa"
       "aa"
     </Recipe>
-    <Recipe Result="FramedGlassBlock" ResultCount="1" RequiredHeatLevel="0" a="glass" b="stick" Description="Frame glass with wood">
+    <Recipe Result="FramedGlassBlock" ResultCount="1" RequiredHeatLevel="0" a="glass" b="stick" Description="把玻璃架在木头方框里">
       "bab"
     </Recipe>
-    <Recipe Result="WindowBlock" ResultCount="1" RequiredHeatLevel="0" a="glass" b="stick" Description="Frame glass with wood">
+    <Recipe Result="WindowBlock" ResultCount="1" RequiredHeatLevel="0" a="glass" b="stick" Description="把玻璃架在木头方框里">
       " b"
       "bab"
       " b"
     </Recipe>
-    <Recipe Result="IronBlock" ResultCount="1" RequiredHeatLevel="0" a="ironingot" Description="Combine many iron ingots into a large block">
+    <Recipe Result="IronBlock" ResultCount="1" RequiredHeatLevel="0" a="ironingot" Description="把很多铁块组合成一个铁方块">
       "aaa"
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="CopperBlock" ResultCount="1" RequiredHeatLevel="0" a="copperingot" Description="Combine many copper ingots into a large block">
+    <Recipe Result="CopperBlock" ResultCount="1" RequiredHeatLevel="0" a="copperingot" Description="把很多铜块组合成一个铜方块">
       "aaa"
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="MalachiteBlock" ResultCount="1" RequiredHeatLevel="0" a="malachitechunk" Description="Combine many malachite chunks into a large block">
+    <Recipe Result="MalachiteBlock" ResultCount="1" RequiredHeatLevel="0" a="malachitechunk" Description="把很多孔雀石组合成孔雀石方块">
       "aaa"
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="DiamondBlock" ResultCount="1" RequiredHeatLevel="0" a="diamond" Description="Combine many diamonds into a large block">
+    <Recipe Result="DiamondBlock" ResultCount="1" RequiredHeatLevel="0" a="diamond" Description="把很多钻石组合成钻石方块">
       "aaa"
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="CoalBlock" ResultCount="1" RequiredHeatLevel="0" a="coalchunk" Description="Combine many coal chunks into a large block">
+    <Recipe Result="CoalBlock" ResultCount="1" RequiredHeatLevel="0" a="coalchunk" Description="把很多煤炭组合成煤方块">
       "aaa"
       "aaa"
       "aaa"
