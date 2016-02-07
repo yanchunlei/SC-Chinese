@@ -853,157 +853,157 @@
     </Recipe>
   </Electrics>
   <Clothes>
-    <Recipe Result="ClothingBlock:30" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="Tailor a cotton fedora from canvas">
+    <Recipe Result="ClothingBlock:30" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="将布缝纫成软呢帽">
       " a"
       "aaa"
     </Recipe>
-    <Recipe Result="ClothingBlock:13" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="Tailor a cotton shirt from canvas">
+    <Recipe Result="ClothingBlock:13" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="将布缝纫成衬衫">
       "aaa"
       "aaa"
     </Recipe>
-    <Recipe Result="ClothingBlock:14" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="Tailor a cotton t-shirt from canvas">
+    <Recipe Result="ClothingBlock:14" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="将布缝纫成T恤衫">
       "aaa"
       " a"
     </Recipe>
-    <Recipe Result="ClothingBlock:15" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="Tailor a cotton tank top from canvas">
+    <Recipe Result="ClothingBlock:15" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="将布缝纫成背心">
       "a"
       "a"
       "a"
     </Recipe>
-    <Recipe Result="ClothingBlock:24" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="Tailor a sweater from canvas">
+    <Recipe Result="ClothingBlock:24" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="将布缝纫成毛衣">
       "aa"
       "aa"
       "aa"
     </Recipe>
-    <Recipe Result="ClothingBlock:25" ResultCount="1" RequiredHeatLevel="0" a="canvas" b="string" Description="Tailor long johns from canvas">
+    <Recipe Result="ClothingBlock:25" ResultCount="1" RequiredHeatLevel="0" a="canvas" b="string" Description="将布缝纫成秋裤">
       "aa"
       "aa"
       "bb"
     </Recipe>
-    <Recipe Result="ClothingBlock:16" ResultCount="1" RequiredHeatLevel="0" a="canvas" b="string" Description="Tailor cotton pants from canvas and string">
+    <Recipe Result="ClothingBlock:16" ResultCount="1" RequiredHeatLevel="0" a="canvas" b="string" Description="用布和绳子缝纫出裤子">
       "bb"
       "aa"
       "aa"
     </Recipe>
-    <Recipe Result="ClothingBlock:17" ResultCount="1" RequiredHeatLevel="0" a="canvas" b="string" Description="Tailor cotton shorts from canvas and string">
+    <Recipe Result="ClothingBlock:17" ResultCount="1" RequiredHeatLevel="0" a="canvas" b="string" Description="用布和绳子缝纫出短裤">
       "bb"
       "aa"
     </Recipe>
-    <Recipe Result="ClothingBlock:26" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="Tailor socks from canvas">
+    <Recipe Result="ClothingBlock:26" ResultCount="1" RequiredHeatLevel="0" a="canvas" Description="将布缝纫成袜子">
       "aa"
     </Recipe>
-    <Recipe Result="ClothingBlock:31" ResultCount="1" RequiredHeatLevel="0" a="leather" Description="Tailor a cowboy hat from leather">
+    <Recipe Result="ClothingBlock:31" ResultCount="1" RequiredHeatLevel="0" a="leather" Description="将皮革缝纫成牛仔帽">
       " a"
       "aaa"
     </Recipe>
-    <Recipe Result="ClothingBlock:11" ResultCount="1" RequiredHeatLevel="0" a="leather" Description="Tailor a hat from leather">
-      " a"
-      "a a"
-    </Recipe>
-    <Recipe Result="ClothingBlock:5" ResultCount="1" RequiredHeatLevel="0" a="leather" Description="Tailor a jerkin from leather">
-      "a"
-      "a"
-      "a"
-    </Recipe>
-    <Recipe Result="ClothingBlock:12" ResultCount="1" RequiredHeatLevel="0" a="leather" b="string" Description="Tailor pants from leather">
-      "bb"
-      "aa"
-      "aa"
-    </Recipe>
-    <Recipe Result="ClothingBlock:8" ResultCount="1" RequiredHeatLevel="0" a="leather" b="planks" Description="Make leather boots from leather and planks">
-      "aa"
-      "bb"
-    </Recipe>
-    <Recipe Result="ClothingBlock:29" ResultCount="1" RequiredHeatLevel="0" a="leather" b="planks" Description="Make leather sandals from leather and planks">
-      "a"
-      "bb"
-    </Recipe>
-    <Recipe Result="ClothingBlock:27" ResultCount="1" RequiredHeatLevel="0" a="leather" b="planks" Description="Make cavalry boots from leather and planks">
-      "aa"
-      "aa"
-      "bb"
-    </Recipe>
-    <Recipe Result="ClothingBlock:18" ResultCount="1" RequiredHeatLevel="0" a="fur" Description="Tailor a hat from fur">
+    <Recipe Result="ClothingBlock:11" ResultCount="1" RequiredHeatLevel="0" a="leather" Description="用皮革做一顶帽子">
       " a"
       "a a"
     </Recipe>
-    <Recipe Result="ClothingBlock:6" ResultCount="1" RequiredHeatLevel="0" a="fur" Description="Tailor a coat from fur">
+    <Recipe Result="ClothingBlock:5" ResultCount="1" RequiredHeatLevel="0" a="leather" Description="将皮革缝纫成夹克">
+      "a"
+      "a"
+      "a"
+    </Recipe>
+    <Recipe Result="ClothingBlock:12" ResultCount="1" RequiredHeatLevel="0" a="leather" b="string" Description="将皮革缝纫成裤子">
+      "bb"
+      "aa"
+      "aa"
+    </Recipe>
+    <Recipe Result="ClothingBlock:8" ResultCount="1" RequiredHeatLevel="0" a="leather" b="planks" Description="用皮革和木块制作皮靴">
+      "aa"
+      "bb"
+    </Recipe>
+    <Recipe Result="ClothingBlock:29" ResultCount="1" RequiredHeatLevel="0" a="leather" b="planks" Description="用皮革和木块制作皮拖鞋">
+      "a"
+      "bb"
+    </Recipe>
+    <Recipe Result="ClothingBlock:27" ResultCount="1" RequiredHeatLevel="0" a="leather" b="planks" Description="用皮革和木块制作长靴">
+      "aa"
+      "aa"
+      "bb"
+    </Recipe>
+    <Recipe Result="ClothingBlock:18" ResultCount="1" RequiredHeatLevel="0" a="fur" Description="用毛皮做一顶帽子">
+      " a"
+      "a a"
+    </Recipe>
+    <Recipe Result="ClothingBlock:6" ResultCount="1" RequiredHeatLevel="0" a="fur" Description="用毛皮做一件外套">
       "aa"
       "aa"
       "aa"
     </Recipe>
-    <Recipe Result="ClothingBlock:7" ResultCount="1" RequiredHeatLevel="0" a="fur" Description="Tailor leggings from fur">
+    <Recipe Result="ClothingBlock:7" ResultCount="1" RequiredHeatLevel="0" a="fur" Description="用毛皮制作绑腿">
       "a a"
       "a a"
     </Recipe>
-    <Recipe Result="ClothingBlock:23" ResultCount="1" RequiredHeatLevel="0" a="stick" b="string" Description="Tie sticks together to make wooden chest armor">
+    <Recipe Result="ClothingBlock:23" ResultCount="1" RequiredHeatLevel="0" a="stick" b="string" Description="把木棒绑在一起做成护胸">
       "aba"
       "aba"
     </Recipe>
-    <Recipe Result="ClothingBlock:28" ResultCount="1" RequiredHeatLevel="0" a="stick" b="string" Description="Tie sticks together to make wooden legs armor">
+    <Recipe Result="ClothingBlock:28" ResultCount="1" RequiredHeatLevel="0" a="stick" b="string" Description="把木棒绑在一起做成绑腿">
       "aa"
       "bb"
       "aa"
     </Recipe>
-    <Recipe Result="ClothingBlock:2" ResultCount="1" RequiredHeatLevel="0" a="ironingot" Description="Make chain mail from iron">
+    <Recipe Result="ClothingBlock:2" ResultCount="1" RequiredHeatLevel="0" a="ironingot" Description="用铁制作锁子甲">
       "a a"
       " a"
       "a a"
     </Recipe>
 
-    <Recipe Result="ClothingBlock:33" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:11" Description="Make armored helmet from copper and leather cap">
+    <Recipe Result="ClothingBlock:33" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:11" Description="用铜和皮帽制作防具头盔">
       " a"
       "aba"
     </Recipe>
-    <Recipe Result="ClothingBlock:34" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:5" Description="Make armored chest plate from copper and leather jerkin">
-      " a"
-      "aba"
-      " a"
-    </Recipe>
-    <Recipe Result="ClothingBlock:35" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:7" Description="Make armored leggings from copper and fur leggings">
+    <Recipe Result="ClothingBlock:34" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:5" Description="用铜和皮夹克制作护胸">
       " a"
       "aba"
       " a"
     </Recipe>
-    <Recipe Result="ClothingBlock:36" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:8" Description="Make armored boots from copper and leather boots">
+    <Recipe Result="ClothingBlock:35" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:7" Description="用铜和毛皮绑腿制作防具绑腿">
+      " a"
+      "aba"
+      " a"
+    </Recipe>
+    <Recipe Result="ClothingBlock:36" ResultCount="1" RequiredHeatLevel="0" a="copperingot" b="clothing:8" Description="用铜和皮靴制作防具靴子">
       " a"
       "aba"
     </Recipe>
 
 
-    <Recipe Result="ClothingBlock:10" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:11" Description="Make armored helmet from iron and leather cap">
+    <Recipe Result="ClothingBlock:10" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:11" Description="用铁和皮帽制作防具头盔">
       " a"
       "aba"
     </Recipe>
-    <Recipe Result="ClothingBlock:3" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:5" Description="Make armored chest plate from iron and leather jerkin">
-      " a"
-      "aba"
-      " a"
-    </Recipe>
-    <Recipe Result="ClothingBlock:4" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:7" Description="Make armored leggings from iron and fur leggings">
+    <Recipe Result="ClothingBlock:3" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:5" Description="用铁和皮夹克制作护胸">
       " a"
       "aba"
       " a"
     </Recipe>
-    <Recipe Result="ClothingBlock:9" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:8" Description="Make armored boots from iron and leather boots">
-      " a"
-      "aba"
-    </Recipe>
-    <Recipe Result="ClothingBlock:21" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:10" Description="Make diamond helmet from iron helmet and diamonds">
-      " a"
-      "aba"
-    </Recipe>
-    <Recipe Result="ClothingBlock:19" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:3" Description="Make diamond chest plate from iron chest plate and diamonds">
+    <Recipe Result="ClothingBlock:4" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:7" Description="用铁和毛皮绑腿制作防具绑腿">
       " a"
       "aba"
       " a"
     </Recipe>
-    <Recipe Result="ClothingBlock:20" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:4" Description="Make diamond leggings from iron leggings and diamonds">
+    <Recipe Result="ClothingBlock:9" ResultCount="1" RequiredHeatLevel="0" a="ironingot" b="clothing:8" Description="用铁和皮靴制作防具靴子">
+      " a"
+      "aba"
+    </Recipe>
+    <Recipe Result="ClothingBlock:21" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:10" Description="用钻石和铁头盔来制作钻石头盔">
+      " a"
+      "aba"
+    </Recipe>
+    <Recipe Result="ClothingBlock:19" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:3" Description="用钻石和铁护胸来制作钻石护胸">
       " a"
       "aba"
       " a"
     </Recipe>
-    <Recipe Result="ClothingBlock:22" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:9" Description="Make diamond boots from iron boots and diamonds">
+    <Recipe Result="ClothingBlock:20" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:4" Description="用钻石和铁绑腿来制作钻石绑腿">
+      " a"
+      "aba"
+      " a"
+    </Recipe>
+    <Recipe Result="ClothingBlock:22" ResultCount="1" RequiredHeatLevel="0" a="diamond" b="clothing:9" Description="用钻石和铁靴子来制作钻石靴子">
       " a"
       "aba"
     </Recipe>
