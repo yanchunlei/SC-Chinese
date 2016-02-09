@@ -17,6 +17,8 @@ def main():
     filelist = os.listdir(input_dir)
     filelist = [os.path.splitext(filename) for filename in filelist]
     bmfclist = [root for root, ext in filelist if ext == '.bmfc']
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
     for fontname in bmfclist:
         print('开始生成字体', fontname, '...')
         outputname_base = output_dir + os.sep + fontname
