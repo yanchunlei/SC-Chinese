@@ -41,8 +41,8 @@ def fnt2lst(fnt_path, lst_path, scale=1, fallback=95):
         line = lines[i]
         infos = Line(line)
         unicode = int(infos['id'])
-	if unicode == -1:
-	    continue
+        if unicode == -1:
+            continue
         x = int(infos['x'])
         y = int(infos['y'])
         w = int(infos['width'])
@@ -63,8 +63,8 @@ def fnt2lst(fnt_path, lst_path, scale=1, fallback=95):
                 coord2[0], coord2[1],
                 offset[0], offset[1] + line_height - base,
                 gwidth))
-
-        print(infos)
+                
+        print('glpyh processed:', unicode)
 
     lst_file.write('{}\n'.format(line_height))
     lst_file.write('{} {}\n'.format(spacing[0], spacing[1]))
