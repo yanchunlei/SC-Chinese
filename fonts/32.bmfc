@@ -6,7 +6,7 @@ fontName=微软雅黑
 fontFile=
 charSet=0
 fontSize=32
-aa=1
+aa=4
 scaleH=100
 useSmoothing=1
 isBold=0
@@ -30,8 +30,8 @@ useFixedHeight=0
 forceZero=0
 
 # output file
-outWidth=2048
-outHeight=1110
+outWidth=800
+outHeight=970
 outBitDepth=32
 fontDescFormat=0
 fourChnlPacked=0
