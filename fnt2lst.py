@@ -41,8 +41,6 @@ def fnt2lst(fnt_path, lst_path, scale=1, fallback=95):
         line = lines[i]
         infos = Line(line)
         unicode = int(infos['id'])
-        if unicode == -1:
-            continue
         x = int(infos['x'])
         y = int(infos['y'])
         w = int(infos['width'])
