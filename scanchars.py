@@ -7,23 +7,34 @@ import sys
 
 def scan_dir(path):
     for parent, dirnames, filenames in os.walk(path):
-        for dirname in dirnames:
-            for filename in filenames:
-                filepath = os.path.join(parent,filename)
-                yield filepath
+        for filename in filenames:
+            filepath = os.path.join(parent,filename)
+            yield filepath
 
 
-def scan_chars(dirs):
+def scan_chars(dirs, init_chars=''):
     pattern = lambda p: os.path.splitext(p)[-1] in ('.txt', '.xml', '.js')
-    chars = set()
+    chars = set(init_chars)
     for path in dirs:
         for filename in filter(pattern, scan_dir(path)):
-            with open(filename, 'r') as f:
-                text = f.read()
+            try:
+                with open(filename, 'r', encoding='utf-8') as f:
+                    text = f.read()
+            except UnicodeDecodeError:
+                text = open(filename, 'r', encoding='gbk').read()
             chars.update(set(text))
+            print(filename)
+    chars.discard('\n')
     return ''.join(sorted(chars))
 
 
 if __name__ == '__main__':
+    chars_file_name = 'fonts' + os.sep + 'chars.txt'
+    
     args = sys.argv[1:]
-    print(scan_chars(args))
+    if os.path.exists(chars_file_name):
+        init_chars = open(chars_file_name, encoding='utf-16').read()
+    else:
+        init_chars = ''
+    chars = scan_chars(args, init_chars)
+    open(chars_file_name, 'w', encoding='utf-16').write(chars)
