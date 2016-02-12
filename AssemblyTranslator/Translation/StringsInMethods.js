@@ -185,11 +185,26 @@ translateMethod("Game.WorldOptionsScreen", "Update", {
     "Disabled": "禁用",
     "Allowed": "允许",
     "Not Allowed": "不允许",
-    "Normal": "正常"
+    "Normal": "正常",
+    "Select Character Skin": "选择角色皮肤",
+    "Select Blocks Texture": "选择方块纹理",
+    "Select Block": "选择方块种类"
 });
 
 translateMethodReg("Game.SingleplayerScreen", "^<.ctor>*", { "{0:dd MMM yyyy HH:mm}": "{0:yyyy/M/d HH:mm}" });
-translateMethod("Game.SingleplayerScreen", "Update", { "Existing Worlds ({0})": "已有的世界 ({0})" });
+translateMethod("Game.SingleplayerScreen", "Update", {
+    "Existing Worlds ({0})": "已有的世界 ({0})",
+    "Too many worlds": "世界过多",
+    "A maximum of 20 worlds is allowed on a device. Delete some to make space for new ones.": "单个设备上最多允许的世界数量为 20。删掉一些世界来为新世界腾出空间。"
+});
+translateMethod("Game.ModifyWorldScreen", "Update", {
+    "Are you sure?": "你确定？",
+    "The world will be irrecoverably deleted.": "世界的删除操作是不可逆的。",
+    "Yes": "是",
+    "No": "否",
+    "Abandon changes?": "放弃更改？",
+    "You changed some of the world properties, but they were not applied yet.": "你修改了一些世界属性，但是还没有保存。",
+});
 
 translateMethod("Game.RecipaediaDescriptionScreen", "GetBlockProperties", {
     "Luminosity": "发光强度",
@@ -258,6 +273,13 @@ translateMethod("Game.PaintBucketBlock", "Initialize", { " Paint Bucket": "染�
 translateMethod("Game.CarpetBlock", "Initialize", { " Carpet": "地毯" });
 translateMethod("Game.SevenSegmentDisplayBlock", "GetDisplayName", { " 7-Segment Display": "色七段显示器" });
 translateMethod("Game.FourLedBlock", "GetDisplayName", { " 4-LED": "色4像素LED" });
+
+translateMethod("Game.GameMenuScreen", "Enter", {
+    "Your device is fast": "你的设备速度很快",
+    "Consider increasing visibility range or resolution for better graphics. To do so, go to performance settings.": "你可以考虑增大视距或者屏幕分辨率来提升画面质量。转到性能设置来更改相关选项。",
+    "Your device is not fast enough": "你的设备不够快",
+    "Consider decreasing visibility range or resolution. To do so, go to performance settings.": "你可以考虑降低视距或者分辨率。转到性能设置来更改相关选项。"
+});
 
 translateMethodReg("Game.SubsystemIntro", "^<ShipView_Enter>*", {
     "Weigh anchor, boys.": "起锚，伙计们。",
@@ -350,8 +372,17 @@ translateMethod("Game.SubsystemGui", "Update", {
 });
 translateMethodReg("Game.SubsystemGui", "^<Update>*", { "Photo saved in pictures library": "照片已经存储到图片库" });
 
-translateMethod("Game.SubsystemEggBlockBehavior", "OnHitAsProjectile", {"Too many creatures": "生物过多"});
+translateMethod("Game.SubsystemEggBlockBehavior", "OnHitAsProjectile", { "Too many creatures": "生物过多" });
 
+translateMethod("Game.SubsystemBowBlockBehavior", "OnAim", { "Load an arrow first": "先装载一支箭" });
+translateMethod("Game.SubsystemCrossbowBlockBehavior", "OnAim", {
+    "Draw the crossbow first": "先把弓拉开",
+    "Load a bolt first": "先装载一发弩箭",
+});
+translateMethod("Game.SubsystemMusketBlockBehavior", "OnAim", {
+    "Load gunpowder first": "先装载火药",
+    "No bullet, blind shot fired": "没有子弹，一发盲射"
+});
 
 translateMethod("Game.SettingsControlsScreen", "Update", {
     "On": "开启",
@@ -383,10 +414,4 @@ translateMethod("Game.SettingsUiScreen", "Update", {
     "Disabled": "禁用"
 });
 
-translateMethod("Game.ExternalContentManager", "GetEntryTypeDescription", {
-    "Directory": "目录",
-    "Blocks Texture": "方块纹理",
-    "Character Skin": "角色皮肤",
-    "World": "世界"
-});
 translateMethod("Game.DownloadContentFromLinkDialog", "Update", { "Select Content Type": "选择内容类型" });
