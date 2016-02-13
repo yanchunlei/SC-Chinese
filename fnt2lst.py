@@ -34,10 +34,10 @@ def fnt2lst(fnt_path, lst_path, scale=1, fallback=95):
     width = int(commons['scaleW'])
     height = int(commons['scaleH'])
 
-    char_count = int(Line(lines[3])['count'])
+    char_count = int(Line(lines[3])['count']) - 1 # 去掉id=-1的
     lst_file.write('{}\n'.format(char_count))
 
-    for i in range(4, char_count + 4):
+    for i in range(5, char_count + 4):
         line = lines[i]
         infos = Line(line)
         unicode = int(infos['id'])
@@ -62,7 +62,8 @@ def fnt2lst(fnt_path, lst_path, scale=1, fallback=95):
                 offset[0], offset[1] + line_height - base,
                 gwidth))
                 
-        print('glpyh processed:', unicode)
+        print('processing glyph: ', unicode, end='\r')
+    print('processed', char_count, 'glyphes   ')
 
     lst_file.write('{}\n'.format(line_height))
     lst_file.write('{} {}\n'.format(spacing[0], spacing[1]))
