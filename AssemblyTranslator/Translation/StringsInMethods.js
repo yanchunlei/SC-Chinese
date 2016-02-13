@@ -373,6 +373,12 @@ translateMethod("Game.SubsystemGui", "Update", {
 translateMethodReg("Game.SubsystemGui", "^<Update>*", { "Photo saved in pictures library": "照片已经存储到图片库" });
 
 translateMethod("Game.SubsystemEggBlockBehavior", "OnHitAsProjectile", { "Too many creatures": "生物过多" });
+translateMethod("Game.ComponentSleep", "CanSleep", {
+    "You must be on dry land": "你必须位于干燥的陆地上",
+    "Too uncomfortable to sleep": "这个地方太硌人了",
+    "You are not tired enough": "你一点也不困",
+    "You need a better shelter": "你需要一个更好的庇护所"
+});
 
 translateMethod("Game.SubsystemBowBlockBehavior", "OnAim", { "Load an arrow first": "先装载一支箭" });
 translateMethod("Game.SubsystemCrossbowBlockBehavior", "OnAim", {
@@ -382,6 +388,11 @@ translateMethod("Game.SubsystemCrossbowBlockBehavior", "OnAim", {
 translateMethod("Game.SubsystemMusketBlockBehavior", "OnAim", {
     "Load gunpowder first": "先装载火药",
     "No bullet, blind shot fired": "没有子弹，一发盲射"
+});
+
+translateMethod("Game.SubsystemTerrain", "Update", {
+    "Reload Needed": "需要重新加载",
+    "You must close and reload the world for the visibility range settings to take effect.": "退出世界并重新加载后视距设置才会生效"
 });
 
 translateMethod("Game.SettingsControlsScreen", "Update", {
