@@ -1,4 +1,4 @@
-<Database>
+﻿<Database>
   <DatabaseObjectTypes>
     <DatabaseObjectType Name="Root" DefaultInstanceName="Root" IconName="" Order="0" SupportsValue="False" MustInherit="False" NameLengthLimit="256" SaveStandalone="False" AllowedNestingParents="" AllowedInheritanceParents="" NestedValueType="" />
     <DatabaseObjectType Name="Folder" DefaultInstanceName="Folder" IconName="Folder" Order="1" SupportsValue="False" MustInherit="False" NameLengthLimit="256" SaveStandalone="False" AllowedNestingParents="Root,Folder" AllowedInheritanceParents="" NestedValueType="" />
@@ -582,7 +582,7 @@
               <Parameter Name="TextureOverride" Guid="db948f21-a1ce-4609-96c4-03025e0c4109" Value="Textures\Creatures\Horse_White" Type="string" />
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="38f40b35-333f-4788-9973-875652432590">
-              <Parameter Name="DisplayName" Guid="09023360-1452-4cce-88e8-5b3c593cc71c" Value="White Horse Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="09023360-1452-4cce-88e8-5b3c593cc71c" Value="白马造物蛋" Type="string" />
               <Parameter Name="TextureSlot" Guid="36027e39-a83f-4b3e-b8a2-6e7a1f100bc0" Value="163" Type="int" />
               <Parameter Name="Color" Guid="480fe1d2-2474-4fa9-a984-9a999d61b1c9" Value="255,255,255" Type="Color" />
               <Parameter Name="SwapUV" Guid="50ca59e4-ca0e-4231-bb11-765c8cb639eb" Value="True" Type="bool" />
@@ -597,7 +597,7 @@
             <ParameterSet Name="CreatureEggData" Guid="09133025-cd27-4c5b-b2ab-643d720e17d2">
               <Parameter Name="Color" Guid="04a16a92-341a-4d08-943c-845293a50fe1" Value="82,55,15" Type="Color" />
               <Parameter Name="SwapUV" Guid="2b20fa0c-b577-409d-a3c5-cfa8ea57b199" Value="True" Type="bool" />
-              <Parameter Name="DisplayName" Guid="6e3f4e7b-cf7d-4f03-a735-9127df85e674" Value="Brown Bear Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="6e3f4e7b-cf7d-4f03-a735-9127df85e674" Value="棕熊造物蛋" Type="string" />
               <Parameter Name="TextureSlot" Guid="90812f4e-6cbf-4667-9a9b-dd210e8518e8" Value="163" Type="int" />
               <Parameter Name="EggTypeIndex" Guid="9676f9e3-1ca6-4c38-b6df-1639e214a9f8" Value="11" Type="int" />
             </ParameterSet>
@@ -609,7 +609,7 @@
             <ParameterSet Name="CreatureEggData" Guid="64147288-5470-46d6-ad51-19d2ccce0178">
               <Parameter Name="TextureSlot" Guid="6a8209c0-17a6-4944-8362-fed2c0d5ff58" Value="163" Type="int" />
               <Parameter Name="EggTypeIndex" Guid="6eed107c-609b-4605-b43b-ea98b9346eff" Value="16" Type="int" />
-              <Parameter Name="DisplayName" Guid="89cb8fc4-5c88-4aac-962e-29bbd6f973fd" Value="Chestnut Horse Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="89cb8fc4-5c88-4aac-962e-29bbd6f973fd" Value="栗色马造物蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="8d1db208-d3b2-4162-9d54-f9adc80cc082" Value="True" Type="bool" />
               <Parameter Name="Color" Guid="f1964223-07f1-46be-a2a0-2fec06b5359b" Value="160,112,32" Type="Color" />
             </ParameterSet>
@@ -654,7 +654,7 @@
               <Parameter Name="Color" Guid="1d3e69a2-3d01-47e6-ba61-ee159620758d" Value="120,120,80" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="3edb6cc9-5d0c-4216-bcda-92f7360dd5af" Value="36" Type="int" />
               <Parameter Name="TextureSlot" Guid="46301b9f-6f7c-4b73-a3b8-17df4ee73ed9" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="b609ebb4-574a-4a5b-b01b-d3a79411e068" Value="Freshwater Bass Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="b609ebb4-574a-4a5b-b01b-d3a79411e068" Value="淡水鲈鱼造物蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="b71840d9-fe0a-4f67-b207-6c3807b2c9bd" Value="True" Type="bool" />
             </ParameterSet>
           </EntityTemplate>
@@ -673,7 +673,7 @@
               <Parameter Name="Color" Guid="265be12f-c002-48cf-9f84-6d8c0a3301ff" Value="96,96,96" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="3c72c3db-a09e-4757-acf0-d5d9b26188dd" Value="6" Type="int" />
               <Parameter Name="TextureSlot" Guid="3e49f301-1d25-42bf-991d-e0b5cc6cf4f7" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="a648d912-8a9d-4384-99d3-4833847a334b" Value="Black Cow Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="a648d912-8a9d-4384-99d3-4833847a334b" Value="黑奶牛造物蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="faeb0261-b70c-4ead-af9a-4ff3b168f1e5" Value="True" Type="bool" />
             </ParameterSet>
           </EntityTemplate>
@@ -759,7 +759,7 @@
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="8c6c6cc6-6e75-4388-b609-989a9a386901">
               <Parameter Name="TextureSlot" Guid="26a95c79-0442-48b6-892c-b4a32a1aaf9a" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="46e46be3-7dc7-444b-a759-0cba250a8215" Value="Beluga Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="46e46be3-7dc7-444b-a759-0cba250a8215" Value="白鲸造物蛋" Type="string" />
               <Parameter Name="EggTypeIndex" Guid="61647c7e-0795-4a57-93bf-ef08234822f7" Value="-1" Type="int" />
               <Parameter Name="SwapUV" Guid="9fe854fb-ea0a-4f70-9cb9-d9647e4d74fa" Value="True" Type="bool" />
               <Parameter Name="Color" Guid="bf39719b-1bf7-4f10-a865-073c4b65a4d5" Value="96,96,96" Type="Color" />
@@ -817,7 +817,7 @@
               <Parameter Name="NutritionalValue" Guid="12866e5d-1297-419e-9ea5-8664182e896c" Value="0.5" Type="float" />
               <Parameter Name="Color" Guid="401a191f-00e8-42f7-bf4c-9d95ca642cfb" Value="160,160,170" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="49db6073-350a-4d70-af52-f9e19fd1bc2a" Value="30" Type="int" />
-              <Parameter Name="DisplayName" Guid="550604f6-4c9a-4f93-b762-4817d3538843" Value="Ostrich Egg" Type="string" />
+              <Parameter Name="DisplayName" Guid="550604f6-4c9a-4f93-b762-4817d3538843" Value="鸵鸟蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="5f8f64c2-0723-4040-8ebd-ed66627621fb" Value="True" Type="bool" />
               <Parameter Name="TextureSlot" Guid="871097e9-5b32-448e-a264-5f69218500dd" Value="147" Type="int" />
               <Parameter Name="Scale" Guid="cc68b0c6-66f9-4d97-9ca6-b2ea10974d54" Value="2.25" Type="float" />
@@ -845,7 +845,7 @@
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="8affc63e-cdee-4191-b892-1cfbd17665c7">
               <Parameter Name="TextureSlot" Guid="142be20a-2fdf-4598-930b-b512f137cf2b" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="496b131d-f7aa-4b35-89fe-8c8c8804cc59" Value="Palomino Horse Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="496b131d-f7aa-4b35-89fe-8c8c8804cc59" Value="帕洛米诺马造物蛋" Type="string" />
               <Parameter Name="Color" Guid="c839965e-5c38-4614-80eb-66c129e47de5" Value="192,160,80" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="e45256a0-46c4-4691-a7e4-c8a8f5b4405e" Value="17" Type="int" />
               <Parameter Name="SwapUV" Guid="effab111-276b-405a-a0b2-723a9c5a71da" Value="True" Type="bool" />
@@ -916,7 +916,7 @@
             <MemberComponentTemplate Name="AvoidPlayerBehavior" Guid="d82a3fa5-055c-4d4e-8772-83beb012204e" InheritanceParent="3942e891-6b50-467c-8da5-a15bc63e59e0" />
             <MemberComponentTemplate Name="WalkAroundBehavior" Guid="ea876e1b-bdf9-40b1-9ec8-a05093ef77ff" InheritanceParent="aebb86ce-4ee6-4ca0-850d-cd60051e1d71" />
             <ParameterSet Name="CreatureEggData" Guid="b5ebd5c1-c2af-4fd0-86d0-1a10cfd21d58">
-              <Parameter Name="DisplayName" Guid="30313035-97dc-4493-9d55-7762277f4765" Value="Gnu Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="30313035-97dc-4493-9d55-7762277f4765" Value="角马造物蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="6f0b7689-af7d-4a42-8ff4-85542cca8a18" Value="False" Type="bool" />
               <Parameter Name="EggTypeIndex" Guid="7aa463c4-2124-4252-99fc-a069a848b1a3" Value="26" Type="int" />
               <Parameter Name="Color" Guid="9e5dd164-ed4a-4748-a719-ecd22021e6aa" Value="142,109,87" Type="Color" />
@@ -939,7 +939,7 @@
             <ParameterSet Name="CreatureEggData" Guid="1a12d4e9-b971-4b64-be45-11ab485b819f">
               <Parameter Name="EggTypeIndex" Guid="02a62f20-26f1-41c0-b77c-9891f9feae8c" Value="8" Type="int" />
               <Parameter Name="Color" Guid="15a8448b-f57a-48c5-94e9-9d31f7cc2331" Value="123,123,123" Type="Color" />
-              <Parameter Name="DisplayName" Guid="3b3b99cd-ee01-4e4a-b4ef-bc64d6045595" Value="Gray Wolf Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="3b3b99cd-ee01-4e4a-b4ef-bc64d6045595" Value="灰狼造物蛋" Type="string" />
               <Parameter Name="TextureSlot" Guid="98db7435-29ba-4b31-8060-8abe5657ead7" Value="163" Type="int" />
             </ParameterSet>
           </EntityTemplate>
@@ -1025,7 +1025,7 @@
               <Parameter Name="TextureSlot" Guid="73c79ee2-189f-4b43-abb6-74be446eeef6" Value="163" Type="int" />
               <Parameter Name="SwapUV" Guid="817861dd-ce5a-4b4d-a9d8-80ba66e19cd1" Value="False" Type="bool" />
               <Parameter Name="Color" Guid="83f9f59c-cf9d-4613-ab5a-ade1e0e90ad3" Value="80,80,80" Type="Color" />
-              <Parameter Name="DisplayName" Guid="907e247c-9eea-4b25-8e4d-5aed7bf7f9f5" Value="Rhino Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="907e247c-9eea-4b25-8e4d-5aed7bf7f9f5" Value="犀牛造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Reindeer" Guid="4e0b98d5-4986-49f8-a627-ab63e9097a89" InheritanceParent="e4275171-a39f-413f-8888-4c472868364d">
@@ -1090,7 +1090,7 @@
               <Parameter Name="SwapUV" Guid="41150bc6-71cf-45c4-9bf4-5515f8337f11" Value="False" Type="bool" />
               <Parameter Name="Color" Guid="6335e616-d264-47b8-8496-91b4b6355dd1" Value="122,109,90" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="d06ff3bf-bba4-479e-98a8-16f7aa2f2d7e" Value="25" Type="int" />
-              <Parameter Name="DisplayName" Guid="d98415d2-5573-41eb-9660-5afd9e17233d" Value="Reindeer Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="d98415d2-5573-41eb-9660-5afd9e17233d" Value="驯鹿造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Barracuda" Guid="5ff90ec7-5f83-4e23-aa20-4d4dfd5fdf74" InheritanceParent="fd4a36cf-ede3-4f5b-85c1-f5f3151d0051">
@@ -1142,7 +1142,7 @@
               <Parameter Name="EggTypeIndex" Guid="3ef4303b-21c9-4a0c-8b87-241798089e49" Value="38" Type="int" />
               <Parameter Name="Color" Guid="3fb6a1c8-2aeb-4eea-83f0-5affc386126f" Value="100,120,235" Type="Color" />
               <Parameter Name="SwapUV" Guid="9c82e477-242f-4d1e-b0ac-cb41aa547acb" Value="True" Type="bool" />
-              <Parameter Name="DisplayName" Guid="b39a7e13-1528-4150-80c9-56c4dac14b5c" Value="Barracuda Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="b39a7e13-1528-4150-80c9-56c4dac14b5c" Value="梭鱼造物蛋" Type="string" />
               <Parameter Name="TextureSlot" Guid="fba633ae-40c2-4dde-a57f-06f2cf2c0046" Value="163" Type="int" />
             </ParameterSet>
           </EntityTemplate>
@@ -1182,7 +1182,7 @@
               <Parameter Name="Color" Guid="2dd4f8c8-be1a-4249-a5f5-11fd3c2d8fdf" Value="150,150,140" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="594f44bb-1dd1-4ed1-a784-0839df242974" Value="2" Type="int" />
               <Parameter Name="NutritionalValue" Guid="77339e58-b26d-4c51-a5dd-3b1fdd9f81d6" Value="0.2" Type="float" />
-              <Parameter Name="DisplayName" Guid="f89c01df-b6ac-4865-bbf2-2d68df09adc1" Value="Raven Egg" Type="string" />
+              <Parameter Name="DisplayName" Guid="f89c01df-b6ac-4865-bbf2-2d68df09adc1" Value="乌鸦蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Camel" Guid="621a317e-478a-4623-9b47-6137dae37de9" InheritanceParent="e4275171-a39f-413f-8888-4c472868364d">
@@ -1264,7 +1264,7 @@
               <Parameter Name="EggTypeIndex" Guid="402a94f1-3f18-416b-983e-67e90c2f7513" Value="19" Type="int" />
               <Parameter Name="TextureSlot" Guid="6b1b8225-f61d-417a-a90b-694b2ec28f70" Value="163" Type="int" />
               <Parameter Name="SwapUV" Guid="b0353f8c-84d9-4d6b-984e-ddc09fcfa25a" Value="False" Type="bool" />
-              <Parameter Name="DisplayName" Guid="f11188d9-2a7a-4027-9140-a8807867e3ba" Value="Camel Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="f11188d9-2a7a-4027-9140-a8807867e3ba" Value="骆驼造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Werewolf" Guid="6a4c3ee2-bb65-4d45-9b91-e1ec3dc3e865" InheritanceParent="e4275171-a39f-413f-8888-4c472868364d">
@@ -1336,7 +1336,7 @@
               <Parameter Name="TextureSlot" Guid="26f77697-8dd0-4c91-bd98-0ea5a5d97c8a" Value="163" Type="int" />
               <Parameter Name="Color" Guid="b7fb588d-1d05-46c6-8081-1eda05332250" Value="160,0,0" Type="Color" />
               <Parameter Name="SwapUV" Guid="d50bb299-55b2-4be4-b6dc-98bf64b0f257" Value="False" Type="bool" />
-              <Parameter Name="DisplayName" Guid="d81b2dba-5636-4fe8-9f03-b57cb8793e2e" Value="Werewolf Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="d81b2dba-5636-4fe8-9f03-b57cb8793e2e" Value="狼人造物蛋" Type="string" />
               <Parameter Name="EggTypeIndex" Guid="ea09b989-8c3c-4163-91c4-81ab61737db0" Value="13" Type="int" />
             </ParameterSet>
           </EntityTemplate>
@@ -1371,7 +1371,7 @@
             <ParameterSet Name="CreatureEggData" Guid="3646b636-c3d4-408e-9fa3-36facf471e5e">
               <Parameter Name="EggTypeIndex" Guid="08049363-3327-426c-8706-6a2c067b5780" Value="5" Type="int" />
               <Parameter Name="TextureSlot" Guid="363f9163-5f93-4bf7-95f5-8ac3a5771a90" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="7422371b-832b-4cd0-92ed-7ad8391f24ed" Value="Brown Bull Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="7422371b-832b-4cd0-92ed-7ad8391f24ed" Value="棕公牛造物蛋" Type="string" />
               <Parameter Name="Color" Guid="79d2d1a5-8d4a-4ca0-a060-d397dc99ca72" Value="130,83,41" Type="Color" />
             </ParameterSet>
           </EntityTemplate>
@@ -1432,7 +1432,7 @@
               <Parameter Name="SwapUV" Guid="57fbd093-4baf-438c-9ebb-978020252ac8" Value="True" Type="bool" />
               <Parameter Name="TextureSlot" Guid="62b55e51-98dd-4b21-b5c7-f783d7cdf406" Value="163" Type="int" />
               <Parameter Name="EggTypeIndex" Guid="c00f9bc1-327e-427a-8f2d-2cdb90f544f4" Value="-1" Type="int" />
-              <Parameter Name="DisplayName" Guid="c02dad6d-bcf1-4a25-8146-8d286219c0a5" Value="Orca Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="c02dad6d-bcf1-4a25-8146-8d286219c0a5" Value="逆戟鲸造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Duck" Guid="7c04f9ec-a7c0-4a56-bd86-c0cfdecf7d94" InheritanceParent="0cb14482-b936-410e-9317-66d385d7d2fd">
@@ -1473,7 +1473,7 @@
               <Parameter Name="EggTypeIndex" Guid="3109cd95-c997-4773-abf0-9cba4b857e9c" Value="1" Type="int" />
               <Parameter Name="TextureSlot" Guid="53a729b3-ad0f-480d-940f-e6f8bd39d497" Value="148" Type="int" />
               <Parameter Name="NutritionalValue" Guid="6c02df0b-ad9e-4178-9625-ba1eaa1c99d2" Value="0.2" Type="float" />
-              <Parameter Name="DisplayName" Guid="b261c44c-39f7-4fce-8ea1-441fc33a9a08" Value="Duck Egg" Type="string" />
+              <Parameter Name="DisplayName" Guid="b261c44c-39f7-4fce-8ea1-441fc33a9a08" Value="鸭蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Giraffe" Guid="7f07b877-5404-40ec-813f-03899189d1ae" InheritanceParent="e4275171-a39f-413f-8888-4c472868364d">
@@ -1535,7 +1535,7 @@
             <ParameterSet Name="CreatureEggData" Guid="7846d59a-eeea-4c6b-bf26-1c781a62fd34">
               <Parameter Name="SwapUV" Guid="021fbd97-4682-4256-a97c-60127c178b98" Value="False" Type="bool" />
               <Parameter Name="EggTypeIndex" Guid="1e074543-f285-4e66-9c99-7b4bc7683019" Value="20" Type="int" />
-              <Parameter Name="DisplayName" Guid="27316133-d599-4b0a-b4e7-b0172d648313" Value="Giraffe Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="27316133-d599-4b0a-b4e7-b0172d648313" Value="长颈鹿造物蛋" Type="string" />
               <Parameter Name="TextureSlot" Guid="37791f52-c1ee-421a-a582-c0d3bbdf6d07" Value="163" Type="int" />
               <Parameter Name="Color" Guid="605bbbaa-cefc-44d2-87a3-43936e5a7bcc" Value="206,145,84" Type="Color" />
             </ParameterSet>
@@ -1584,7 +1584,7 @@
               <Parameter Name="EggTypeIndex" Guid="70f8ba3a-a273-47d5-aac9-6346e3fc2f71" Value="35" Type="int" />
               <Parameter Name="Color" Guid="82c3c708-7aae-4fd6-936a-f792bb782171" Value="115,144,123" Type="Color" />
               <Parameter Name="TextureSlot" Guid="b0f41fe6-1a87-4191-a75c-649cfaffe95f" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="dd93a813-f37d-4f79-9585-1ae73888f869" Value="Shark Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="dd93a813-f37d-4f79-9585-1ae73888f869" Value="鲨鱼造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Horse_Black" Guid="853e2aef-2cc6-4140-82cb-924d47883c0a" InheritanceParent="8907cec4-3a39-4d81-953b-82287de4c871">
@@ -1596,7 +1596,7 @@
               <Parameter Name="SwapUV" Guid="5d40081a-e754-4f21-bb2d-fac97b7be299" Value="True" Type="bool" />
               <Parameter Name="Color" Guid="b7b1d886-f628-4983-989d-579848007627" Value="64,64,64" Type="Color" />
               <Parameter Name="TextureSlot" Guid="e5e3c838-fd2c-4c89-a59e-61d99daa2bb7" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="ecde3485-90f2-4e18-8885-34ac0382589b" Value="Black Horse Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="ecde3485-90f2-4e18-8885-34ac0382589b" Value="黑马造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Bear_Black" Guid="88fb4748-b1fd-4cf4-94cc-f397a15c7303" InheritanceParent="437e6af3-ea9f-4f3c-8b96-d81de6223831">
@@ -1606,7 +1606,7 @@
             <MemberComponentTemplate Name="ChaseBehavior" Guid="c0c5f5ac-9f47-4b0e-b355-1b5d63cfced6" />
             <ParameterSet Name="CreatureEggData" Guid="368f3406-4859-4e0a-a642-81ae515604a6">
               <Parameter Name="TextureSlot" Guid="79771809-d0ef-4bbe-8a55-0ac86ee2b227" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="82a34287-3fe5-441b-a48b-8d863eac3d04" Value="Black Bear Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="82a34287-3fe5-441b-a48b-8d863eac3d04" Value="黑熊造物蛋" Type="string" />
               <Parameter Name="Color" Guid="97d9b409-406b-4b12-b84e-c84fb775dd67" Value="32,32,32" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="ce3b5828-aa7a-4fae-a1b9-6347624302f9" Value="10" Type="int" />
               <Parameter Name="SwapUV" Guid="f37ce119-64d5-41ac-8dc2-cbdc2a44cbb1" Value="True" Type="bool" />
@@ -1676,7 +1676,7 @@
             <ParameterSet Name="CreatureEggData" Guid="58df160b-42f1-4be0-be23-14f18f57ef22">
               <Parameter Name="Color" Guid="0532865b-ff05-41a0-a889-ea7af8a7ae9f" Value="224,138,39" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="40410b86-86cb-4fbe-8483-1e71becdf8ee" Value="23" Type="int" />
-              <Parameter Name="DisplayName" Guid="4b4e6800-729c-4352-9eb8-8516b3fe700e" Value="Lion Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="4b4e6800-729c-4352-9eb8-8516b3fe700e" Value="狮子造物蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="7d464535-911e-4f4c-a08a-9b423efeb030" Value="False" Type="bool" />
               <Parameter Name="TextureSlot" Guid="a855426c-a90a-4368-8528-1ac43125ea1c" Value="163" Type="int" />
             </ParameterSet>
@@ -1746,7 +1746,7 @@
               <Parameter Name="SwapUV" Guid="10fec41f-7259-4f7e-af29-87b4c02da9b5" Value="False" Type="bool" />
               <Parameter Name="TextureSlot" Guid="5b80556d-d0fa-432e-bac2-c24b56a7b553" Value="163" Type="int" />
               <Parameter Name="EggTypeIndex" Guid="67fc4091-850d-4dc5-a3ed-5eb2cc10aec6" Value="24" Type="int" />
-              <Parameter Name="DisplayName" Guid="9061378b-0bc2-47a2-97c8-728466f92836" Value="Tiger Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="9061378b-0bc2-47a2-97c8-728466f92836" Value="老虎造物蛋" Type="string" />
               <Parameter Name="Color" Guid="dcb15275-50f3-4240-8300-fd53fc25959e" Value="224,112,29" Type="Color" />
             </ParameterSet>
           </EntityTemplate>
@@ -1832,7 +1832,7 @@
             </MemberComponentTemplate>
             <MemberComponentTemplate Name="SteedBehavior" Guid="ff0e0d37-42e8-486a-b9f8-03e36b34b253" InheritanceParent="00cb9da1-b959-4cbf-bfff-ea28fa8c37c8" />
             <ParameterSet Name="CreatureEggData" Guid="287b5f45-65f0-4ecf-9f38-5796c653e55b">
-              <Parameter Name="DisplayName" Guid="35a54e45-7123-43b2-be8d-d2e348fb3e0b" Value="Donkey Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="35a54e45-7123-43b2-be8d-d2e348fb3e0b" Value="驴造物蛋" Type="string" />
               <Parameter Name="Color" Guid="636f2bc3-1e4f-4071-a1fa-667506326c9d" Value="181,141,135" Type="Color" />
               <Parameter Name="SwapUV" Guid="9bec18d4-269b-40e5-978a-2205164a5d42" Value="False" Type="bool" />
               <Parameter Name="TextureSlot" Guid="a4ef002e-950d-4a18-88c3-274aafa42310" Value="163" Type="int" />
@@ -1851,7 +1851,7 @@
               <Parameter Name="TextureOverride" Guid="8fe933e0-1617-4c69-b928-2e9942a1df62" Value="Textures\Creatures\Cow_Brown" Type="string" />
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="a05fde7d-c61c-4afe-bff3-d9e39ddcec60">
-              <Parameter Name="DisplayName" Guid="4c5df065-bba6-4f76-8a91-f949cb4cdd0d" Value="Brown Cow Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="4c5df065-bba6-4f76-8a91-f949cb4cdd0d" Value="棕奶牛造物蛋" Type="string" />
               <Parameter Name="TextureSlot" Guid="90270f4a-871a-483a-81dc-00089e505f85" Value="163" Type="int" />
               <Parameter Name="Color" Guid="a00a40de-2e85-49fe-a4ad-1129ebec12ed" Value="130,83,41" Type="Color" />
               <Parameter Name="EggTypeIndex" Guid="e0348aa1-b683-46bc-bbc6-9399465f6843" Value="7" Type="int" />
@@ -1868,7 +1868,7 @@
             <ParameterSet Name="CreatureEggData" Guid="ba53a6e3-e873-4020-8a1b-ca5db91c1ef0">
               <Parameter Name="TextureSlot" Guid="04d5b40d-b0fe-4993-9242-a218528ac658" Value="163" Type="int" />
               <Parameter Name="EggTypeIndex" Guid="993d4579-61ec-4937-a29b-c3010ae0d606" Value="4" Type="int" />
-              <Parameter Name="DisplayName" Guid="cecd3b45-11d2-463d-a055-0ce7c1fa7b77" Value="Black Bull Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="cecd3b45-11d2-463d-a055-0ce7c1fa7b77" Value="黑公牛造物蛋" Type="string" />
               <Parameter Name="Color" Guid="e5e51140-aa83-4b68-90ad-f8fe50edc4e0" Value="96,96,96" Type="Color" />
             </ParameterSet>
           </EntityTemplate>
@@ -1919,7 +1919,7 @@
               <Parameter Name="SwapUV" Guid="4710096e-3cc3-4074-b8f6-9c580f811cfa" Value="True" Type="bool" />
               <Parameter Name="EggTypeIndex" Guid="9666d538-addb-4874-b0a9-6f8979fbcf97" Value="34" Type="int" />
               <Parameter Name="Color" Guid="d04d00e4-8689-42ba-a04a-7b7dd46ea8af" Value="210,227,235" Type="Color" />
-              <Parameter Name="DisplayName" Guid="f51c0e1e-6e85-43e9-a464-45c4416718d4" Value="Piranha Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="f51c0e1e-6e85-43e9-a464-45c4416718d4" Value="食人鱼造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Wildboar" Guid="ae43396b-e4a6-4ead-aaa5-26c4feb458da" InheritanceParent="e4275171-a39f-413f-8888-4c472868364d">
@@ -1987,7 +1987,7 @@
             <ParameterSet Name="CreatureEggData" Guid="a0fad3fd-73c7-4772-975d-303d28a0b7e2">
               <Parameter Name="Color" Guid="35563b7b-6cff-480a-9eb4-0781377caf39" Value="91,72,81" Type="Color" />
               <Parameter Name="TextureSlot" Guid="39318289-bb90-479d-8556-c0644751888d" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="75f402de-ed50-40a5-a1c8-97008afbe37f" Value="Wildboar Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="75f402de-ed50-40a5-a1c8-97008afbe37f" Value="野猪造物蛋" Type="string" />
               <Parameter Name="EggTypeIndex" Guid="88cd9196-db41-44a8-b6f9-813976b3e959" Value="3" Type="int" />
             </ParameterSet>
           </EntityTemplate>
@@ -2028,7 +2028,7 @@
               <Parameter Name="SwapUV" Guid="633a5a73-37ff-4715-af04-4bf58d049233" Value="True" Type="bool" />
               <Parameter Name="TextureSlot" Guid="90877fa0-e63a-4139-bf3e-1b888ef1327a" Value="163" Type="int" />
               <Parameter Name="Color" Guid="c22bc095-4589-4720-9fb5-2234119a1e57" Value="223,223,215" Type="Color" />
-              <Parameter Name="DisplayName" Guid="c5a3da8e-e3e5-416a-a897-bc95204dc673" Value="Polar Bear Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="c5a3da8e-e3e5-416a-a897-bc95204dc673" Value="北极熊造物蛋" Type="string" />
               <Parameter Name="EggTypeIndex" Guid="e41e3744-1600-4cbb-a0b8-d45c7d3fe1e5" Value="12" Type="int" />
             </ParameterSet>
           </EntityTemplate>
@@ -2051,7 +2051,7 @@
               <Parameter Name="TextureOverride" Guid="4c3e72cd-b5bc-479e-bad4-529afe9c6c49" Value="Textures\Creatures\Horse_Bay" Type="string" />
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="e79c4285-d239-4a05-a221-88680aee2a41">
-              <Parameter Name="DisplayName" Guid="3296f107-2357-4936-b877-1e680b440260" Value="Bay Horse Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="3296f107-2357-4936-b877-1e680b440260" Value="枣红马造物蛋" Type="string" />
               <Parameter Name="EggTypeIndex" Guid="81780b3e-c985-4dae-8a91-19fbae927a28" Value="15" Type="int" />
               <Parameter Name="Color" Guid="af96d88e-562e-4101-a4e0-57dd8b7cb248" Value="128,64,0" Type="Color" />
               <Parameter Name="TextureSlot" Guid="f7ef19a8-c88e-4a27-9305-0e7bb0f4de8f" Value="163" Type="int" />
@@ -2071,7 +2071,7 @@
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="f000bbc5-2498-4c7e-ad91-6b3b8f18da35">
               <Parameter Name="EggTypeIndex" Guid="3e1dbf91-6187-4ff2-a174-e1b5a7432455" Value="33" Type="int" />
-              <Parameter Name="DisplayName" Guid="63c45947-b987-4a3d-bec6-fc089f4f81e0" Value="Yellow Ray Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="63c45947-b987-4a3d-bec6-fc089f4f81e0" Value="黄鳐鱼造物蛋" Type="string" />
               <Parameter Name="Color" Guid="80dd926e-9639-41d2-8794-ae24de1b3144" Value="231,220,99" Type="Color" />
               <Parameter Name="TextureSlot" Guid="8ee021e3-a76b-4d5f-a1dc-3fd0aa700be7" Value="163" Type="int" />
               <Parameter Name="SwapUV" Guid="aff95e47-58fd-4ff8-995e-a9846cbaffde" Value="True" Type="bool" />
@@ -2143,7 +2143,7 @@
               <Parameter Name="TextureSlot" Guid="78bceeac-0460-4916-88d3-55c269e4ae38" Value="163" Type="int" />
               <Parameter Name="SwapUV" Guid="b898be5e-ce55-4a87-afc6-ed538bf71826" Value="False" Type="bool" />
               <Parameter Name="EggTypeIndex" Guid="e07888df-3357-4353-a1d4-b7b6e915b7ad" Value="29" Type="int" />
-              <Parameter Name="DisplayName" Guid="e2cf778f-9a86-4e2d-8d6b-02ecdc3d6a64" Value="Moose Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="e2cf778f-9a86-4e2d-8d6b-02ecdc3d6a64" Value="驼鹿造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Ray_Brown" Guid="c7dfa822-ba6e-4f3f-905c-0241823edf15" InheritanceParent="b36fa363-d4d4-4287-a3f3-744a813f6bb5">
@@ -2161,7 +2161,7 @@
               <Parameter Name="EggTypeIndex" Guid="351592e2-e462-4fc0-8fa2-50a0d222586c" Value="32" Type="int" />
               <Parameter Name="TextureSlot" Guid="4d5c66fe-8783-4efa-be3f-40251feb8430" Value="163" Type="int" />
               <Parameter Name="SwapUV" Guid="734ee27d-228e-4285-8f65-8c7fa688cc48" Value="True" Type="bool" />
-              <Parameter Name="DisplayName" Guid="78f2d36f-f497-4234-8e9c-01cbd34a458c" Value="Brown Ray Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="78f2d36f-f497-4234-8e9c-01cbd34a458c" Value="棕鳐鱼造物蛋" Type="string" />
               <Parameter Name="Color" Guid="ce40120d-59a5-4df2-9dfc-08733896b91b" Value="104,71,28" Type="Color" />
             </ParameterSet>
           </EntityTemplate>
@@ -2180,7 +2180,7 @@
               <Parameter Name="EggTypeIndex" Guid="8cf12c1f-6695-45af-9a8a-7c37e8491eba" Value="9" Type="int" />
               <Parameter Name="Color" Guid="95a06449-4bb1-4b9d-9b0f-83b58a12b9bb" Value="199,165,94" Type="Color" />
               <Parameter Name="TextureSlot" Guid="dbe47aee-b363-46bf-9be2-69a65ca11327" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="dd61c1ec-203c-4f5d-8d02-4a4f69f28444" Value="Coyote Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="dd61c1ec-203c-4f5d-8d02-4a4f69f28444" Value="郊狼造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Bass_Sea" Guid="cdec5d3c-523b-4904-b9ea-e51b51a13345" InheritanceParent="fd4a36cf-ede3-4f5b-85c1-f5f3151d0051">
@@ -2224,7 +2224,7 @@
               <Parameter Name="EggTypeIndex" Guid="81536664-43db-48a5-bf3f-9de302ab1dc4" Value="37" Type="int" />
               <Parameter Name="TextureSlot" Guid="90d68a7e-cdd0-42f9-918b-df4a2e42a499" Value="163" Type="int" />
               <Parameter Name="SwapUV" Guid="dffb0ae3-16a2-4331-a577-99d8f022f4f0" Value="True" Type="bool" />
-              <Parameter Name="DisplayName" Guid="e47c43e7-e6e3-43c6-a72d-e16bbcc18d25" Value="Seabass Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="e47c43e7-e6e3-43c6-a72d-e16bbcc18d25" Value="咸水鲈鱼造物蛋" Type="string" />
             </ParameterSet>
           </EntityTemplate>
           <EntityTemplate Name="Hyena" Guid="da9a1c74-142c-4b2c-b61f-5c86def9f658" InheritanceParent="e4275171-a39f-413f-8888-4c472868364d">
@@ -2303,7 +2303,7 @@
               <Parameter Name="Color" Guid="1cccb9c1-5954-438c-b446-583df877ef80" Value="82,55,15" Type="Color" />
               <Parameter Name="TextureSlot" Guid="23399930-6b05-4dc2-82d5-281a7b5aba7c" Value="163" Type="int" />
               <Parameter Name="SwapUV" Guid="4aa42d51-127b-47d6-9f2f-35e20ed8f64f" Value="False" Type="bool" />
-              <Parameter Name="DisplayName" Guid="7b53fc2e-1065-4b8c-b809-6fba16834d51" Value="Hyena Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="7b53fc2e-1065-4b8c-b809-6fba16834d51" Value="鬣狗造物蛋" Type="string" />
               <Parameter Name="EggTypeIndex" Guid="d2a2998d-e560-4172-8129-9211172b98da" Value="27" Type="int" />
             </ParameterSet>
           </EntityTemplate>
@@ -2340,7 +2340,7 @@
               <Parameter Name="TextureOverride" Guid="73cd3a5c-712b-4d70-be59-d7e234fb5f6c" Value="Textures\Creatures\Seagull" Type="string" />
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="09f2019a-163c-44bb-bc6f-c9d22027cddf">
-              <Parameter Name="DisplayName" Guid="48c75384-3dcc-4a6b-b566-5a2e4cbc1b17" Value="Seagull Egg" Type="string" />
+              <Parameter Name="DisplayName" Guid="48c75384-3dcc-4a6b-b566-5a2e4cbc1b17" Value="海鸥造物蛋" Type="string" />
               <Parameter Name="NutritionalValue" Guid="61dd9c88-2de6-464e-9383-0d0c4a4d2c5c" Value="0.2" Type="float" />
               <Parameter Name="EggTypeIndex" Guid="cabca66b-f9cd-4808-8f8b-9e5dda5882d4" Value="0" Type="int" />
             </ParameterSet>
@@ -2355,7 +2355,7 @@
             <ParameterSet Name="CreatureEggData" Guid="83b2f5ba-58df-4ff4-ab7c-d5c4c9bac8f4">
               <Parameter Name="Color" Guid="03ed3cbd-cc89-4d29-8a75-530b6793af93" Value="0,0,255" Type="Color" />
               <Parameter Name="TextureSlot" Guid="46d62aeb-d7dd-4095-a12b-95c70f037473" Value="163" Type="int" />
-              <Parameter Name="DisplayName" Guid="4ca63d93-7249-4e12-a9c1-a055cf6bc433" Value="White Alpaca Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="4ca63d93-7249-4e12-a9c1-a055cf6bc433" Value="白羊驼造物蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="799213c4-9a75-464f-a2bf-9588758a87c7" Value="True" Type="bool" />
               <Parameter Name="EggTypeIndex" Guid="d31ceb1f-1787-407d-b52e-b3b9deb96879" Value="-1" Type="int" />
             </ParameterSet>
@@ -2427,7 +2427,7 @@
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="7aacf849-de3c-4f4e-94ea-248064386042">
               <Parameter Name="SwapUV" Guid="2707a585-8221-4dc6-a208-e83e4fbafc2f" Value="False" Type="bool" />
-              <Parameter Name="DisplayName" Guid="73d98d93-767b-4c6f-8031-7c1718eb93f4" Value="Zebra Spawner" Type="string" />
+              <Parameter Name="DisplayName" Guid="73d98d93-767b-4c6f-8031-7c1718eb93f4" Value="斑马造物蛋" Type="string" />
               <Parameter Name="EggTypeIndex" Guid="85f5bc3f-efd3-4fad-a6f7-5f58ef62df13" Value="21" Type="int" />
               <Parameter Name="TextureSlot" Guid="bf7ca042-8989-453c-a481-14c60fef76b7" Value="163" Type="int" />
               <Parameter Name="Color" Guid="f0af559a-7199-48bf-bdff-dba6d0edba92" Value="255,255,255" Type="Color" />
@@ -2491,7 +2491,7 @@
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="3f671c09-30c7-4622-8156-c6f9a3dcea36">
               <Parameter Name="NutritionalValue" Guid="3d221b5b-6b1a-4cda-ad05-9e32d3a54a0b" Value="0.5" Type="float" />
-              <Parameter Name="DisplayName" Guid="5bec00d7-17e2-4dd3-98c0-0b38a5cd5c94" Value="Cassowary Egg" Type="string" />
+              <Parameter Name="DisplayName" Guid="5bec00d7-17e2-4dd3-98c0-0b38a5cd5c94" Value="食火鸡造物蛋" Type="string" />
               <Parameter Name="SwapUV" Guid="64616d7a-7be1-4858-ab9d-eb2f161f97f3" Value="True" Type="bool" />
               <Parameter Name="EggTypeIndex" Guid="83916ad1-e010-4e82-9523-1d309340e437" Value="31" Type="int" />
               <Parameter Name="TextureSlot" Guid="9b6ddf09-049f-413e-a1e1-4a32fb6d412a" Value="147" Type="int" />
