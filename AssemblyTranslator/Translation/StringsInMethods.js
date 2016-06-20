@@ -273,6 +273,7 @@ translateMethod("Game.PaintBucketBlock", "Initialize", { " Paint Bucket": "染�
 translateMethod("Game.CarpetBlock", "Initialize", { " Carpet": "地毯" });
 translateMethod("Game.SevenSegmentDisplayBlock", "GetDisplayName", { " 7-Segment Display": "色七段显示器" });
 translateMethod("Game.FourLedBlock", "GetDisplayName", { " 4-LED": "色4像素LED" });
+translateMethod("Game.EggBlock", "GetDisplayName", {"Cooked ": "煮熟的"});
 
 translateMethod("Game.GameMenuScreen", "Enter", {
     "Your device is fast": "你的设备速度很快",
