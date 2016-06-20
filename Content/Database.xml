@@ -2340,7 +2340,7 @@
               <Parameter Name="TextureOverride" Guid="73cd3a5c-712b-4d70-be59-d7e234fb5f6c" Value="Textures\Creatures\Seagull" Type="string" />
             </MemberComponentTemplate>
             <ParameterSet Name="CreatureEggData" Guid="09f2019a-163c-44bb-bc6f-c9d22027cddf">
-              <Parameter Name="DisplayName" Guid="48c75384-3dcc-4a6b-b566-5a2e4cbc1b17" Value="海鸥造物蛋" Type="string" />
+              <Parameter Name="DisplayName" Guid="48c75384-3dcc-4a6b-b566-5a2e4cbc1b17" Value="海鸥蛋" Type="string" />
               <Parameter Name="NutritionalValue" Guid="61dd9c88-2de6-464e-9383-0d0c4a4d2c5c" Value="0.2" Type="float" />
               <Parameter Name="EggTypeIndex" Guid="cabca66b-f9cd-4808-8f8b-9e5dda5882d4" Value="0" Type="int" />
             </ParameterSet>
