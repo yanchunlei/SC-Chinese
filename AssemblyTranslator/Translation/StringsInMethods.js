@@ -347,7 +347,7 @@ translateMethod("Game.ComponentVitalStats", "Eat", {
 });
 
 translateMethodReg("Game.SubsystemPlayer", "^<Load>*", {
-    "You have died.": "你已经死了",
+    "You have died.": "你死了",
     "Cannot respawn in \"{0}\" game mode": "你不能在 {0} 模式中复活",
     "Tap to restart adventure": "轻触以重置冒险模式",
     "Tap to respawn": "轻触以复活",
@@ -381,6 +381,11 @@ translateMethod("Game.ComponentSleep", "CanSleep", {
 });
 
 translateMethod("Game.SubsystemBowBlockBehavior", "OnAim", { "Load an arrow first": "先装载一支箭" });
+translateMethod("Game.CrossbowWidget", "Update", {
+    "Pull": "拉",
+    "Load bolt": "装载弩箭",
+    "Ready to fire": "准备开火"
+});
 translateMethod("Game.SubsystemCrossbowBlockBehavior", "OnAim", {
     "Draw the crossbow first": "先把弓拉开",
     "Load a bolt first": "先装载一发弩箭",
@@ -394,6 +399,8 @@ translateMethod("Game.SubsystemTerrain", "Update", {
     "Reload Needed": "需要重新加载",
     "You must close and reload the world for the visibility range settings to take effect.": "退出世界并重新加载后视距设置才会生效"
 });
+
+translateMethod("Game.CreativeInventoryWidget", ".ctor", {"User": "背包"})
 
 translateMethod("Game.SettingsControlsScreen", "Update", {
     "On": "开启",
