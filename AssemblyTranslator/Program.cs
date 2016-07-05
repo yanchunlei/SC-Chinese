@@ -13,19 +13,21 @@ namespace AssemblyTranslator
     {
         static void Main(string[] args)
         {
-            var assemblySc = AssemblyDefinition.ReadAssembly("Survivalcraft.exe");
-            var assemblyEngine = AssemblyDefinition.ReadAssembly("Engine.dll");
-            var mscorlib = AssemblyDefinition.ReadAssembly("mscorlib.dll");
+            var assemblySc = AssemblyDefinition.ReadAssembly(System.IO.File.OpenRead("Survivalcraft.exe"));
+            var assemblyEngine = AssemblyDefinition.ReadAssembly(System.IO.File.OpenRead("Engine.dll"));
+            var mscorlib = AssemblyDefinition.ReadAssembly(System.IO.File.OpenRead("mscorlib.dll"));
             var inspector = new TypeInspector();
             inspector.ScanAssembly(assemblySc);
             inspector.ScanAssembly(assemblyEngine);
             inspector.ScanAssembly(mscorlib);
 
+            
             var methodLogEvent = inspector.FindMethod("Game.AnalyticsManager", "LogEvent");
             var firstInstruction = methodLogEvent.Body.Instructions[0];
             var il = methodLogEvent.Body.GetILProcessor();
             var retInstruction = il.Create(OpCodes.Ret);
-            il.Replace(firstInstruction, retInstruction);
+            il.InsertBefore(firstInstruction, retInstruction);
+            
 
             var engine = new Engine(cfg => cfg.AllowClr(
                 typeof(Program).Assembly,
@@ -47,7 +49,7 @@ namespace AssemblyTranslator
                 engine.Execute(scriptSrc);
             }
 
-            assemblySc.Write("Survivalcraft.Translated.exe");
+            assemblySc.Write(System.IO.File.OpenWrite("Survivalcraft.Translated.exe"));
         }
     }
 }
