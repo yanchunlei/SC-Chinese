@@ -103,3 +103,10 @@ translateEnum("Game.ScreenshotSize", {
     "ScreenSize": "屏幕大小",
     "FullHD": "全高清"
 });
+
+translateEnum("Game.CommunityContentMode", {
+    "Disabled": "禁用",
+    "Strict": "严格",
+    "Normal": "普通",
+    "ShowAll": "全部显示"
+});

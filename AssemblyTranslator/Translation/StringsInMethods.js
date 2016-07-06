@@ -434,3 +434,28 @@ translateMethod("Game.SettingsUiScreen", "Update", {
 });
 
 translateMethod("Game.DownloadContentFromLinkDialog", "Update", { "Select Content Type": "选择内容类型" });
+
+translateMethodReg("Game.ManageContentScreen", "^<.ctor>*", {
+    "Blocks Texture, {0}x{1}": "方块纹理, {0}x{1}",
+    ", used by {0} world(s)": ", 被 {0} 个世界使用",
+    "Invalid item type.": "非法项目类别",
+    "Character Skin, {0}x{1}": "角色皮肤, {0}x{1}",
+});
+
+translateMethod("Game.ExternalContentManager", "GetEntryTypeDescription", {
+    "Directory": "目录",
+    "Blocks Texture": "方块纹理",
+    "Character Skin": "角色皮肤",
+    "World": "世界"
+});
+
+translateMethod("Game.LedBlock", ".cctor", {
+    "White": "白",
+    "Cyan": "青",
+    "Red": "红",
+    "Blue": "蓝",
+    "Yellow": "黄",
+    "Green": "绿",
+    "Orange": "橙",
+    "Purple": "紫"
+});
