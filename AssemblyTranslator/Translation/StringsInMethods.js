@@ -459,3 +459,10 @@ translateMethod("Game.LedBlock", ".cctor", {
     "Orange": "橙",
     "Purple": "紫"
 });
+
+translateMethod("Game.MusketWidget", "Update", {
+    "Load gunpowder": "装载火药",
+    "Load cotton wad": "装载棉花团",
+    "Load bullet": "装载子弹",
+    "Ready to fire": "准备开火"
+});
